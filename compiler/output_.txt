@@ -1,0 +1,54 @@
+After conv with layer 1 output width is 32, output high is 32, output channel is 64, mul operation is 1769472, add operation is 1703936
+After conv with layer 2 output width is 32, output high is 32, output channel is 64, mul operation is 37748736, add operation is 37683200
+After conv with layer 3 output width is 16, output high is 16, output channel is 128, mul operation is 18874368, add operation is 18841600
+After conv with layer 4 output width is 16, output high is 16, output channel is 128, mul operation is 37748736, add operation is 37715968
+After conv with layer 5 output width is 8, output high is 8, output channel is 256, mul operation is 18874368, add operation is 18857984
+After conv with layer 6 output width is 8, output high is 8, output channel is 256, mul operation is 37748736, add operation is 37732352
+After conv with layer 7 output width is 8, output high is 8, output channel is 256, mul operation is 37748736, add operation is 37732352
+After conv with layer 8 output width is 4, output high is 4, output channel is 512, mul operation is 18874368, add operation is 18866176
+After conv with layer 9 output width is 4, output high is 4, output channel is 512, mul operation is 37748736, add operation is 37740544
+After conv with layer 10 output width is 4, output high is 4, output channel is 512, mul operation is 37748736, add operation is 37740544
+After conv with layer 11 output width is 2, output high is 2, output channel is 512, mul operation is 9437184, add operation is 9435136
+After conv with layer 12 output width is 2, output high is 2, output channel is 512, mul operation is 9437184, add operation is 9435136
+After conv with layer 13 output width is 2, output high is 2, output channel is 512, mul operation is 9437184, add operation is 9435136
+After conv with layer 14 output width is 1, output high is 1, output channel is 512, mul operation is 262144, add operation is 261632
+After conv with layer 15 output width is 1, output high is 1, output channel is 512, mul operation is 262144, add operation is 261632
+After conv with layer 16 output width is 1, output high is 1, output channel is 10, mul operation is 5120, add operation is 5110
+layer 1, DSP number 30, C_R 55296.000000
+layer 2, DSP number 1024, C_R 36864.000000
+layer 3, DSP number 512, C_R 36864.000000
+layer 4, DSP number 1024, C_R 36864.000000
+layer 5, DSP number 512, C_R 36864.000000
+layer 6, DSP number 1024, C_R 36864.000000
+layer 7, DSP number 1024, C_R 36864.000000
+layer 8, DSP number 256, C_R 73728.000000
+layer 9, DSP number 512, C_R 73728.000000
+layer 10, DSP number 512, C_R 73728.000000
+layer 11, DSP number 128, C_R 73728.000000
+layer 12, DSP number 128, C_R 73728.000000
+layer 13, DSP number 128, C_R 73728.000000
+layer 14, DSP number 8, C_R 32768.000000
+layer 15, DSP number 8, C_R 32768.000000
+layer 16, DSP number 8, C_R 640.000000
+total used DSP number 6838, remain DSP number 2
+FC layers input feature map and kernels can be totally stored in on chip memory
+remain memory 68544288
+current band width 2992393092
+layer 1, on chip mem size 1049008, bandwidth 97313.596491, 32 cols, 10 kernels
+layer 2, on chip mem size 1057792, bandwidth 3321637.426901, 32 cols, 16 kernels
+layer 3, on chip mem size 533504, bandwidth 7117794.486216, 16 cols, 8 kernels
+layer 4, on chip mem size 542720, bandwidth 14235588.972431, 16 cols, 8 kernels
+layer 5, on chip mem size 280576, bandwidth 33216374.269006, 8 cols, 4 kernels
+layer 6, on chip mem size 299008, bandwidth 66432748.538012, 8 cols, 4 kernels
+layer 7, on chip mem size 299008, bandwidth 66432748.538012, 8 cols, 4 kernels
+layer 8, on chip mem size 167936, bandwidth 99649122.807018, 4 cols, 1 kernels
+layer 9, on chip mem size 204800, bandwidth 199298245.614035, 4 cols, 1 kernels
+layer 10, on chip mem size 204800, bandwidth 199298245.614035, 4 cols, 1 kernels
+layer 11, on chip mem size 204800, bandwidth 199298245.614035, 3 cols, 1 kernels
+layer 12, on chip mem size 139264, bandwidth 199298245.614035, 2 cols, 1 kernels
+layer 13, on chip mem size 139264, bandwidth 199298245.614035, 2 cols, 1 kernels
+layer 14, on chip mem size 4202496, bandwidth 32020407.445611, 2 cols, 512 kernels
+layer 15, on chip mem size 4202496, bandwidth 32020407.445611, 1 cols, 512 kernels
+layer 16, on chip mem size 81920, bandwidth 624179.482371, 1 cols, 10 kernels
+remain on chip memory size(bit) 66016848
+remain DSP bandwidth 19948340448

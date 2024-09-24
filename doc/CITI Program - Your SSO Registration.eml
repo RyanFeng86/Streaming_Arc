@@ -1,0 +1,579 @@
+MIME-Version: 1.0
+Date: Fri, 6 Aug 2021 09:56:50 -0700
+From: "noreply@citiprogram.org" <noreply@citiprogram.org>
+Subject: CITI Program - Your SSO Registration
+Thread-Topic: CITI Program - Your SSO Registration
+Message-ID: <264009188.12792.1628269008833@localhost>
+To: "fengyun@usc.edu" <fengyun@usc.edu>
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<!doctype html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+<head>
+<!-- NAME: 1 COLUMN -->
+<!--[if gte mso 15]>
+<xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+<meta charset=3D"UTF-8">
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1"=
+>
+<title>CITI Program - Your SSO Registration</title>
+<style type=3D"text/css">
+p{
+margin:15px 0;
+padding:0;
+}
+table{
+border-collapse:collapse;
+}
+h1,h2,h3,h4,h5,h6{
+display:block;
+margin:0 0 17px 0;
+padding:0;
+}
+img,a img{
+border:0;
+height:auto;
+outline:none;
+text-decoration:none;
+}
+body,#bodyTable,#bodyCell{
+height:100%;
+margin:0;
+padding:0;
+width:100%;
+}
+#outlook a{
+padding:0;
+}
+img{
+-ms-interpolation-mode:bicubic;
+}
+table{
+mso-table-lspace:0pt;
+mso-table-rspace:0pt;
+}
+.ReadMsgBody{
+width:100%;
+}
+.ExternalClass{
+width:100%;
+}
+p,a,li,td,blockquote{
+mso-line-height-rule:exactly;
+}
+a[href^=3Dtel],a[href^=3Dsms]{
+color:inherit;
+cursor:default;
+text-decoration:none;
+}
+p,a,li,td,body,table,blockquote{
+-ms-text-size-adjust:100%;
+-webkit-text-size-adjust:100%;
+}
+td,th{
+vertical-align:top;
+}
+td{
+text-align:left;
+}
+.ExternalClass,.ExternalClass p,.ExternalClass td,.ExternalClass div,.Exter=
+nalClass span,.ExternalClass font{
+line-height:100%;
+}
+a[x-apple-data-detectors]{
+color:inherit !important;
+text-decoration:none !important;
+font-size:inherit !important;
+font-family:inherit !important;
+font-weight:inherit !important;
+line-height:inherit !important;
+}
+#bodyCell{
+padding:15px;
+}
+.templateContainer{
+max-width:600px !important;
+}
+a.mcnButton{
+display:block;
+}
+.mcnImage{
+vertical-align:bottom;
+}
+.mcnTextContent{
+word-break:break-word;
+}
+.mcnTextContent img{
+height:auto !important;
+}
+.mcnDividerBlock{
+table-layout:fixed !important;
+}
+body,#bodyTable{
+background-color:#f0f0f0;
+}
+#bodyCell{
+border-top:0;
+}
+.templateContainer{
+border:0;
+}
+h1,h2,h3,h4{
+color:#333333;
+font-family:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size:22px;
+font-style:normal;
+font-weight:bold;
+line-height:125%;
+letter-spacing:normal;
+text-align:left;
+}
+#templateHeader{
+background-color:#ffffff;
+background-image:none;
+background-repeat:no-repeat;
+background-position:center;
+background-size:cover;
+border-top:0;
+border-bottom:0;
+padding-top:15px;
+padding-bottom:15px;
+}
+#templateHeader .mcnTextContent,#templateHeader .mcnTextContent p{
+color:#000000;
+font-family:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size:16px;
+line-height:160%;
+text-align:left;
+}
+#templateHeader .mcnTextContent a,#templateHeader .mcnTextContent p a{
+color:#000000;
+font-weight:normal;
+text-decoration:underline;
+}
+.templateBody{
+background-color:#ffffff;
+background-image:none;
+background-repeat:no-repeat;
+background-position:center;
+background-size:cover;
+border-top:15px solid #f0f0f0;
+border-bottom:15px solid #f0f0f0;
+padding-top:15px;
+padding-bottom:15px;
+}
+.templateBody .mcnTextContent,.templateBody .mcnTextContent p{
+color:#3d3d3d;
+font-family:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size:16px;
+line-height:160%;
+text-align:left;
+}
+.templateBody .mcnTextContent a,.templateBody .mcnTextContent p a{
+color:#3483b1;
+font-weight:normal;
+text-decoration:underline;
+}
+#templateFooter{
+background-color:#ffffff;
+background-image:none;
+background-repeat:no-repeat;
+background-position:center;
+background-size:cover;
+border-top:0;
+border-bottom:0;
+padding-top:5px;
+padding-bottom:5px;
+}
+#templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
+color:#656565;
+font-family:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size:13px;
+line-height:150%;
+text-align:center;
+}
+#templateFooter .mcnTextContent a,#templateFooter .mcnTextContent p a{
+color:#656565;
+font-weight:normal;
+text-decoration:underline;
+}
+@media only screen and (min-width:768px){
+.templateContainer{
+width:600px !important;
+}
+}
+@media only screen and (max-width: 480px){
+body,table,td,p,a,li,blockquote{
+-webkit-text-size-adjust:none !important;
+}
+}
+@media only screen and (max-width: 480px){
+body{
+width:100% !important;
+min-width:100% !important;
+}
+}
+@media only screen and (max-width: 480px){
+#bodyCell{
+padding-top:15px !important;
+}
+}
+@media only screen and (max-width: 480px){
+.mcnImage{
+width:100% !important;
+}
+}
+@media only screen and (max-width: 480px){
+.mcnCartContainer,.mcnCaptionTopContent,.mcnRecContentContainer,.mcnCaption=
+BottomContent,.mcnTextContentContainer,.mcnBoxedTextContentContainer,.mcnIm=
+ageGroupContentContainer,.mcnCaptionLeftTextContentContainer,.mcnCaptionRig=
+htTextContentContainer,.mcnCaptionLeftImageContentContainer,.mcnCaptionRigh=
+tImageContentContainer,.mcnImageCardLeftTextContentContainer,.mcnImageCardR=
+ightTextContentContainer{
+max-width:100% !important;
+width:100% !important;
+}
+}
+@media only screen and (max-width: 480px){
+.mcnBoxedTextContentContainer{
+min-width:100% !important;
+}
+}
+@media only screen and (max-width: 480px){
+.mcnImageGroupContent{
+padding:9px !important;
+}
+}
+@media only screen and (max-width: 480px){
+.mcnCaptionLeftContentOuter .mcnTextContent,.mcnCaptionRightContentOuter .m=
+cnTextContent{
+padding-top:9px !important;
+}
+}
+@media only screen and (max-width: 480px){
+.mcnImageCardTopImageContent,.mcnCaptionBlockInner .mcnCaptionTopContent:la=
+st-child .mcnTextContent{
+padding-top:18px !important;
+}
+}
+@media only screen and (max-width: 480px){
+.mcnImageCardBottomImageContent{
+padding-bottom:9px !important;
+}
+}
+@media only screen and (max-width: 480px){
+.mcnImageGroupBlockInner{
+padding-top:0 !important;
+padding-bottom:0 !important;
+}
+}
+@media only screen and (max-width: 480px){
+.mcnImageGroupBlockOuter{
+padding-top:9px !important;
+padding-bottom:9px !important;
+}
+}
+@media only screen and (max-width: 480px){
+.mcnTextContent,.mcnBoxedTextContentColumn{
+padding-right:18px !important;
+padding-left:18px !important;
+}
+}
+@media only screen and (max-width: 480px){
+.mcnImageCardLeftImageContent,.mcnImageCardRightImageContent{
+padding-right:18px !important;
+padding-bottom:0 !important;
+padding-left:18px !important;
+}
+}
+@media only screen and (max-width: 480px){
+.mcpreview-image-uploader{
+display:none !important;
+width:100% !important;
+}
+}
+@media only screen and (max-width: 480px){
+h1,h2,h3,h4{
+font-size:22px !important;
+line-height:125% !important;
+}
+}
+@media only screen and (max-width: 480px){
+.mcnBoxedTextContentContainer .mcnTextContent,.mcnBoxedTextContentContainer=
+ .mcnTextContent p{
+font-size:16px !important;
+line-height:160% !important;
+}
+}
+@media only screen and (max-width: 480px){
+#templateHeader .mcnTextContent,#templateHeader .mcnTextContent p{
+font-size:16px !important;
+line-height:160% !important;
+}
+}
+@media only screen and (max-width: 480px){
+.templateBody .mcnTextContent,.templateBody .mcnTextContent p{
+font-size:16px !important;
+line-height:160% !important;
+}
+}
+@media only screen and (max-width: 480px){
+#templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
+font-size:14px !important;
+line-height:150% !important;
+}
+}
+</style>
+</head>
+<body>
+<center>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" he=
+ight=3D"100%" width=3D"100%" id=3D"bodyTable">
+<tr>
+<td align=3D"center" valign=3D"top" id=3D"bodyCell">
+<!-- BEGIN TEMPLATE // -->
+<!--[if gte mso 9]>
+<table align=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" wi=
+dth=3D"600" style=3D"width:600px;">
+<tr>
+<td align=3D"center" valign=3D"top" width=3D"600" style=3D"width:600px;">
+<![endif]-->
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%" class=3D"templateContainer">
+<tr>
+<td align=3D"center" valign=3D"top" id=3D"templateHeader">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" clas=
+s=3D"mcnImageBlock" style=3D"min-width:100%;">
+<tbody class=3D"mcnImageBlockOuter">
+<tr>
+<td align=3D"center" valign=3D"top" style=3D"padding:9px" class=3D"mcnImage=
+BlockInner">
+<table align=3D"center" width=3D"100%" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" class=3D"mcnImageContentContainer" style=3D"min-width:100%;">
+<tbody>
+<tr>
+<td class=3D"mcnImageContent" valign=3D"top" style=3D"padding-right: 9px; p=
+adding-left: 9px; padding-top: 0; padding-bottom: 0; text-align:center;">
+<a href=3D"https://urldefense.com/v3/__https://about.citiprogram.org/en/hom=
+epage/__;!!LIr3w8kk_Xxm!_Qr_ma5vxYDr6Mf2pLYBRXHQa1NQN5N1LGZIdPkQq6q7mvHO9kY=
+Zsyvf2uS3I0s$" title=3D"" class=3D"" target=3D"_blank">
+<img align=3D"center" alt=3D"CITI Program" src=3D"https://www.citiprogram.o=
+rg/public/images/citi-program-logo.png" width=3D"200" style=3D"max-width:40=
+0px; padding-bottom: 0; display: inline !important; vertical-align: bottom;=
+" class=3D"mcnImage">
+</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr> <tr>
+<td align=3D"center" valign=3D"top" class=3D"templateBody">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" clas=
+s=3D"mcnTextBlock" style=3D"min-width:100%;">
+<tbody class=3D"mcnTextBlockOuter">
+<tr>
+<td align=3D"center" valign=3D"top" class=3D"mcnTextBlockInner" style=3D"pa=
+dding-top:9px;">
+<!--[if mso]>
+<table align=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" wi=
+dth=3D"100%" style=3D"width:100%;">
+<tr>
+<![endif]-->
+<!--[if mso]>
+<td align=3D"center" valign=3D"top" width=3D"600" style=3D"width:600px;">
+<![endif]-->
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"max-width:100%; min-width:100%;" width=3D"100%" class=3D"mcnTextCont=
+entContainer">
+<tbody>
+<tr>
+<td align=3D"left" valign=3D"top" class=3D"mcnTextContent" style=3D"padding=
+-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;"><h1>You=
+r SSO Registration</h1><p>Greetings Ryan Feng.<p>You are receiving this ema=
+il because an account was created at the Collaborative Institutional Traini=
+ng Initiative (CITI Program) website using Single Sign-On (SSO) access from=
+ the <strong>University of Southern California</strong>.<p>New accounts are=
+ created the first time you login to the CITI Program using Single Sign-On =
+(SSO) credentials. This email is being sent to the primary email address th=
+at was specified as part of that account creation.</p><ul><li>Your primary =
+email address: <strong>fengyun@usc.edu</strong></li><li>Your password for S=
+SO access is the same one you regularly use at the <strong>University of So=
+uthern California</strong>.</li></ul><p>While the following information is =
+not needed for your SSO login, it may help identify your account should you=
+ need to contact us.<ul><li>Your CITI Program username: <strong>FengRyan1</=
+strong></li><li>Your CITI Program member ID: <strong>10321560</strong></li>=
+</ul><p>CITI Program allows you to specify other information about yourself=
+, such as an additional email address that can be used for account recovery=
+. You can add or update a secondary email address by navigating to "My Prof=
+iles" section of your learner menu. Once there, make sure the "CITI Program=
+ Profile" section is visible and then click on "Change my email address".</=
+p><p>We recommend that you save this email for future reference and are del=
+ighted to have you join our community of millions of learners.</p><p>Thank =
+you for using the CITI Program.</p><p style=3D"margin-bottom: 0;">CITI Prog=
+ram Support<br>Support Center: <a href=3D"https://urldefense.com/v3/__https=
+://support.citiprogram.org__;!!LIr3w8kk_Xxm!_Qr_ma5vxYDr6Mf2pLYBRXHQa1NQN5N=
+1LGZIdPkQq6q7mvHO9kYZsyvf-dFJBqM$">support.citiprogram.org</a><br>Email: <a=
+ href=3D"mailto:support@citiprogram.org">support@citiprogram.org</a><br>Pho=
+ne: <a href=3D"tel:8885295929">888.529.5929</a> (U.S. Toll Free)<br>Phone: =
+<a href=3D"tel:+13059073100">+1 305.907.3100</a> (International)<br>Website=
+: <a href=3D"https://urldefense.com/v3/__https://www.citiprogram.org__;!!LI=
+r3w8kk_Xxm!_Qr_ma5vxYDr6Mf2pLYBRXHQa1NQN5N1LGZIdPkQq6q7mvHO9kYZsyvf3kn-DZE$=
+">citiprogram.org</a><br></p></td>
+</tr>
+</tbody>
+</table>
+<!--[if mso]>
+</td>
+<![endif]-->
+<!--[if mso]>
+</tr>
+</table>
+<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr> <tr>
+<td align=3D"center" valign=3D"top" class=3D"templateBody">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" clas=
+s=3D"mcnTextBlock" style=3D"min-width:100%;">
+<tbody class=3D"mcnTextBlockOuter">
+<tr>
+<td align=3D"center" valign=3D"top" class=3D"mcnTextBlockInner" style=3D"pa=
+dding-top:9px;">
+<!--[if mso]>
+<table align=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" wi=
+dth=3D"100%" style=3D"width:100%;">
+<tr>
+<![endif]-->
+<!--[if mso]>
+<td align=3D"center" valign=3D"top" width=3D"600" style=3D"width:600px;">
+<![endif]-->
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"max-width:100%; min-width:100%;" width=3D"100%" class=3D"mcnTextCont=
+entContainer">
+<tbody>
+<tr>
+<td align=3D"left" valign=3D"top" class=3D"mcnTextContent" style=3D"padding=
+-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;"><h2>Fre=
+quently Asked Questions</h2><p><strong>What if I can not login or experienc=
+e other problems?</strong></p><p>If you are experiencing difficulty, please=
+ email our Help Desk at <a href=3D"mailto:support@citiprogram.org" style=3D=
+"white-space: nowrap;">support@citiprogram.org</a> or call <a href=3D"tel:8=
+885295929" style=3D"white-space: nowrap;">888.529.5929</a> (U.S. Toll Free)=
+ or <a href=3D"tel:+13059073100" style=3D"white-space: nowrap;">+1 305.907.=
+3100</a> (International). If you email us, please be sure the message speci=
+fies your name, and also includes your CITI Program member ID or username. =
+Please do not include your password in any correspondence.</p><p><strong>Ca=
+n I only access my CITI Program account using my Single Sign-On (SSO) usern=
+ame and password?</strong></p><p>The CITI Program username you see above wa=
+s created as a backup in case you ever need to access CITI Program directly=
+ - for example, if your institution's SSO is ever out of service or if you =
+move to another institution. To use this CITI Program username, you will ne=
+ed to set a password for it. You can set a password by navigating to "My Pr=
+ofiles" and then clicking the "Change my password" link located underneath =
+"CITI Program Profile".</p><p><strong>What if I do not remember trying to a=
+ccess citiprogram.org or creating an account?</strong></p><p style=3D"margi=
+n-bottom: 0;">If you did not access CITI Program via SSO then your email ad=
+dress or other information may be in error at your institution. We apologiz=
+e for the inconvenience. Please contact an administrator at your institutio=
+n, or the CITI Program Help Desk for assistance.</p></td>
+</tr>
+</tbody>
+</table>
+<!--[if mso]>
+</td>
+<![endif]-->
+<!--[if mso]>
+</tr>
+</table>
+<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr> <tr>
+<td align=3D"center" valign=3D"top" id=3D"templateFooter">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" clas=
+s=3D"mcnTextBlock" style=3D"min-width:100%;">
+<tbody class=3D"mcnTextBlockOuter">
+<tr>
+<td align=3D"center" valign=3D"top" class=3D"mcnTextBlockInner" style=3D"pa=
+dding-top:9px;">
+<!--[if mso]>
+<table align=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" wi=
+dth=3D"100%" style=3D"width:100%;">
+<tr>
+<![endif]-->
+<!--[if mso]>
+<td align=3D"center" valign=3D"top" width=3D"600" style=3D"width:600px;">
+<![endif]-->
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"max-width:100%; min-width:100%;" width=3D"100%" class=3D"mcnTextCont=
+entContainer">
+<tbody>
+<tr>
+<td valign=3D"top" class=3D"mcnTextContent" style=3D"padding: 0px 18px 9px;=
+ text-align: center;">
+<p><a href=3D"https://urldefense.com/v3/__https://about.citiprogram.org/en/=
+homepage/__;!!LIr3w8kk_Xxm!_Qr_ma5vxYDr6Mf2pLYBRXHQa1NQN5N1LGZIdPkQq6q7mvHO=
+9kYZsyvf2uS3I0s$"><img align=3D"none" alt=3D"CITI Program" height=3D"45" sr=
+c=3D"https://www.citiprogram.org/public/images/citi-program-logo.png" style=
+=3D"border: 0px; width: 100px; height: 45px; margin: 0px;" width=3D"100"></=
+a></p>
+<p>888.529.5929 / 8:30 a.m. to 7:30 p.m. / U.S. Eastern Time / Monday - Fri=
+day</p>
+<p>Looking for help? Visit <a href=3D"https://urldefense.com/v3/__https://s=
+upport.citiprogram.org__;!!LIr3w8kk_Xxm!_Qr_ma5vxYDr6Mf2pLYBRXHQa1NQN5N1LGZ=
+IdPkQq6q7mvHO9kYZsyvf-dFJBqM$" target=3D"_blank">support.citiprogram.org</a=
+></p>
+<p>This message was sent from an automated account that does not receive em=
+ail.<br>
+If you wish to reply, please contact <a href=3D"mailto:support@citiprogram.=
+org">support@citiprogram.org</a> instead.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if mso]>
+</td>
+<![endif]-->
+<!--[if mso]>
+</tr>
+</table>
+<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+<!--[if gte mso 9]>
+</td>
+</tr>
+</table>
+<![endif]-->
+<!-- // END TEMPLATE -->
+</td>
+</tr>
+</table>
+</center>
+</body>
+</html>
