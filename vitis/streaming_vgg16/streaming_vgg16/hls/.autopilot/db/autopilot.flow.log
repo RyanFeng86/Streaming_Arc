@@ -1,0 +1,446 @@
+INFO-FLOW: Workspace /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls opened at Tue Sep 24 09:55:17 PDT 2024
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg 
+INFO: [HLS 200-1510] Running: apply_ini /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg 
+Execute     send_msg_by_id INFO @200-1909@%s /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg 
+INFO: [HLS 200-1909] Reading HLS ini file /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/activations.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(11) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/activations.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(11)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/activations.hpp 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/activations.hpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/bnn-library.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(12) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/bnn-library.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(12)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/bnn-library.h 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/bnn-library.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/conv.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(13) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/conv.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(13)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/conv.hpp 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/conv.hpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/convlayer.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(14) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/convlayer.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(14)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/convlayer.h 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/convlayer.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(15) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(15)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/dma.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(16) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/dma.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(16)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/dma.h 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/dma.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/fclayer.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(17) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/fclayer.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(17)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/fclayer.h 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/fclayer.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/interpret.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(18) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/interpret.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(18)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/interpret.hpp 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/interpret.hpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mac.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(19) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mac.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(19)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mac.hpp 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mac.hpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/maxpool.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(20) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/maxpool.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(20)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/maxpool.h 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/maxpool.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mmv.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(21) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mmv.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(21)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mmv.hpp 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mmv.hpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mvau.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(22) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mvau.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(22)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mvau.hpp 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mvau.hpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(23) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(23)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/slidingwindow.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(24) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/slidingwindow.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(24)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/slidingwindow.h 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/slidingwindow.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/streamtools.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(25) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/streamtools.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(25)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/streamtools.h 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/streamtools.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/tmrcheck.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(26) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/tmrcheck.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(26)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/tmrcheck.hpp 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/tmrcheck.hpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/upsample.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(27) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/upsample.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(27)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/upsample.hpp 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/upsample.hpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/utils.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(28) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/utils.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(28)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/utils.hpp 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/utils.hpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/vvau.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(29) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/vvau.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(29)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/vvau.hpp 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/vvau.hpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/weights.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(30) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/weights.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(30)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/weights.hpp 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/weights.hpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(31) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(31)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/host.cpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/host.cpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(9)
+Execute     add_files -tb /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/host.cpp 
+INFO: [HLS 200-10] Adding test bench file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/host.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=one_layer' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=one_layer' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(8)
+Execute     set_top one_layer 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(4)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xcvu9p-flga2104-2-i' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xcvu9p-flga2104-2-i' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(1)
+Execute     set_part xcvu9p-flga2104-2-i 
+Execute       create_platform xcvu9p-flga2104-2-i -board  
+DBG:HLSDevice: Trying to load device library: /tools/Xilinx/Vitis_HLS/2023.2/lib/lnx64.o/libxv_hlsvwrap.so
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: /tools/Xilinx/Vivado/2023.2/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xcvu9p-flga2104-2-i'
+Command       create_platform done; 0.74 sec.
+Execute       source /tools/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/common/xilinx.gen 
+Execute         source /tools/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/plb46.gen 
+Execute         source /tools/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/axi4.gen 
+Execute         source /tools/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source /tools/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/saxilite.gen 
+Execute         source /tools/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source /tools/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source /tools/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/ip/util.gen 
+Execute         source /tools/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/ip/xfir.gen 
+Execute         source /tools/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source /tools/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/ip/xfft.gen 
+Execute         source /tools/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/DSP48/dsp48.gen 
+Execute       ap_part_info -name xcvu9p-flga2104-2-i -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 0.79 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.clean=true' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'csim.clean=true' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(7)
+Execute     config_csim -clean=true 
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.code_analyzer=0' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'csim.code_analyzer=0' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(10)
+Execute     config_csim -code_analyzer=0 
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(5)
+Execute     config_export -format=ip_catalog 
+Command   apply_ini done; 0.81 sec.
+Execute   apply_ini /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/config.cmdline 
+INFO: [HLS 200-1510] Running: apply_ini /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/config.cmdline 
+Execute     send_msg_by_id INFO @200-1909@%s /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/config.cmdline 
+INFO: [HLS 200-1909] Reading HLS ini file /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/config.cmdline
+Execute   csynth_design 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO-FLOW: Running SLX 'csynth' proc: ::SLX::run_csynth
+Execute     elaborate -effort=medium -skip_syncheck=0 -keep_printf=0 -skip_cdt=0 -skip_transform=0 -ng=0 -g=0 -opt_fp=0 -from_csynth_design=1 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 290.336 MB.
+Execute       set_directive_top one_layer -name=one_layer 
+Execute       source /tools/Xilinx/Vitis_HLS/2023.2/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute       source /tools/Xilinx/Vitis_HLS/2023.2/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+INFO: [HLS 200-10] Analyzing design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp' ... 
+INFO-FLOW: Compiling one TU...
+INFO-FLOW: Handling /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp as C++
+Execute       ap_part_info -name xcvu9p-flga2104-2-i -data info 
+INFO-FLOW: Running: GCC PP 39
+INFO-FLOW: Source preprocessing
+INFO-FLOW: run_clang exec: /tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp -foptimization-record-file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.cpp.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info -gcc-toolchain /tools/Xilinx/Vitis_HLS/2023.2/tps/lnx64/gcc-8.3.0 -fhls -fno-exceptions -insert-hls-directive=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/all.directive.json -E -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -Wdump-hls-pragmas -Wno-error=dump-hls-pragmas -hls-clock-period=10 -fno-threadsafe-statics -fno-use-cxa-atexit -std=gnu++14 -target fpga64-xilinx-linux-gnu -fno-threadsafe-statics -fno-use-cxa-atexit -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot -I /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E2__ -I /usr/include/x86_64-linux-gnu -o /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp -hls-platform-db-name=/tools/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/common/platform.db -hls-platform-name=virtexuplus_medium -device-resource-info=BRAM_4320.000000_DSP_6840.000000_FF_2364480.000000_LUT_1182240.000000_SLICE_147780.000000_SLR_3.000000_URAM_960.000000 -device-name-info=xcvu9p-flga2104-2-i > /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.cpp.clang.out.log 2> /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.cpp.clang.err.log
+INFO-FLOW: Done: GCC PP 39 time: 0.2 seconds per iteration
+INFO-FLOW: Source syntax check for synthesis
+INFO-FLOW: run_clang exec: /tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fsyntax-only -fhls -target fpga64-xilinx-linux-gnu /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp -hls-platform-db-name=/tools/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/common/platform.db -hls-platform-name=virtexuplus_medium -device-resource-info=BRAM_4320.000000_DSP_6840.000000_FF_2364480.000000_LUT_1182240.000000_SLICE_147780.000000_SLR_3.000000_URAM_960.000000 -device-name-info=xcvu9p-flga2104-2-i > /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/clang.out.log 2> /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/clang.err.log
+WARNING: [HLS 207-5566] unexpected pragma argument '=', expects identifier (/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:32:21)
+WARNING: [HLS 207-5566] unexpected pragma argument '=', expects identifier (/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:42:21)
+WARNING: [HLS 207-5566] unexpected pragma argument '=', expects identifier (/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:69:21)
+WARNING: [HLS 207-5566] unexpected pragma argument '=', expects identifier (/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:78:21)
+Execute       clang_tidy xilinx-systemc-detector -desc systemc-detector /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp std=gnu++14 -target fpga  -directive=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/.systemc_flag 
+INFO-FLOW: exec /tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-systemc-detector -import-directive=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/.systemc_flag -fix-errors /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0
+Command       clang_tidy done; 0.3 sec.
+INFO-FLOW: Running: clang-tidy CDT preprocess 39
+Execute       clang_tidy xilinx-directive2pragma -desc directive2pragma /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp std=gnu++14 -target fpga  -directive=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/all.directive.json 
+INFO-FLOW: exec /tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-directive2pragma -import-directive=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/all.directive.json -fix-errors /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0
+Command       clang_tidy done; 0.41 sec.
+INFO-FLOW: Done: clang-tidy CDT preprocess 39 time: 0.4 seconds per iteration
+INFO-FLOW: Calling xilinx-label-all-loops ... 
+INFO-FLOW: Calling xilinx-aggregate-on-hls-vector ... 
+Execute       clang_tidy -errorcheck -desc loop-label xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp std=gnu++14 -target fpga  
+INFO-FLOW: run_clang exec: /tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang-tidy -export-fixes=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp.clang-tidy.loop-label.diag.yml -header-filter=.* --checks=-*,xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute -fix-errors /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0 > /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp.clang-tidy.loop-label.out.log 2> /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp.clang-tidy.loop-label.err.log
+Execute         source /tools/Xilinx/Vitis_HLS/2023.2/tps/tcl/tcllib1.11.1/yaml/yaml.tcl 
+Command       clang_tidy done; 0.63 sec.
+INFO-FLOW: run_clang exec: /tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/xilinx-dataflow-lawyer -export-fixes=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp.xilinx-dataflow-lawyer.diag.yml /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0 -fstrict-dataflow > /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp.xilinx-dataflow-lawyer.out.log 2> /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp.xilinx-dataflow-lawyer.err.log
+WARNING: [HLS 214-111] Static scalars and arrays declared inside a dataflow region will be treated like local variables (/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:71:32)
+WARNING: [HLS 214-111] Static scalars and arrays declared inside a dataflow region will be treated like local variables (/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:72:31)
+WARNING: [HLS 214-111] Static scalars and arrays declared inside a dataflow region will be treated like local variables (/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:73:31)
+WARNING: [HLS 214-111] Static scalars and arrays declared inside a dataflow region will be treated like local variables (/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:74:31)
+WARNING: [HLS 214-111] Static scalars and arrays declared inside a dataflow region will be treated like local variables (/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:75:31)
+WARNING: [HLS 214-111] Static scalars and arrays declared inside a dataflow region will be treated like local variables (/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:76:31)
+WARNING: [HLS 214-111] Static scalars and arrays declared inside a dataflow region will be treated like local variables (/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:77:31)
+WARNING: [HLS 214-111] Static scalars and arrays declared inside a dataflow region will be treated like local variables (/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:78:31)
+WARNING: [HLS 214-111] Static scalars and arrays declared inside a dataflow region will be treated like local variables (/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:79:31)
+WARNING: [HLS 214-111] Static scalars and arrays declared inside a dataflow region will be treated like local variables (/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:80:31)
+WARNING: [HLS 214-111] Static scalars and arrays declared inside a dataflow region will be treated like local variables (/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:81:31)
+WARNING: [HLS 214-111] Static scalars and arrays declared inside a dataflow region will be treated like local variables (/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:82:31)
+WARNING: [HLS 214-111] Static scalars and arrays declared inside a dataflow region will be treated like local variables (/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:83:31)
+WARNING: [HLS 214-111] Static scalars and arrays declared inside a dataflow region will be treated like local variables (/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:84:32)
+WARNING: [HLS 214-111] Static scalars and arrays declared inside a dataflow region will be treated like local variables (/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:85:32)
+WARNING: [HLS 214-111] Static scalars and arrays declared inside a dataflow region will be treated like local variables (/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:86:32)
+WARNING: [HLS 214-111] Static scalars and arrays declared inside a dataflow region will be treated like local variables (/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:92:32)
+WARNING: [HLS 214-111] Static scalars and arrays declared inside a dataflow region will be treated like local variables (/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:94:31)
+WARNING: [HLS 214-111] Static scalars and arrays declared inside a dataflow region will be treated like local variables (/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:96:31)
+WARNING: [HLS 214-111] Static scalars and arrays declared inside a dataflow region will be treated like local variables (/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:98:31)
+WARNING: [HLS 214-111] Static scalars and arrays declared inside a dataflow region will be treated like local variables (/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:100:31)
+WARNING: [HLS 214-111] Static scalars and arrays declared inside a dataflow region will be treated like local variables (/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:102:31)
+WARNING: [HLS 214-111] Static scalars and arrays declared inside a dataflow region will be treated like local variables (/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:104:31)
+WARNING: [HLS 214-111] Static scalars and arrays declared inside a dataflow region will be treated like local variables (/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:106:31)
+WARNING: [HLS 214-111] Static scalars and arrays declared inside a dataflow region will be treated like local variables (/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:108:31)
+WARNING: [HLS 214-111] Static scalars and arrays declared inside a dataflow region will be treated like local variables (/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:110:31)
+WARNING: [HLS 214-111] Static scalars and arrays declared inside a dataflow region will be treated like local variables (/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:112:31)
+WARNING: [HLS 214-111] Static scalars and arrays declared inside a dataflow region will be treated like local variables (/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:114:31)
+WARNING: [HLS 214-111] Static scalars and arrays declared inside a dataflow region will be treated like local variables (/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:116:31)
+WARNING: [HLS 214-111] Static scalars and arrays declared inside a dataflow region will be treated like local variables (/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:118:32)
+WARNING: [HLS 214-111] Static scalars and arrays declared inside a dataflow region will be treated like local variables (/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:120:32)
+WARNING: [HLS 214-111] Static scalars and arrays declared inside a dataflow region will be treated like local variables (/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:122:32)
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body (/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:328:2)
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body (/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:328:13)
+Execute       send_msg_by_id WARNING @200-471@%s%s 34 /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp 
+WARNING: [HLS 200-471] Dataflow form checks found 34 issue(s) in file /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp
+Execute       ap_part_info -name xcvu9p-flga2104-2-i -data info 
+INFO-FLOW: compiling source code to llvm bc
+INFO-FLOW: run_clang exec: /tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info -fhls -flto -fno-exceptions -Wno-error=c++11-narrowing -hls-emit-hint-scope /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -Wdump-hls-pragmas -Wno-error=dump-hls-pragmas -hls-clock-period=10 -fno-threadsafe-statics -fno-use-cxa-atexit -std=gnu++14 -target fpga64-xilinx-linux-gnu -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot -I /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E2__ -g -o /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.bc -hls-platform-db-name=/tools/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/common/platform.db -hls-platform-name=virtexuplus_medium -device-resource-info=BRAM_4320.000000_DSP_6840.000000_FF_2364480.000000_LUT_1182240.000000_SLICE_147780.000000_SLR_3.000000_URAM_960.000000 -device-name-info=xcvu9p-flga2104-2-i > /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp.clang.out.log 2> /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp.clang.err.log
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 2.19 seconds. CPU system time: 0.32 seconds. Elapsed time: 2.66 seconds; current allocated memory: 295.695 MB.
+INFO-FLOW: Linking Debug ...
+INFO-FLOW: Linking dut bc code.
+Execute       run_link_or_opt -out /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.0.bc -args  "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.g.bc"  
+INFO-FLOW: run_clang exec: /tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/llvm-link /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.g.bc -o /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.0.bc > /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.0.bc.llvm-link.out.log 2> /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.0.bc.llvm-link.err.log
+INFO-FLOW: 
+Execute       run_link_or_opt -opt -out /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.1.lower.bc -args /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.0.bc -reflow-lower-math-intrinsics 
+INFO-FLOW: run_clang exec: /tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.1.lower.bc.opt.diag.yml /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.0.bc -reflow-lower-math-intrinsics -o /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.1.lower.bc > /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.1.lower.bc.opt.out.log 2> /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.1.lower.bc.opt.err.log
+INFO-FLOW: 
+INFO-FLOW: Running: gen_design_size_report post-opt
+INFO-FLOW: Done: gen_design_size_report post-opt time: 0 seconds per iteration
+Command       run_link_or_opt done; 0.14 sec.
+INFO-FLOW: Linking math bc lib
+Execute       run_link_or_opt -out /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.2.m1.bc -args /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.1.lower.bc -only-needed /tools/Xilinx/Vitis_HLS/2023.2/lnx64/lib/libhlsm_39.bc /tools/Xilinx/Vitis_HLS/2023.2/lnx64/lib/libhlsmc++_39.bc 
+INFO-FLOW: run_clang exec: /tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/llvm-link /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.1.lower.bc -only-needed /tools/Xilinx/Vitis_HLS/2023.2/lnx64/lib/libhlsm_39.bc /tools/Xilinx/Vitis_HLS/2023.2/lnx64/lib/libhlsmc++_39.bc -o /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.2.m1.bc > /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.2.m1.bc.llvm-link.out.log 2> /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.2.m1.bc.llvm-link.err.log
+INFO-FLOW: 
+Command       run_link_or_opt done; 0.72 sec.
+Execute       run_link_or_opt -opt -out /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.3.fpc.bc -args /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.2.m1.bc -reflow-globaldce -hls-top-function-name=one_layer -reflow-float-conversion 
+INFO-FLOW: run_clang exec: /tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.3.fpc.bc.opt.diag.yml /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.2.m1.bc -reflow-globaldce -hls-top-function-name=one_layer -reflow-float-conversion -o /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.3.fpc.bc > /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.3.fpc.bc.opt.out.log 2> /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.3.fpc.bc.opt.err.log
+INFO-FLOW: 
+INFO-FLOW: Running: gen_design_size_report post-opt
+INFO-FLOW: Done: gen_design_size_report post-opt time: 0 seconds per iteration
+Command       run_link_or_opt done; 0.32 sec.
+Execute       run_link_or_opt -out /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.4.m2.bc -args /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.3.fpc.bc -only-needed /tools/Xilinx/Vitis_HLS/2023.2/lnx64/lib/libfloatconversion_39.bc 
+INFO-FLOW: run_clang exec: /tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/llvm-link /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.3.fpc.bc -only-needed /tools/Xilinx/Vitis_HLS/2023.2/lnx64/lib/libfloatconversion_39.bc -o /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.4.m2.bc > /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.4.m2.bc.llvm-link.out.log 2> /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.4.m2.bc.llvm-link.err.log
+INFO-FLOW: 
+Execute       run_link_or_opt -opt -out /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.5.gdce.bc -args /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.4.m2.bc -reflow-globaldce -hls-top-function-name=one_layer 
+INFO-FLOW: run_clang exec: /tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.5.gdce.bc.opt.diag.yml /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.4.m2.bc -reflow-globaldce -hls-top-function-name=one_layer -o /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.5.gdce.bc > /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.5.gdce.bc.opt.out.log 2> /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.5.gdce.bc.opt.err.log
+INFO-FLOW: 
+INFO-FLOW: Running: gen_design_size_report post-opt
+INFO-FLOW: Done: gen_design_size_report post-opt time: 0 seconds per iteration
+Execute       send_msg_by_id INFO @200-777@%s Vivado 
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+Execute       is_m_axi_addr64 
+INFO-FLOW: Doing LTO.
+INFO-FLOW: run_clang (background poll_ms 5000) exec: /tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.0.bc.clang.reflow.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fhls -mllvm -hls-top-function-name=one_layer -mllvm -hls-db-dir -mllvm /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db -emit-llvm -c -target fpga64-xilinx-none -mllvm -xcl-xmlinfo=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/kernel.internal.xml -mllvm -top-io-mapping-info=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/top-io-fe.xml -mllvm -hls-bitcode-version=3.1 -mllvm -reflow-enable-slave-interface-default-setting=true -mllvm -gen-kernel-xml=false -mllvm -default-maxi-offset=slave -mllvm -maxi-latency=0 -mllvm -hls-maxi-data-size-in-bits=8 -mllvm -hls-maxi-max-data-size-in-bits=1024 -mllvm -hls-max-widen-size-in-bits=0 -mllvm -xcl-kernel-max-mem-ports=0 -mllvm -maxi-read-trans=16 -mllvm -maxi-write-trans=16 -mllvm -maxi-read-burst-len=16 -mllvm -maxi-write-burst-len=16 -mllvm -reflow-enable-saxi-64bits=0 -mllvm -reflow-basic-block-instr-threshold=200000 -mllvm -reflow-auto-pipeline-threshold=64 -mllvm -reflow-enable-maxi-auto-id-channel=0 -mllvm -enable-fp-thr=0 -mllvm -reflow-bdd-simplify-threshold=1048576 -mllvm -reflow-fanout-threshold=16 -mllvm -assume-maxi-align=1 -mllvm -reflow-pipeline-style-llvm-setting=2 -mllvm -reflow-enable-dataflow-strict-mode-checking=1 -ftime-report -mllvm -time-passes -mllvm -reflow-auto-array-partition-mode=default -mllvm -reflow-enable-auto-array-partition=true -mllvm -reflow-enable-auto-parallel-performance-driven=true -mllvm -reflow-enable-partition-for-automation=true -mllvm -reflow-aggregate-bitwidth-threshold=4096 -mllvm -reflow-reserved-saxilite-registers=0 -mllvm -enable-reflow-auto-loop-pipeline -mllvm -reflow-max-unroll-threshold=409600 -mllvm -reflow-assume-no-address-wrap=true -mllvm -reflow-enable-occurrence-inference=true -mllvm -reflow-emit-hint-scope=true -mllvm -hls -mllvm -disable-inlined-alloca-merging=true -mllvm -default-clock-period=10 -x ir /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.5.gdce.bc -o /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.lto.bc -hls-platform-db-name=/tools/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/common/platform.db -hls-platform-name=virtexuplus_medium -device-resource-info=BRAM_4320.000000_DSP_6840.000000_FF_2364480.000000_LUT_1182240.000000_SLICE_147780.000000_SLR_3.000000_URAM_960.000000 -device-name-info=xcvu9p-flga2104-2-i 2> /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/a.g.ld.0.bc.clang.reflow.err.log bg_poll_cmd: ::AP::poll_clang_39_closed_source
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 49,134 Compile/Link /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 49,134 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id WARNING @200-1995@%s%s%s 142,687 Unroll/Inline (step 1) /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/syn/report/csynth_design_size.rpt 
+WARNING: [HLS 200-1995] There were 142,687 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 92,417 Unroll/Inline (step 2) /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 92,417 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 63,364 Unroll/Inline (step 3) /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 63,364 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 62,370 Unroll/Inline (step 4) /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 62,370 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 52,608 Array/Struct (step 1) /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 52,608 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 50,461 Array/Struct (step 2) /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 50,461 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 50,461 Array/Struct (step 3) /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 50,461 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 50,445 Array/Struct (step 4) /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 50,445 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 50,719 Array/Struct (step 5) /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 50,719 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 50,504 Performance /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/syn/report/csynth_design_size.rpt 
+INFO-FLOW: Workspace /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls opened at Tue Sep 24 19:45:50 PDT 2024
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg 
+INFO: [HLS 200-1510] Running: apply_ini /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg 
+Execute     send_msg_by_id INFO @200-1909@%s /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg 
+INFO: [HLS 200-1909] Reading HLS ini file /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/activations.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(11) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/activations.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(11)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/activations.hpp 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/activations.hpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/bnn-library.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(12) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/bnn-library.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(12)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/bnn-library.h 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/bnn-library.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/conv.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(13) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/conv.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(13)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/conv.hpp 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/conv.hpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/convlayer.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(14) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/convlayer.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(14)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/convlayer.h 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/convlayer.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(15) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(15)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/dma.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(16) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/dma.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(16)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/dma.h 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/dma.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/fclayer.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(17) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/fclayer.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(17)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/fclayer.h 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/fclayer.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/interpret.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(18) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/interpret.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(18)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/interpret.hpp 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/interpret.hpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mac.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(19) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mac.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(19)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mac.hpp 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mac.hpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/maxpool.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(20) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/maxpool.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(20)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/maxpool.h 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/maxpool.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mmv.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(21) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mmv.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(21)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mmv.hpp 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mmv.hpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mvau.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(22) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mvau.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(22)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mvau.hpp 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mvau.hpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(23) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(23)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/slidingwindow.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(24) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/slidingwindow.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(24)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/slidingwindow.h 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/slidingwindow.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/streamtools.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(25) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/streamtools.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(25)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/streamtools.h 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/streamtools.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/tmrcheck.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(26) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/tmrcheck.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(26)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/tmrcheck.hpp 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/tmrcheck.hpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/upsample.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(27) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/upsample.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(27)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/upsample.hpp 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/upsample.hpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/utils.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(28) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/utils.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(28)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/utils.hpp 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/utils.hpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/vvau.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(29) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/vvau.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(29)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/vvau.hpp 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/vvau.hpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/weights.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(30) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/weights.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(30)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/weights.hpp 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/weights.hpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(31) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(31)
+Execute     add_files /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp 
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/host.cpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/host.cpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(9)
+Execute     add_files -tb /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/host.cpp 
+INFO: [HLS 200-10] Adding test bench file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/host.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=one_layer' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=one_layer' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(8)
+Execute     set_top one_layer 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(4)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xcvu9p-flga2104-2-i' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xcvu9p-flga2104-2-i' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(1)
+Execute     set_part xcvu9p-flga2104-2-i 
+Execute       create_platform xcvu9p-flga2104-2-i -board  
+DBG:HLSDevice: Trying to load device library: /tools/Xilinx/Vitis_HLS/2023.2/lib/lnx64.o/libxv_hlsvwrap.so
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: /tools/Xilinx/Vivado/2023.2/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xcvu9p-flga2104-2-i'
+Command       create_platform done; 0.49 sec.
+Execute       source /tools/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/common/xilinx.gen 
+Execute         source /tools/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/plb46.gen 
+Execute         source /tools/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/axi4.gen 
+Execute         source /tools/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source /tools/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/saxilite.gen 
+Execute         source /tools/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source /tools/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source /tools/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/ip/util.gen 
+Execute         source /tools/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/ip/xfir.gen 
+Execute         source /tools/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source /tools/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/ip/xfft.gen 
+Execute         source /tools/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/DSP48/dsp48.gen 
+Execute       ap_part_info -name xcvu9p-flga2104-2-i -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 0.55 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.clean=true' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'csim.clean=true' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(7)
+Execute     config_csim -clean=true 
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.code_analyzer=0' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'csim.code_analyzer=0' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(10)
+Execute     config_csim -code_analyzer=0 
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(5)
+Execute     config_export -format=ip_catalog 
+Command   apply_ini done; 0.56 sec.
+Execute   apply_ini /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls-debug.cfg 
+INFO: [HLS 200-1510] Running: apply_ini /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls-debug.cfg 
+Execute     send_msg_by_id INFO @200-1909@%s /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls-debug.cfg 
+INFO: [HLS 200-1909] Reading HLS ini file /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls-debug.cfg
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.O=0' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls-debug.cfg(3) 
+INFO: [HLS 200-1465] Applying ini 'csim.O=0' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls-debug.cfg(3)
+Execute     config_csim -O=0 
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.clean=1' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls-debug.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'csim.clean=1' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls-debug.cfg(4)
+Execute     config_csim -clean=1 
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.setup=1' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls-debug.cfg(2) 
+INFO: [HLS 200-1465] Applying ini 'csim.setup=1' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls-debug.cfg(2)
+Execute     config_csim -setup=1 
+Execute   apply_ini /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/config.cmdline 
+INFO: [HLS 200-1510] Running: apply_ini /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/config.cmdline 
+Execute     send_msg_by_id INFO @200-1909@%s /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/config.cmdline 
+INFO: [HLS 200-1909] Reading HLS ini file /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/config.cmdline
+Execute   csim_design 
+INFO: [HLS 200-1510] Running: csim_design 
+INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+Execute     source csim/.lst_opt.tcl 
+Execute     send_msg_by_id INFO @200-2036@%s debug 
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+Execute     ap_part_info -name xcvu9p-flga2104-2-i -data info 
+Execute     send_msg_by_id INFO @200-2035@ 
+INFO: [HLS 200-2035] Skipping execution of C Simulation due to 'setup' option
+INFO: [SIM 211-1] CSim file generation done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+Command   csim_design done; 2.43 sec.
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 2.11 seconds. CPU system time: 0.22 seconds. Elapsed time: 2.43 seconds; current allocated memory: 0.000 MB.
+Execute   close_project 
+INFO: [HLS 200-1510] Running: close_project 
+Execute     close_solution 
+Execute       cleanup_all 
+Execute       cleanup_all 

@@ -1,0 +1,97 @@
+<design_size title="Design Size Report">
+    <item name="C-Synthesis has not completed!">
+        <item name="HW Transforms"/>
+    </item>
+    <item name="Total Instructions per Compilation Phase">
+        <table>
+            <keys size="4">Phase, Step, Instructions, Description</keys>
+            <column name="Compile/Link">,  49134, After all functions are compiled and linked into a single design</column>
+            <column name="">, , </column>
+            <column name="Unroll/Inline">, , After user unroll and inline pragmas are applied</column>
+            <column name="">(1) unroll, 142687 *, user unroll pragmas are applied</column>
+            <column name="">(2) simplification,  92417, simplification of applied user unroll pragmas</column>
+            <column name="">(3) inline,  63364, user inline pragmas are applied</column>
+            <column name="">(4) simplification,  62370, simplification of applied user inline pragmas</column>
+            <column name="">, , </column>
+            <column name="Array/Struct">, , After user array partition and struct aggregate/disaggregate pragmas are applied</column>
+            <column name="">(1) array partition,  52608, user array partition pragmas are applied</column>
+            <column name="">(2) simplification,  50461, simplification of applied user array partition &amp; struct aggregate/disaggregate pragmas</column>
+            <column name="">(3) aggregate/disaggregate ,  50461, user struct aggregate/disaggregate pragmas are applied</column>
+            <column name="">(4) array reshape,  50445, apply array reshape pragmas</column>
+            <column name="">(5) access patterns,  50719, array access pattern optmizations</column>
+            <column name="">, , </column>
+            <column name="Performance">,  50504, After transformations are applied to meet performance pragma targets</column>
+            <column name="">, , </column>
+            <column name="HW Transforms">, pending, After hardware transfomations</column>
+        </table>
+    </item>
+    <item name="Instructions per Function for each Compilation Phase">
+        <hiertable>
+            <header size="6" col0="Function" col1="Location" col2="Compile/Link" col3="Unroll/Inline" col4="Array/Struct" col5="Performance"/>
+            <rows>
+                <row id="0" col0="one_layer" col1="one_layer.cpp:12" col2="49134" col3="62370" col4="50719" col5="50504">
+                    <row id="1" col0="read_in_short&lt;48, 3, 34, 3&gt;" col1="one_layer.hpp:110" col2="75" col3="10" col4="11" col5="11"/>
+                    <row id="46" col0="read_weight_short&lt;48, 0, 468, 576, 13, 12, 32&gt;" col1="one_layer.hpp:60" col2="197" col3="38" col4="98" col5="96"/>
+                    <row id="22" col0="Input_Generator_short_1&lt;48, 1, 48, 34, 3, 13, 34, 32, 5, 12, 0, 589824&gt;" col1="one_layer.hpp:284" col2="481" col3="123" col4="127" col5="123"/>
+                    <row id="31" col0="Mac_short_1&lt;48, 48, 3, 13, 3, 32, 5, 12, 1&gt;" col1="one_layer.hpp:637" col2="725" col3="402" col4="425" col5="395"/>
+                    <row id="24" col0="Padding&lt;2, 32&gt;" col1="one_layer.hpp:834" col2="85" col3="29" col4="29" col5="29"/>
+                    <row id="26" col0="read_weight_long&lt;0, 1134, 1152, 9, 1, 2, 32&gt;" col1="one_layer.hpp:25" col2="119" col3="44" col4="96" col5="94"/>
+                    <row id="5" col0="Input_Generator_long&lt;2, 1, 34, 3, 9, 34, 32, 8, 1, 589824, 1769472&gt;" col1="one_layer.hpp:141" col2="393" col3="127" col4="147" col5="143"/>
+                    <row id="49" col0="Mac_long&lt;2, 2, 9, 3, 32, 8, 1, 1&gt;" col1="one_layer.hpp:536" col2="664" col3="6690" col4="3630" col5="3608"/>
+                    <row id="45" col0="Pooling&lt;2, 32&gt;" col1="one_layer.hpp:867" col2="5494" col3="402" col4="402" col5="402"/>
+                    <row id="39" col0="Padding&lt;2, 16&gt;" col1="one_layer.hpp:834" col2="85" col3="29" col4="29" col5="29"/>
+                    <row id="36" col0="read_weight_long&lt;0, 2250, 2304, 5, 3, 2, 16&gt;" col1="one_layer.hpp:25" col2="119" col3="52" col4="96" col5="94"/>
+                    <row id="13" col0="Input_Generator_long&lt;2, 1, 18, 3, 5, 18, 16, 26, 3, 1769472, 2359296&gt;" col1="one_layer.hpp:141" col2="393" col3="123" col4="143" col5="139"/>
+                    <row id="15" col0="Mac_long&lt;2, 2, 5, 3, 16, 26, 3, 1&gt;" col1="one_layer.hpp:536" col2="664" col3="2808" col4="2044" col5="2030"/>
+                    <row id="6" col0="Padding&lt;4, 16&gt;" col1="one_layer.hpp:834" col2="85" col3="29" col4="29" col5="29"/>
+                    <row id="9" col0="read_weight_long&lt;0, 4500, 4608, 5, 3, 4, 16&gt;" col1="one_layer.hpp:25" col2="119" col3="52" col4="128" col5="126"/>
+                    <row id="51" col0="Input_Generator_long&lt;4, 1, 18, 3, 5, 18, 16, 26, 3, 2359296, 3538944&gt;" col1="one_layer.hpp:141" col2="393" col3="147" col4="181" col5="177"/>
+                    <row id="38" col0="Mac_long&lt;4, 4, 5, 3, 16, 26, 3, 1&gt;" col1="one_layer.hpp:536" col2="664" col3="5628" col4="3984" col5="3970"/>
+                    <row id="28" col0="Pooling&lt;4, 16&gt;" col1="one_layer.hpp:867" col2="5494" col3="402" col4="402" col5="402"/>
+                    <row id="32" col0="Padding&lt;4, 8&gt;" col1="one_layer.hpp:834" col2="85" col3="29" col4="29" col5="29"/>
+                    <row id="17" col0="read_weight_long&lt;0, 9180, 9216, 3, 1, 4, 8&gt;" col1="one_layer.hpp:25" col2="119" col3="44" col4="87" col5="85"/>
+                    <row id="3" col0="Input_Generator_long&lt;4, 1, 10, 3, 3, 10, 8, 86, 1, 3538944, 4128768&gt;" col1="one_layer.hpp:141" col2="393" col3="131" col4="165" col5="161"/>
+                    <row id="12" col0="Mac_long&lt;4, 4, 3, 3, 8, 86, 1, 1&gt;" col1="one_layer.hpp:536" col2="664" col3="3954" col4="2418" col5="2408"/>
+                    <row id="44" col0="Padding&lt;8, 8&gt;" col1="one_layer.hpp:834" col2="170" col2_disp="  170 (2 calls)" col3="58" col3_disp="   58 (2 calls)" col4="58" col4_disp="   58 (2 calls)" col5="58" col5_disp="   58 (2 calls)"/>
+                    <row id="48" col0="read_weight_long&lt;0, 18360, 18432, 3, 1, 8, 8&gt;" col1="one_layer.hpp:25" col2="238" col2_disp="  238 (2 calls)" col3="88" col3_disp="   88 (2 calls)" col4="238" col4_disp="  238 (2 calls)" col5="234" col5_disp="  234 (2 calls)"/>
+                    <row id="19" col0="Input_Generator_long&lt;8, 1, 10, 3, 3, 10, 8, 86, 1, 4128768, 5308416&gt;" col1="one_layer.hpp:141" col2="393" col3="163" col4="229" col5="225"/>
+                    <row id="11" col0="Mac_long&lt;8, 8, 3, 3, 8, 86, 1, 1&gt;" col1="one_layer.hpp:536" col2="1328" col2_disp="1,328 (2 calls)" col3="16240" col3_disp="16,240 (2 calls)" col4="9492" col4_disp="9,492 (2 calls)" col5="9472" col5_disp="9,472 (2 calls)"/>
+                    <row id="8" col0="Input_Generator_long&lt;8, 1, 10, 3, 3, 10, 8, 86, 1, 5308416, 6488064&gt;" col1="one_layer.hpp:141" col2="393" col3="163" col4="229" col5="225"/>
+                    <row id="42" col0="Pooling&lt;8, 8&gt;" col1="one_layer.hpp:867" col2="5494" col3="402" col4="402" col5="402"/>
+                    <row id="37" col0="Padding&lt;8, 4&gt;" col1="one_layer.hpp:834" col2="85" col3="29" col4="29" col5="29"/>
+                    <row id="35" col0="read_weight_long&lt;0, 36864, 36864, 2, 2, 8, 4&gt;" col1="one_layer.hpp:25" col2="119" col3="29" col4="63" col5="63"/>
+                    <row id="33" col0="Input_Generator_long&lt;8, 1, 6, 3, 2, 6, 4, 256, 2, 6488064, 7077888&gt;" col1="one_layer.hpp:141" col2="393" col3="163" col4="229" col5="225"/>
+                    <row id="7" col0="Mac_long&lt;8, 8, 2, 3, 4, 256, 2, 1&gt;" col1="one_layer.hpp:536" col2="664" col3="3185" col4="3183" col5="3175"/>
+                    <row id="2" col0="Padding&lt;16, 4&gt;" col1="one_layer.hpp:834" col2="170" col2_disp="  170 (2 calls)" col3="58" col3_disp="   58 (2 calls)" col4="58" col4_disp="   58 (2 calls)" col5="58" col5_disp="   58 (2 calls)"/>
+                    <row id="50" col0="read_weight_long&lt;0, 73728, 73728, 2, 2, 16, 4&gt;" col1="one_layer.hpp:25" col2="238" col2_disp="  238 (2 calls)" col3="58" col3_disp="   58 (2 calls)" col4="190" col4_disp="  190 (2 calls)" col5="190" col5_disp="  190 (2 calls)"/>
+                    <row id="23" col0="Input_Generator_long&lt;16, 1, 6, 3, 2, 6, 4, 256, 2, 7077888, 8257536&gt;" col1="one_layer.hpp:141" col2="393" col3="227" col4="357" col5="353"/>
+                    <row id="25" col0="Mac_long&lt;16, 16, 2, 3, 4, 256, 2, 1&gt;" col1="one_layer.hpp:536" col2="1328" col2_disp="1,328 (2 calls)" col3="12702" col3_disp="12,702 (2 calls)" col4="12574" col4_disp="12,574 (2 calls)" col5="12558" col5_disp="12,558 (2 calls)"/>
+                    <row id="18" col0="Input_Generator_long&lt;16, 1, 6, 3, 2, 6, 4, 256, 2, 8257536, 9437184&gt;" col1="one_layer.hpp:141" col2="393" col3="227" col4="357" col5="353"/>
+                    <row id="16" col0="Pooling&lt;16, 4&gt;" col1="one_layer.hpp:867" col2="5494" col3="402" col4="402" col5="402"/>
+                    <row id="20" col0="Padding&lt;16, 2&gt;" col1="one_layer.hpp:834" col2="255" col2_disp="  255 (3 calls)" col3="87" col3_disp="   87 (3 calls)" col4="87" col4_disp="   87 (3 calls)" col5="87" col5_disp="   87 (3 calls)"/>
+                    <row id="43" col0="read_weight_long&lt;0, 73728, 73728, 1, 1, 8, 2&gt;" col1="one_layer.hpp:25" col2="357" col2_disp="  357 (3 calls)" col3="63" col3_disp="   63 (3 calls)" col4="114" col4_disp="  114 (3 calls)" col5="114" col5_disp="  114 (3 calls)"/>
+                    <row id="21" col0="Input_Generator_long&lt;8, 2, 4, 3, 1, 4, 2, 512, 1, 9437184, 9732096&gt;" col1="one_layer.hpp:141" col2="393" col3="161" col4="331" col5="326"/>
+                    <row id="30" col0="Mac_long&lt;8, 8, 1, 3, 2, 512, 1, 2&gt;" col1="one_layer.hpp:536" col2="1992" col2_disp="1,992 (3 calls)" col3="4890" col3_disp="4,890 (3 calls)" col4="4827" col4_disp="4,827 (3 calls)" col5="4818" col5_disp="4,818 (3 calls)"/>
+                    <row id="47" col0="Input_Generator_long&lt;8, 2, 4, 3, 1, 4, 2, 512, 1, 9732096, 10027008&gt;" col1="one_layer.hpp:141" col2="393" col3="161" col4="331" col5="326"/>
+                    <row id="34" col0="Input_Generator_long&lt;8, 2, 3, 3, 1, 4, 2, 512, 1, 10027008, 10321920&gt;" col1="one_layer.hpp:141" col2="393" col3="161" col4="331" col5="326"/>
+                    <row id="52" col0="Pooling&lt;16, 2&gt;" col1="one_layer.hpp:867" col2="5494" col3="369" col4="369" col5="369"/>
+                    <row id="4" col0="read_weight_short&lt;128, 0, 32768, 32768, 1, 1, 1&gt;" col1="one_layer.hpp:60" col2="394" col2_disp="  394 (2 calls)" col3="20" col3_disp="   20 (2 calls)" col4="22" col4_disp="   22 (2 calls)" col5="22" col5_disp="   22 (2 calls)"/>
+                    <row id="27" col0="Input_Generator_short_2&lt;512, 16, 128, 1, 1, 1, 1, 1, 512, 1, 10321920, 10354688&gt;" col1="one_layer.hpp:418" col2="380" col3="71" col4="71" col5="71"/>
+                    <row id="29" col0="Mac_short_2&lt;128, 128, 8, 1, 1, 1, 512, 1, 64&gt;" col1="one_layer.hpp:733" col2="1450" col2_disp="1,450 (2 calls)" col3="184" col3_disp="  184 (2 calls)" col4="166" col4_disp="  166 (2 calls)" col5="164" col5_disp="  164 (2 calls)"/>
+                    <row id="40" col0="Input_Generator_short_2&lt;512, 16, 128, 1, 1, 1, 1, 1, 512, 1, 10354688, 10387456&gt;" col1="one_layer.hpp:418" col2="380" col3="71" col4="71" col5="71"/>
+                    <row id="41" col0="read_weight_short&lt;16, 0, 5120, 5120, 1, 1, 1&gt;" col1="one_layer.hpp:60" col2="197" col3="10" col4="11" col5="11"/>
+                    <row id="10" col0="Input_Generator_short_2&lt;512, 16, 16, 1, 1, 1, 1, 1, 10, 1, 10387456, 10392576&gt;" col1="one_layer.hpp:418" col2="380" col3="71" col4="71" col5="71"/>
+                    <row id="14" col0="Mac_short_2&lt;16, 16, 1, 1, 1, 1, 10, 1, 512&gt;" col1="one_layer.hpp:733" col2="693" col3="50" col4="41" col5="40"/>
+                </row>
+            </rows>
+            <notes/>
+        </hiertable>
+    </item>
+    <item name="Design Size Message Settings">
+        <table>
+            <keys size="3">Message Setting, Value, Description</keys>
+            <column name="config_compile -design_size_maximum_warning">100000, Show a warning when total design instructions exceeds this value</column>
+        </table>
+    </item>
+</design_size>
+

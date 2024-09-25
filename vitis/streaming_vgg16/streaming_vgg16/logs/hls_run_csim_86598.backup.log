@@ -1,0 +1,1053 @@
+INFO: [vitis-run 60-1548] Creating build summary session with primary output /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/streaming_vgg16.hlsrun_csim_summary, at Tue Sep 24 00:09:53 2024
+INFO: [vitis-run 82-31] Launching vitis_hls: vitis_hls -nolog -run csim -work_dir /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16 -config /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg -cmdlineconfig /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/config.cmdline
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+  **** SW Build 4023990 on Oct 11 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source /tools/Xilinx/Vitis_HLS/2023.2/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] Running '/tools/Xilinx/Vitis_HLS/2023.2/bin/unwrapped/lnx64.o/vitis_hls'
+INFO: [HLS 200-10] For user 'ryanfeng' on host 'ryanfeng-System-Product-Name' (Linux_x86_64 version 6.8.0-45-generic) on Tue Sep 24 00:09:54 PDT 2024
+INFO: [HLS 200-10] On os Ubuntu 22.04.5 LTS
+INFO: [HLS 200-10] In directory '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16'
+INFO: [HLS 200-1909] Reading HLS ini file /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg
+INFO: [HLS 200-1909] Reading HLS ini file /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/config.cmdline
+INFO: [HLS 200-2005] Using work_dir /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16 
+INFO: [HLS 200-1510] Running: open_project /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16 -diskless 
+INFO: [HLS 200-1510] Running: open_solution hls 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2023.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1510] Running: apply_ini /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg 
+INFO: [HLS 200-1909] Reading HLS ini file /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/activations.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/activations.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/bnn-library.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(10)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/bnn-library.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/conv.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(11)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/conv.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/convlayer.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(12)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/convlayer.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(13)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/dma.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(14)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/dma.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/fclayer.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(15)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/fclayer.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/interpret.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(16)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/interpret.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mac.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(17)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mac.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/maxpool.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(18)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/maxpool.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mmv.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(19)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mmv.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mvau.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(20)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mvau.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(21)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/slidingwindow.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(22)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/slidingwindow.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/streamtools.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(23)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/streamtools.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/tmrcheck.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(24)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/tmrcheck.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/upsample.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(25)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/upsample.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/utils.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(26)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/utils.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/vvau.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(27)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/vvau.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/weights.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(28)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/weights.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/host.cpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(29)
+INFO: [HLS 200-10] Adding test bench file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/host.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=one_layer' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(8)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2023.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xcvu9p-flga2104-2-i' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xcvu9p-flga2104-2-i'
+INFO: [HLS 200-1465] Applying ini 'csim.clean=true' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(7)
+INFO: [HLS 200-1465] Applying ini 'csim.code_analyzer=0' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(30)
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(5)
+INFO: [HLS 200-1510] Running: apply_ini /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/config.cmdline 
+INFO: [HLS 200-1909] Reading HLS ini file /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/config.cmdline
+INFO: [HLS 200-1510] Running: csim_design 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+   Compiling ../../../../../source/host.cpp in debug mode
+In file included from /usr/include/CL/cl.h:20,
+                 from ../../../../../source/host.cpp:20:
+/usr/include/CL/cl_version.h:22:104: note: #pragma message: cl_version.h: CL_TARGET_OPENCL_VERSION is not defined. Defaulting to 300 (OpenCL 3.0)
+ #pragma message("cl_version.h: CL_TARGET_OPENCL_VERSION is not defined. Defaulting to 300 (OpenCL 3.0)")
+                                                                                                        ^
+../../../../../source/host.cpp: In member function ‘void input_data<T>::organize_data()’:
+../../../../../source/host.cpp:189:17: error: ‘ACTIVATION_PRECISION’ was not declared in this scope
+       tmp((k+1)*ACTIVATION_PRECISION-1,k*ACTIVATION_PRECISION)=matrix[m][k][j][i];
+                 ^~~~~~~~~~~~~~~~~~~~
+../../../../../source/host.cpp:189:17: note: suggested alternative: ‘XIP_FPO_REVISION’
+       tmp((k+1)*ACTIVATION_PRECISION-1,k*ACTIVATION_PRECISION)=matrix[m][k][j][i];
+                 ^~~~~~~~~~~~~~~~~~~~
+                 XIP_FPO_REVISION
+../../../../../source/host.cpp:202:21: error: ‘WEIGHT_PRECISION’ was not declared in this scope
+        if(simd>(512/WEIGHT_PRECISION)){
+                     ^~~~~~~~~~~~~~~~
+../../../../../source/host.cpp: In function ‘int main(int, char**)’:
+../../../../../source/host.cpp:444:21: error: ‘ACTIVATION_PRECISION’ was not declared in this scope
+  input_data<ap_uint<ACTIVATION_PRECISION> > IFM(1,IFM_Channels_1,IFMDim_1,FM);
+                     ^~~~~~~~~~~~~~~~~~~~
+../../../../../source/host.cpp:444:21: note: suggested alternative: ‘XIP_FPO_REVISION’
+  input_data<ap_uint<ACTIVATION_PRECISION> > IFM(1,IFM_Channels_1,IFMDim_1,FM);
+                     ^~~~~~~~~~~~~~~~~~~~
+                     XIP_FPO_REVISION
+../../../../../source/host.cpp:444:41: error: template argument 1 is invalid
+  input_data<ap_uint<ACTIVATION_PRECISION> > IFM(1,IFM_Channels_1,IFMDim_1,FM);
+                                         ^
+../../../../../source/host.cpp:444:43: error: template argument 1 is invalid
+  input_data<ap_uint<ACTIVATION_PRECISION> > IFM(1,IFM_Channels_1,IFMDim_1,FM);
+                                           ^
+../../../../../source/host.cpp:444:51: error: ‘IFM_Channels_1’ was not declared in this scope
+  input_data<ap_uint<ACTIVATION_PRECISION> > IFM(1,IFM_Channels_1,IFMDim_1,FM);
+                                                   ^~~~~~~~~~~~~~
+../../../../../source/host.cpp:444:66: error: ‘IFMDim_1’ was not declared in this scope
+  input_data<ap_uint<ACTIVATION_PRECISION> > IFM(1,IFM_Channels_1,IFMDim_1,FM);
+                                                                  ^~~~~~~~
+../../../../../source/host.cpp:444:77: error: expression list treated as compound expression in initializer [-fpermissive]
+  input_data<ap_uint<ACTIVATION_PRECISION> > IFM(1,IFM_Channels_1,IFMDim_1,FM);
+                                                                             ^
+../../../../../source/host.cpp:445:21: error: ‘WEIGHT_PRECISION’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W1(OFM_Channels_1,IFM_Channels_1,KERNELDim_1,WEIGHT,SIMD_1,PE_1);
+                     ^~~~~~~~~~~~~~~~
+../../../../../source/host.cpp:445:37: error: template argument 1 is invalid
+  input_data<ap_uint<WEIGHT_PRECISION> > W1(OFM_Channels_1,IFM_Channels_1,KERNELDim_1,WEIGHT,SIMD_1,PE_1);
+                                     ^
+../../../../../source/host.cpp:445:39: error: template argument 1 is invalid
+  input_data<ap_uint<WEIGHT_PRECISION> > W1(OFM_Channels_1,IFM_Channels_1,KERNELDim_1,WEIGHT,SIMD_1,PE_1);
+                                       ^
+../../../../../source/host.cpp:445:44: error: ‘OFM_Channels_1’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W1(OFM_Channels_1,IFM_Channels_1,KERNELDim_1,WEIGHT,SIMD_1,PE_1);
+                                            ^~~~~~~~~~~~~~
+../../../../../source/host.cpp:445:74: error: ‘KERNELDim_1’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W1(OFM_Channels_1,IFM_Channels_1,KERNELDim_1,WEIGHT,SIMD_1,PE_1);
+                                                                          ^~~~~~~~~~~
+../../../../../source/host.cpp:445:93: error: ‘SIMD_1’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W1(OFM_Channels_1,IFM_Channels_1,KERNELDim_1,WEIGHT,SIMD_1,PE_1);
+                                                                                             ^~~~~~
+../../../../../source/host.cpp:445:100: error: ‘PE_1’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W1(OFM_Channels_1,IFM_Channels_1,KERNELDim_1,WEIGHT,SIMD_1,PE_1);
+                                                                                                    ^~~~
+../../../../../source/host.cpp:445:104: error: expression list treated as compound expression in initializer [-fpermissive]
+  input_data<ap_uint<WEIGHT_PRECISION> > W1(OFM_Channels_1,IFM_Channels_1,KERNELDim_1,WEIGHT,SIMD_1,PE_1);
+                                                                                                        ^
+../../../../../source/host.cpp:446:37: error: could not convert template argument ‘WEIGHT_PRECISION’ from ‘<type error>’ to ‘int’
+  input_data<ap_uint<WEIGHT_PRECISION> > W2(OFM_Channels_2,IFM_Channels_2,KERNELDim_2,WEIGHT,SIMD_2,PE_2);
+                                     ^
+../../../../../source/host.cpp:446:39: error: template argument 1 is invalid
+  input_data<ap_uint<WEIGHT_PRECISION> > W2(OFM_Channels_2,IFM_Channels_2,KERNELDim_2,WEIGHT,SIMD_2,PE_2);
+                                       ^
+../../../../../source/host.cpp:446:44: error: ‘OFM_Channels_2’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W2(OFM_Channels_2,IFM_Channels_2,KERNELDim_2,WEIGHT,SIMD_2,PE_2);
+                                            ^~~~~~~~~~~~~~
+../../../../../source/host.cpp:446:59: error: ‘IFM_Channels_2’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W2(OFM_Channels_2,IFM_Channels_2,KERNELDim_2,WEIGHT,SIMD_2,PE_2);
+                                                           ^~~~~~~~~~~~~~
+../../../../../source/host.cpp:446:74: error: ‘KERNELDim_2’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W2(OFM_Channels_2,IFM_Channels_2,KERNELDim_2,WEIGHT,SIMD_2,PE_2);
+                                                                          ^~~~~~~~~~~
+../../../../../source/host.cpp:446:93: error: ‘SIMD_2’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W2(OFM_Channels_2,IFM_Channels_2,KERNELDim_2,WEIGHT,SIMD_2,PE_2);
+                                                                                             ^~~~~~
+../../../../../source/host.cpp:446:100: error: ‘PE_2’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W2(OFM_Channels_2,IFM_Channels_2,KERNELDim_2,WEIGHT,SIMD_2,PE_2);
+                                                                                                    ^~~~
+../../../../../source/host.cpp:446:104: error: expression list treated as compound expression in initializer [-fpermissive]
+  input_data<ap_uint<WEIGHT_PRECISION> > W2(OFM_Channels_2,IFM_Channels_2,KERNELDim_2,WEIGHT,SIMD_2,PE_2);
+                                                                                                        ^
+../../../../../source/host.cpp:447:37: error: could not convert template argument ‘WEIGHT_PRECISION’ from ‘<type error>’ to ‘int’
+  input_data<ap_uint<WEIGHT_PRECISION> > W3(OFM_Channels_3,IFM_Channels_3,KERNELDim_3,WEIGHT,SIMD_3,PE_3);
+                                     ^
+../../../../../source/host.cpp:447:39: error: template argument 1 is invalid
+  input_data<ap_uint<WEIGHT_PRECISION> > W3(OFM_Channels_3,IFM_Channels_3,KERNELDim_3,WEIGHT,SIMD_3,PE_3);
+                                       ^
+../../../../../source/host.cpp:447:44: error: ‘OFM_Channels_3’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W3(OFM_Channels_3,IFM_Channels_3,KERNELDim_3,WEIGHT,SIMD_3,PE_3);
+                                            ^~~~~~~~~~~~~~
+../../../../../source/host.cpp:447:59: error: ‘IFM_Channels_3’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W3(OFM_Channels_3,IFM_Channels_3,KERNELDim_3,WEIGHT,SIMD_3,PE_3);
+                                                           ^~~~~~~~~~~~~~
+../../../../../source/host.cpp:447:74: error: ‘KERNELDim_3’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W3(OFM_Channels_3,IFM_Channels_3,KERNELDim_3,WEIGHT,SIMD_3,PE_3);
+                                                                          ^~~~~~~~~~~
+../../../../../source/host.cpp:447:93: error: ‘SIMD_3’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W3(OFM_Channels_3,IFM_Channels_3,KERNELDim_3,WEIGHT,SIMD_3,PE_3);
+                                                                                             ^~~~~~
+../../../../../source/host.cpp:447:100: error: ‘PE_3’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W3(OFM_Channels_3,IFM_Channels_3,KERNELDim_3,WEIGHT,SIMD_3,PE_3);
+                                                                                                    ^~~~
+../../../../../source/host.cpp:447:104: error: expression list treated as compound expression in initializer [-fpermissive]
+  input_data<ap_uint<WEIGHT_PRECISION> > W3(OFM_Channels_3,IFM_Channels_3,KERNELDim_3,WEIGHT,SIMD_3,PE_3);
+                                                                                                        ^
+../../../../../source/host.cpp:448:37: error: could not convert template argument ‘WEIGHT_PRECISION’ from ‘<type error>’ to ‘int’
+  input_data<ap_uint<WEIGHT_PRECISION> > W4(OFM_Channels_4,IFM_Channels_4,KERNELDim_4,WEIGHT,SIMD_4,PE_4);
+                                     ^
+../../../../../source/host.cpp:448:39: error: template argument 1 is invalid
+  input_data<ap_uint<WEIGHT_PRECISION> > W4(OFM_Channels_4,IFM_Channels_4,KERNELDim_4,WEIGHT,SIMD_4,PE_4);
+                                       ^
+../../../../../source/host.cpp:448:44: error: ‘OFM_Channels_4’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W4(OFM_Channels_4,IFM_Channels_4,KERNELDim_4,WEIGHT,SIMD_4,PE_4);
+                                            ^~~~~~~~~~~~~~
+../../../../../source/host.cpp:448:59: error: ‘IFM_Channels_4’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W4(OFM_Channels_4,IFM_Channels_4,KERNELDim_4,WEIGHT,SIMD_4,PE_4);
+                                                           ^~~~~~~~~~~~~~
+../../../../../source/host.cpp:448:74: error: ‘KERNELDim_4’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W4(OFM_Channels_4,IFM_Channels_4,KERNELDim_4,WEIGHT,SIMD_4,PE_4);
+                                                                          ^~~~~~~~~~~
+../../../../../source/host.cpp:448:93: error: ‘SIMD_4’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W4(OFM_Channels_4,IFM_Channels_4,KERNELDim_4,WEIGHT,SIMD_4,PE_4);
+                                                                                             ^~~~~~
+../../../../../source/host.cpp:448:100: error: ‘PE_4’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W4(OFM_Channels_4,IFM_Channels_4,KERNELDim_4,WEIGHT,SIMD_4,PE_4);
+                                                                                                    ^~~~
+../../../../../source/host.cpp:448:104: error: expression list treated as compound expression in initializer [-fpermissive]
+  input_data<ap_uint<WEIGHT_PRECISION> > W4(OFM_Channels_4,IFM_Channels_4,KERNELDim_4,WEIGHT,SIMD_4,PE_4);
+                                                                                                        ^
+../../../../../source/host.cpp:449:37: error: could not convert template argument ‘WEIGHT_PRECISION’ from ‘<type error>’ to ‘int’
+  input_data<ap_uint<WEIGHT_PRECISION> > W5(OFM_Channels_5,IFM_Channels_5,KERNELDim_5,WEIGHT,SIMD_5,PE_5);
+                                     ^
+../../../../../source/host.cpp:449:39: error: template argument 1 is invalid
+  input_data<ap_uint<WEIGHT_PRECISION> > W5(OFM_Channels_5,IFM_Channels_5,KERNELDim_5,WEIGHT,SIMD_5,PE_5);
+                                       ^
+../../../../../source/host.cpp:449:44: error: ‘OFM_Channels_5’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W5(OFM_Channels_5,IFM_Channels_5,KERNELDim_5,WEIGHT,SIMD_5,PE_5);
+                                            ^~~~~~~~~~~~~~
+../../../../../source/host.cpp:449:59: error: ‘IFM_Channels_5’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W5(OFM_Channels_5,IFM_Channels_5,KERNELDim_5,WEIGHT,SIMD_5,PE_5);
+                                                           ^~~~~~~~~~~~~~
+../../../../../source/host.cpp:449:74: error: ‘KERNELDim_5’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W5(OFM_Channels_5,IFM_Channels_5,KERNELDim_5,WEIGHT,SIMD_5,PE_5);
+                                                                          ^~~~~~~~~~~
+../../../../../source/host.cpp:449:93: error: ‘SIMD_5’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W5(OFM_Channels_5,IFM_Channels_5,KERNELDim_5,WEIGHT,SIMD_5,PE_5);
+                                                                                             ^~~~~~
+../../../../../source/host.cpp:449:100: error: ‘PE_5’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W5(OFM_Channels_5,IFM_Channels_5,KERNELDim_5,WEIGHT,SIMD_5,PE_5);
+                                                                                                    ^~~~
+../../../../../source/host.cpp:449:104: error: expression list treated as compound expression in initializer [-fpermissive]
+  input_data<ap_uint<WEIGHT_PRECISION> > W5(OFM_Channels_5,IFM_Channels_5,KERNELDim_5,WEIGHT,SIMD_5,PE_5);
+                                                                                                        ^
+../../../../../source/host.cpp:450:37: error: could not convert template argument ‘WEIGHT_PRECISION’ from ‘<type error>’ to ‘int’
+  input_data<ap_uint<WEIGHT_PRECISION> > W6(OFM_Channels_6,IFM_Channels_6,KERNELDim_6,WEIGHT,SIMD_6,PE_6);
+                                     ^
+../../../../../source/host.cpp:450:39: error: template argument 1 is invalid
+  input_data<ap_uint<WEIGHT_PRECISION> > W6(OFM_Channels_6,IFM_Channels_6,KERNELDim_6,WEIGHT,SIMD_6,PE_6);
+                                       ^
+../../../../../source/host.cpp:450:44: error: ‘OFM_Channels_6’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W6(OFM_Channels_6,IFM_Channels_6,KERNELDim_6,WEIGHT,SIMD_6,PE_6);
+                                            ^~~~~~~~~~~~~~
+../../../../../source/host.cpp:450:59: error: ‘IFM_Channels_6’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W6(OFM_Channels_6,IFM_Channels_6,KERNELDim_6,WEIGHT,SIMD_6,PE_6);
+                                                           ^~~~~~~~~~~~~~
+../../../../../source/host.cpp:450:74: error: ‘KERNELDim_6’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W6(OFM_Channels_6,IFM_Channels_6,KERNELDim_6,WEIGHT,SIMD_6,PE_6);
+                                                                          ^~~~~~~~~~~
+../../../../../source/host.cpp:450:93: error: ‘SIMD_6’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W6(OFM_Channels_6,IFM_Channels_6,KERNELDim_6,WEIGHT,SIMD_6,PE_6);
+                                                                                             ^~~~~~
+../../../../../source/host.cpp:450:100: error: ‘PE_6’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W6(OFM_Channels_6,IFM_Channels_6,KERNELDim_6,WEIGHT,SIMD_6,PE_6);
+                                                                                                    ^~~~
+../../../../../source/host.cpp:450:104: error: expression list treated as compound expression in initializer [-fpermissive]
+  input_data<ap_uint<WEIGHT_PRECISION> > W6(OFM_Channels_6,IFM_Channels_6,KERNELDim_6,WEIGHT,SIMD_6,PE_6);
+                                                                                                        ^
+../../../../../source/host.cpp:451:37: error: could not convert template argument ‘WEIGHT_PRECISION’ from ‘<type error>’ to ‘int’
+  input_data<ap_uint<WEIGHT_PRECISION> > W7(OFM_Channels_7,IFM_Channels_7,KERNELDim_7,WEIGHT,SIMD_7,PE_7);
+                                     ^
+../../../../../source/host.cpp:451:39: error: template argument 1 is invalid
+  input_data<ap_uint<WEIGHT_PRECISION> > W7(OFM_Channels_7,IFM_Channels_7,KERNELDim_7,WEIGHT,SIMD_7,PE_7);
+                                       ^
+../../../../../source/host.cpp:451:44: error: ‘OFM_Channels_7’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W7(OFM_Channels_7,IFM_Channels_7,KERNELDim_7,WEIGHT,SIMD_7,PE_7);
+                                            ^~~~~~~~~~~~~~
+../../../../../source/host.cpp:451:59: error: ‘IFM_Channels_7’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W7(OFM_Channels_7,IFM_Channels_7,KERNELDim_7,WEIGHT,SIMD_7,PE_7);
+                                                           ^~~~~~~~~~~~~~
+../../../../../source/host.cpp:451:74: error: ‘KERNELDim_7’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W7(OFM_Channels_7,IFM_Channels_7,KERNELDim_7,WEIGHT,SIMD_7,PE_7);
+                                                                          ^~~~~~~~~~~
+../../../../../source/host.cpp:451:93: error: ‘SIMD_7’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W7(OFM_Channels_7,IFM_Channels_7,KERNELDim_7,WEIGHT,SIMD_7,PE_7);
+                                                                                             ^~~~~~
+../../../../../source/host.cpp:451:100: error: ‘PE_7’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W7(OFM_Channels_7,IFM_Channels_7,KERNELDim_7,WEIGHT,SIMD_7,PE_7);
+                                                                                                    ^~~~
+../../../../../source/host.cpp:451:104: error: expression list treated as compound expression in initializer [-fpermissive]
+  input_data<ap_uint<WEIGHT_PRECISION> > W7(OFM_Channels_7,IFM_Channels_7,KERNELDim_7,WEIGHT,SIMD_7,PE_7);
+                                                                                                        ^
+../../../../../source/host.cpp:452:37: error: could not convert template argument ‘WEIGHT_PRECISION’ from ‘<type error>’ to ‘int’
+  input_data<ap_uint<WEIGHT_PRECISION> > W8(OFM_Channels_8,IFM_Channels_8,KERNELDim_8,WEIGHT,SIMD_8,PE_8);
+                                     ^
+../../../../../source/host.cpp:452:39: error: template argument 1 is invalid
+  input_data<ap_uint<WEIGHT_PRECISION> > W8(OFM_Channels_8,IFM_Channels_8,KERNELDim_8,WEIGHT,SIMD_8,PE_8);
+                                       ^
+../../../../../source/host.cpp:452:44: error: ‘OFM_Channels_8’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W8(OFM_Channels_8,IFM_Channels_8,KERNELDim_8,WEIGHT,SIMD_8,PE_8);
+                                            ^~~~~~~~~~~~~~
+../../../../../source/host.cpp:452:59: error: ‘IFM_Channels_8’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W8(OFM_Channels_8,IFM_Channels_8,KERNELDim_8,WEIGHT,SIMD_8,PE_8);
+                                                           ^~~~~~~~~~~~~~
+../../../../../source/host.cpp:452:74: error: ‘KERNELDim_8’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W8(OFM_Channels_8,IFM_Channels_8,KERNELDim_8,WEIGHT,SIMD_8,PE_8);
+                                                                          ^~~~~~~~~~~
+../../../../../source/host.cpp:452:93: error: ‘SIMD_8’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W8(OFM_Channels_8,IFM_Channels_8,KERNELDim_8,WEIGHT,SIMD_8,PE_8);
+                                                                                             ^~~~~~
+../../../../../source/host.cpp:452:100: error: ‘PE_8’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W8(OFM_Channels_8,IFM_Channels_8,KERNELDim_8,WEIGHT,SIMD_8,PE_8);
+                                                                                                    ^~~~
+../../../../../source/host.cpp:452:104: error: expression list treated as compound expression in initializer [-fpermissive]
+  input_data<ap_uint<WEIGHT_PRECISION> > W8(OFM_Channels_8,IFM_Channels_8,KERNELDim_8,WEIGHT,SIMD_8,PE_8);
+                                                                                                        ^
+../../../../../source/host.cpp:453:37: error: could not convert template argument ‘WEIGHT_PRECISION’ from ‘<type error>’ to ‘int’
+  input_data<ap_uint<WEIGHT_PRECISION> > W9(OFM_Channels_9,IFM_Channels_9,KERNELDim_9,WEIGHT,SIMD_9,PE_9);
+                                     ^
+../../../../../source/host.cpp:453:39: error: template argument 1 is invalid
+  input_data<ap_uint<WEIGHT_PRECISION> > W9(OFM_Channels_9,IFM_Channels_9,KERNELDim_9,WEIGHT,SIMD_9,PE_9);
+                                       ^
+../../../../../source/host.cpp:453:44: error: ‘OFM_Channels_9’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W9(OFM_Channels_9,IFM_Channels_9,KERNELDim_9,WEIGHT,SIMD_9,PE_9);
+                                            ^~~~~~~~~~~~~~
+../../../../../source/host.cpp:453:59: error: ‘IFM_Channels_9’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W9(OFM_Channels_9,IFM_Channels_9,KERNELDim_9,WEIGHT,SIMD_9,PE_9);
+                                                           ^~~~~~~~~~~~~~
+../../../../../source/host.cpp:453:74: error: ‘KERNELDim_9’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W9(OFM_Channels_9,IFM_Channels_9,KERNELDim_9,WEIGHT,SIMD_9,PE_9);
+                                                                          ^~~~~~~~~~~
+../../../../../source/host.cpp:453:93: error: ‘SIMD_9’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W9(OFM_Channels_9,IFM_Channels_9,KERNELDim_9,WEIGHT,SIMD_9,PE_9);
+                                                                                             ^~~~~~
+../../../../../source/host.cpp:453:100: error: ‘PE_9’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W9(OFM_Channels_9,IFM_Channels_9,KERNELDim_9,WEIGHT,SIMD_9,PE_9);
+                                                                                                    ^~~~
+../../../../../source/host.cpp:453:104: error: expression list treated as compound expression in initializer [-fpermissive]
+  input_data<ap_uint<WEIGHT_PRECISION> > W9(OFM_Channels_9,IFM_Channels_9,KERNELDim_9,WEIGHT,SIMD_9,PE_9);
+                                                                                                        ^
+../../../../../source/host.cpp:454:37: error: could not convert template argument ‘WEIGHT_PRECISION’ from ‘<type error>’ to ‘int’
+  input_data<ap_uint<WEIGHT_PRECISION> > W10(OFM_Channels_10,IFM_Channels_10,KERNELDim_10,WEIGHT,SIMD_10,PE_10);
+                                     ^
+../../../../../source/host.cpp:454:39: error: template argument 1 is invalid
+  input_data<ap_uint<WEIGHT_PRECISION> > W10(OFM_Channels_10,IFM_Channels_10,KERNELDim_10,WEIGHT,SIMD_10,PE_10);
+                                       ^
+../../../../../source/host.cpp:454:45: error: ‘OFM_Channels_10’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W10(OFM_Channels_10,IFM_Channels_10,KERNELDim_10,WEIGHT,SIMD_10,PE_10);
+                                             ^~~~~~~~~~~~~~~
+../../../../../source/host.cpp:454:61: error: ‘IFM_Channels_10’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W10(OFM_Channels_10,IFM_Channels_10,KERNELDim_10,WEIGHT,SIMD_10,PE_10);
+                                                             ^~~~~~~~~~~~~~~
+../../../../../source/host.cpp:454:77: error: ‘KERNELDim_10’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W10(OFM_Channels_10,IFM_Channels_10,KERNELDim_10,WEIGHT,SIMD_10,PE_10);
+                                                                             ^~~~~~~~~~~~
+../../../../../source/host.cpp:454:97: error: ‘SIMD_10’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W10(OFM_Channels_10,IFM_Channels_10,KERNELDim_10,WEIGHT,SIMD_10,PE_10);
+                                                                                                 ^~~~~~~
+../../../../../source/host.cpp:454:105: error: ‘PE_10’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W10(OFM_Channels_10,IFM_Channels_10,KERNELDim_10,WEIGHT,SIMD_10,PE_10);
+                                                                                                         ^~~~~
+../../../../../source/host.cpp:454:110: error: expression list treated as compound expression in initializer [-fpermissive]
+  input_data<ap_uint<WEIGHT_PRECISION> > W10(OFM_Channels_10,IFM_Channels_10,KERNELDim_10,WEIGHT,SIMD_10,PE_10);
+                                                                                                              ^
+../../../../../source/host.cpp:455:37: error: could not convert template argument ‘WEIGHT_PRECISION’ from ‘<type error>’ to ‘int’
+  input_data<ap_uint<WEIGHT_PRECISION> > W11(OFM_Channels_11,IFM_Channels_11,KERNELDim_11,WEIGHT,SIMD_11,PE_11);
+                                     ^
+../../../../../source/host.cpp:455:39: error: template argument 1 is invalid
+  input_data<ap_uint<WEIGHT_PRECISION> > W11(OFM_Channels_11,IFM_Channels_11,KERNELDim_11,WEIGHT,SIMD_11,PE_11);
+                                       ^
+../../../../../source/host.cpp:455:45: error: ‘OFM_Channels_11’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W11(OFM_Channels_11,IFM_Channels_11,KERNELDim_11,WEIGHT,SIMD_11,PE_11);
+                                             ^~~~~~~~~~~~~~~
+../../../../../source/host.cpp:455:61: error: ‘IFM_Channels_11’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W11(OFM_Channels_11,IFM_Channels_11,KERNELDim_11,WEIGHT,SIMD_11,PE_11);
+                                                             ^~~~~~~~~~~~~~~
+../../../../../source/host.cpp:455:77: error: ‘KERNELDim_11’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W11(OFM_Channels_11,IFM_Channels_11,KERNELDim_11,WEIGHT,SIMD_11,PE_11);
+                                                                             ^~~~~~~~~~~~
+../../../../../source/host.cpp:455:97: error: ‘SIMD_11’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W11(OFM_Channels_11,IFM_Channels_11,KERNELDim_11,WEIGHT,SIMD_11,PE_11);
+                                                                                                 ^~~~~~~
+../../../../../source/host.cpp:455:105: error: ‘PE_11’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W11(OFM_Channels_11,IFM_Channels_11,KERNELDim_11,WEIGHT,SIMD_11,PE_11);
+                                                                                                         ^~~~~
+../../../../../source/host.cpp:455:110: error: expression list treated as compound expression in initializer [-fpermissive]
+  input_data<ap_uint<WEIGHT_PRECISION> > W11(OFM_Channels_11,IFM_Channels_11,KERNELDim_11,WEIGHT,SIMD_11,PE_11);
+                                                                                                              ^
+../../../../../source/host.cpp:456:37: error: could not convert template argument ‘WEIGHT_PRECISION’ from ‘<type error>’ to ‘int’
+  input_data<ap_uint<WEIGHT_PRECISION> > W12(OFM_Channels_12,IFM_Channels_12,KERNELDim_12,WEIGHT,SIMD_12,PE_12);
+                                     ^
+../../../../../source/host.cpp:456:39: error: template argument 1 is invalid
+  input_data<ap_uint<WEIGHT_PRECISION> > W12(OFM_Channels_12,IFM_Channels_12,KERNELDim_12,WEIGHT,SIMD_12,PE_12);
+                                       ^
+../../../../../source/host.cpp:456:45: error: ‘OFM_Channels_12’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W12(OFM_Channels_12,IFM_Channels_12,KERNELDim_12,WEIGHT,SIMD_12,PE_12);
+                                             ^~~~~~~~~~~~~~~
+../../../../../source/host.cpp:456:61: error: ‘IFM_Channels_12’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W12(OFM_Channels_12,IFM_Channels_12,KERNELDim_12,WEIGHT,SIMD_12,PE_12);
+                                                             ^~~~~~~~~~~~~~~
+../../../../../source/host.cpp:456:77: error: ‘KERNELDim_12’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W12(OFM_Channels_12,IFM_Channels_12,KERNELDim_12,WEIGHT,SIMD_12,PE_12);
+                                                                             ^~~~~~~~~~~~
+../../../../../source/host.cpp:456:97: error: ‘SIMD_12’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W12(OFM_Channels_12,IFM_Channels_12,KERNELDim_12,WEIGHT,SIMD_12,PE_12);
+                                                                                                 ^~~~~~~
+../../../../../source/host.cpp:456:105: error: ‘PE_12’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W12(OFM_Channels_12,IFM_Channels_12,KERNELDim_12,WEIGHT,SIMD_12,PE_12);
+                                                                                                         ^~~~~
+../../../../../source/host.cpp:456:110: error: expression list treated as compound expression in initializer [-fpermissive]
+  input_data<ap_uint<WEIGHT_PRECISION> > W12(OFM_Channels_12,IFM_Channels_12,KERNELDim_12,WEIGHT,SIMD_12,PE_12);
+                                                                                                              ^
+../../../../../source/host.cpp:457:37: error: could not convert template argument ‘WEIGHT_PRECISION’ from ‘<type error>’ to ‘int’
+  input_data<ap_uint<WEIGHT_PRECISION> > W13(OFM_Channels_13,IFM_Channels_13,KERNELDim_13,WEIGHT,SIMD_13,PE_13);
+                                     ^
+../../../../../source/host.cpp:457:39: error: template argument 1 is invalid
+  input_data<ap_uint<WEIGHT_PRECISION> > W13(OFM_Channels_13,IFM_Channels_13,KERNELDim_13,WEIGHT,SIMD_13,PE_13);
+                                       ^
+../../../../../source/host.cpp:457:45: error: ‘OFM_Channels_13’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W13(OFM_Channels_13,IFM_Channels_13,KERNELDim_13,WEIGHT,SIMD_13,PE_13);
+                                             ^~~~~~~~~~~~~~~
+../../../../../source/host.cpp:457:61: error: ‘IFM_Channels_13’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W13(OFM_Channels_13,IFM_Channels_13,KERNELDim_13,WEIGHT,SIMD_13,PE_13);
+                                                             ^~~~~~~~~~~~~~~
+../../../../../source/host.cpp:457:77: error: ‘KERNELDim_13’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W13(OFM_Channels_13,IFM_Channels_13,KERNELDim_13,WEIGHT,SIMD_13,PE_13);
+                                                                             ^~~~~~~~~~~~
+../../../../../source/host.cpp:457:97: error: ‘SIMD_13’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W13(OFM_Channels_13,IFM_Channels_13,KERNELDim_13,WEIGHT,SIMD_13,PE_13);
+                                                                                                 ^~~~~~~
+../../../../../source/host.cpp:457:105: error: ‘PE_13’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W13(OFM_Channels_13,IFM_Channels_13,KERNELDim_13,WEIGHT,SIMD_13,PE_13);
+                                                                                                         ^~~~~
+../../../../../source/host.cpp:457:110: error: expression list treated as compound expression in initializer [-fpermissive]
+  input_data<ap_uint<WEIGHT_PRECISION> > W13(OFM_Channels_13,IFM_Channels_13,KERNELDim_13,WEIGHT,SIMD_13,PE_13);
+                                                                                                              ^
+../../../../../source/host.cpp:458:37: error: could not convert template argument ‘WEIGHT_PRECISION’ from ‘<type error>’ to ‘int’
+  input_data<ap_uint<WEIGHT_PRECISION> > W14(OFM_Channels_14,IFM_Channels_14,KERNELDim_14,WEIGHT,SIMD_14,PE_14);
+                                     ^
+../../../../../source/host.cpp:458:39: error: template argument 1 is invalid
+  input_data<ap_uint<WEIGHT_PRECISION> > W14(OFM_Channels_14,IFM_Channels_14,KERNELDim_14,WEIGHT,SIMD_14,PE_14);
+                                       ^
+../../../../../source/host.cpp:458:45: error: ‘OFM_Channels_14’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W14(OFM_Channels_14,IFM_Channels_14,KERNELDim_14,WEIGHT,SIMD_14,PE_14);
+                                             ^~~~~~~~~~~~~~~
+../../../../../source/host.cpp:458:61: error: ‘IFM_Channels_14’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W14(OFM_Channels_14,IFM_Channels_14,KERNELDim_14,WEIGHT,SIMD_14,PE_14);
+                                                             ^~~~~~~~~~~~~~~
+../../../../../source/host.cpp:458:77: error: ‘KERNELDim_14’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W14(OFM_Channels_14,IFM_Channels_14,KERNELDim_14,WEIGHT,SIMD_14,PE_14);
+                                                                             ^~~~~~~~~~~~
+../../../../../source/host.cpp:458:97: error: ‘SIMD_14’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W14(OFM_Channels_14,IFM_Channels_14,KERNELDim_14,WEIGHT,SIMD_14,PE_14);
+                                                                                                 ^~~~~~~
+../../../../../source/host.cpp:458:105: error: ‘PE_14’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W14(OFM_Channels_14,IFM_Channels_14,KERNELDim_14,WEIGHT,SIMD_14,PE_14);
+                                                                                                         ^~~~~
+../../../../../source/host.cpp:458:110: error: expression list treated as compound expression in initializer [-fpermissive]
+  input_data<ap_uint<WEIGHT_PRECISION> > W14(OFM_Channels_14,IFM_Channels_14,KERNELDim_14,WEIGHT,SIMD_14,PE_14);
+                                                                                                              ^
+../../../../../source/host.cpp:459:37: error: could not convert template argument ‘WEIGHT_PRECISION’ from ‘<type error>’ to ‘int’
+  input_data<ap_uint<WEIGHT_PRECISION> > W15(OFM_Channels_15,IFM_Channels_15,KERNELDim_15,WEIGHT,SIMD_15,PE_15);
+                                     ^
+../../../../../source/host.cpp:459:39: error: template argument 1 is invalid
+  input_data<ap_uint<WEIGHT_PRECISION> > W15(OFM_Channels_15,IFM_Channels_15,KERNELDim_15,WEIGHT,SIMD_15,PE_15);
+                                       ^
+../../../../../source/host.cpp:459:45: error: ‘OFM_Channels_15’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W15(OFM_Channels_15,IFM_Channels_15,KERNELDim_15,WEIGHT,SIMD_15,PE_15);
+                                             ^~~~~~~~~~~~~~~
+../../../../../source/host.cpp:459:61: error: ‘IFM_Channels_15’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W15(OFM_Channels_15,IFM_Channels_15,KERNELDim_15,WEIGHT,SIMD_15,PE_15);
+                                                             ^~~~~~~~~~~~~~~
+../../../../../source/host.cpp:459:77: error: ‘KERNELDim_15’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W15(OFM_Channels_15,IFM_Channels_15,KERNELDim_15,WEIGHT,SIMD_15,PE_15);
+                                                                             ^~~~~~~~~~~~
+../../../../../source/host.cpp:459:97: error: ‘SIMD_15’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W15(OFM_Channels_15,IFM_Channels_15,KERNELDim_15,WEIGHT,SIMD_15,PE_15);
+                                                                                                 ^~~~~~~
+../../../../../source/host.cpp:459:105: error: ‘PE_15’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W15(OFM_Channels_15,IFM_Channels_15,KERNELDim_15,WEIGHT,SIMD_15,PE_15);
+                                                                                                         ^~~~~
+../../../../../source/host.cpp:459:110: error: expression list treated as compound expression in initializer [-fpermissive]
+  input_data<ap_uint<WEIGHT_PRECISION> > W15(OFM_Channels_15,IFM_Channels_15,KERNELDim_15,WEIGHT,SIMD_15,PE_15);
+                                                                                                              ^
+../../../../../source/host.cpp:460:37: error: could not convert template argument ‘WEIGHT_PRECISION’ from ‘<type error>’ to ‘int’
+  input_data<ap_uint<WEIGHT_PRECISION> > W16(OFM_Channels_16,IFM_Channels_16,KERNELDim_16,WEIGHT,SIMD_16,PE_16);
+                                     ^
+../../../../../source/host.cpp:460:39: error: template argument 1 is invalid
+  input_data<ap_uint<WEIGHT_PRECISION> > W16(OFM_Channels_16,IFM_Channels_16,KERNELDim_16,WEIGHT,SIMD_16,PE_16);
+                                       ^
+../../../../../source/host.cpp:460:45: error: ‘OFM_Channels_16’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W16(OFM_Channels_16,IFM_Channels_16,KERNELDim_16,WEIGHT,SIMD_16,PE_16);
+                                             ^~~~~~~~~~~~~~~
+../../../../../source/host.cpp:460:61: error: ‘IFM_Channels_16’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W16(OFM_Channels_16,IFM_Channels_16,KERNELDim_16,WEIGHT,SIMD_16,PE_16);
+                                                             ^~~~~~~~~~~~~~~
+../../../../../source/host.cpp:460:77: error: ‘KERNELDim_16’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W16(OFM_Channels_16,IFM_Channels_16,KERNELDim_16,WEIGHT,SIMD_16,PE_16);
+                                                                             ^~~~~~~~~~~~
+../../../../../source/host.cpp:460:97: error: ‘SIMD_16’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W16(OFM_Channels_16,IFM_Channels_16,KERNELDim_16,WEIGHT,SIMD_16,PE_16);
+                                                                                                 ^~~~~~~
+../../../../../source/host.cpp:460:105: error: ‘PE_16’ was not declared in this scope
+  input_data<ap_uint<WEIGHT_PRECISION> > W16(OFM_Channels_16,IFM_Channels_16,KERNELDim_16,WEIGHT,SIMD_16,PE_16);
+                                                                                                         ^~~~~
+../../../../../source/host.cpp:460:110: error: expression list treated as compound expression in initializer [-fpermissive]
+  input_data<ap_uint<WEIGHT_PRECISION> > W16(OFM_Channels_16,IFM_Channels_16,KERNELDim_16,WEIGHT,SIMD_16,PE_16);
+                                                                                                              ^
+../../../../../source/host.cpp:462:41: error: could not convert template argument ‘ACTIVATION_PRECISION’ from ‘<type error>’ to ‘int’
+  input_data<ap_uint<ACTIVATION_PRECISION> > OFM1;
+                                         ^
+../../../../../source/host.cpp:462:43: error: template argument 1 is invalid
+  input_data<ap_uint<ACTIVATION_PRECISION> > OFM1;
+                                           ^
+../../../../../source/host.cpp:463:41: error: could not convert template argument ‘ACTIVATION_PRECISION’ from ‘<type error>’ to ‘int’
+  input_data<ap_uint<ACTIVATION_PRECISION> > OFM2;
+                                         ^
+../../../../../source/host.cpp:463:43: error: template argument 1 is invalid
+  input_data<ap_uint<ACTIVATION_PRECISION> > OFM2;
+                                           ^
+../../../../../source/host.cpp:464:41: error: could not convert template argument ‘ACTIVATION_PRECISION’ from ‘<type error>’ to ‘int’
+  input_data<ap_uint<ACTIVATION_PRECISION> > OFM3;
+                                         ^
+../../../../../source/host.cpp:464:43: error: template argument 1 is invalid
+  input_data<ap_uint<ACTIVATION_PRECISION> > OFM3;
+                                           ^
+../../../../../source/host.cpp:465:41: error: could not convert template argument ‘ACTIVATION_PRECISION’ from ‘<type error>’ to ‘int’
+  input_data<ap_uint<ACTIVATION_PRECISION> > OFM4;
+                                         ^
+../../../../../source/host.cpp:465:43: error: template argument 1 is invalid
+  input_data<ap_uint<ACTIVATION_PRECISION> > OFM4;
+                                           ^
+../../../../../source/host.cpp:466:41: error: could not convert template argument ‘ACTIVATION_PRECISION’ from ‘<type error>’ to ‘int’
+  input_data<ap_uint<ACTIVATION_PRECISION> > OFM5;
+                                         ^
+../../../../../source/host.cpp:466:43: error: template argument 1 is invalid
+  input_data<ap_uint<ACTIVATION_PRECISION> > OFM5;
+                                           ^
+../../../../../source/host.cpp:467:41: error: could not convert template argument ‘ACTIVATION_PRECISION’ from ‘<type error>’ to ‘int’
+  input_data<ap_uint<ACTIVATION_PRECISION> > OFM6;
+                                         ^
+../../../../../source/host.cpp:467:43: error: template argument 1 is invalid
+  input_data<ap_uint<ACTIVATION_PRECISION> > OFM6;
+                                           ^
+../../../../../source/host.cpp:468:41: error: could not convert template argument ‘ACTIVATION_PRECISION’ from ‘<type error>’ to ‘int’
+  input_data<ap_uint<ACTIVATION_PRECISION> > OFM7;
+                                         ^
+../../../../../source/host.cpp:468:43: error: template argument 1 is invalid
+  input_data<ap_uint<ACTIVATION_PRECISION> > OFM7;
+                                           ^
+../../../../../source/host.cpp:469:41: error: could not convert template argument ‘ACTIVATION_PRECISION’ from ‘<type error>’ to ‘int’
+  input_data<ap_uint<ACTIVATION_PRECISION> > OFM8;
+                                         ^
+../../../../../source/host.cpp:469:43: error: template argument 1 is invalid
+  input_data<ap_uint<ACTIVATION_PRECISION> > OFM8;
+                                           ^
+../../../../../source/host.cpp:470:41: error: could not convert template argument ‘ACTIVATION_PRECISION’ from ‘<type error>’ to ‘int’
+  input_data<ap_uint<ACTIVATION_PRECISION> > OFM9;
+                                         ^
+../../../../../source/host.cpp:470:43: error: template argument 1 is invalid
+  input_data<ap_uint<ACTIVATION_PRECISION> > OFM9;
+                                           ^
+../../../../../source/host.cpp:471:41: error: could not convert template argument ‘ACTIVATION_PRECISION’ from ‘<type error>’ to ‘int’
+  input_data<ap_uint<ACTIVATION_PRECISION> > OFM10;
+                                         ^
+../../../../../source/host.cpp:471:43: error: template argument 1 is invalid
+  input_data<ap_uint<ACTIVATION_PRECISION> > OFM10;
+                                           ^
+../../../../../source/host.cpp:472:41: error: could not convert template argument ‘ACTIVATION_PRECISION’ from ‘<type error>’ to ‘int’
+  input_data<ap_uint<ACTIVATION_PRECISION> > OFM11;
+                                         ^
+../../../../../source/host.cpp:472:43: error: template argument 1 is invalid
+  input_data<ap_uint<ACTIVATION_PRECISION> > OFM11;
+                                           ^
+../../../../../source/host.cpp:473:41: error: could not convert template argument ‘ACTIVATION_PRECISION’ from ‘<type error>’ to ‘int’
+  input_data<ap_uint<ACTIVATION_PRECISION> > OFM12;
+                                         ^
+../../../../../source/host.cpp:473:43: error: template argument 1 is invalid
+  input_data<ap_uint<ACTIVATION_PRECISION> > OFM12;
+                                           ^
+../../../../../source/host.cpp:474:41: error: could not convert template argument ‘ACTIVATION_PRECISION’ from ‘<type error>’ to ‘int’
+  input_data<ap_uint<ACTIVATION_PRECISION> > OFM13;
+                                         ^
+../../../../../source/host.cpp:474:43: error: template argument 1 is invalid
+  input_data<ap_uint<ACTIVATION_PRECISION> > OFM13;
+                                           ^
+../../../../../source/host.cpp:475:41: error: could not convert template argument ‘ACTIVATION_PRECISION’ from ‘<type error>’ to ‘int’
+  input_data<ap_uint<ACTIVATION_PRECISION> > OFM14;
+                                         ^
+../../../../../source/host.cpp:475:43: error: template argument 1 is invalid
+  input_data<ap_uint<ACTIVATION_PRECISION> > OFM14;
+                                           ^
+../../../../../source/host.cpp:476:41: error: could not convert template argument ‘ACTIVATION_PRECISION’ from ‘<type error>’ to ‘int’
+  input_data<ap_uint<ACTIVATION_PRECISION> > OFM15;
+                                         ^
+../../../../../source/host.cpp:476:43: error: template argument 1 is invalid
+  input_data<ap_uint<ACTIVATION_PRECISION> > OFM15;
+                                           ^
+../../../../../source/host.cpp:477:41: error: could not convert template argument ‘ACTIVATION_PRECISION’ from ‘<type error>’ to ‘int’
+  input_data<ap_uint<ACTIVATION_PRECISION> > OFM16;
+                                         ^
+../../../../../source/host.cpp:477:43: error: template argument 1 is invalid
+  input_data<ap_uint<ACTIVATION_PRECISION> > OFM16;
+                                           ^
+../../../../../source/host.cpp:479:6: error: request for member ‘matrix_gen’ in ‘IFM’, which is of non-class type ‘int’
+  IFM.matrix_gen();
+      ^~~~~~~~~~
+../../../../../source/host.cpp:480:5: error: request for member ‘matrix_gen’ in ‘W1’, which is of non-class type ‘int’
+  W1.matrix_gen();
+     ^~~~~~~~~~
+../../../../../source/host.cpp:481:5: error: request for member ‘matrix_gen’ in ‘W2’, which is of non-class type ‘int’
+  W2.matrix_gen();
+     ^~~~~~~~~~
+../../../../../source/host.cpp:482:5: error: request for member ‘matrix_gen’ in ‘W3’, which is of non-class type ‘int’
+  W3.matrix_gen();
+     ^~~~~~~~~~
+../../../../../source/host.cpp:483:5: error: request for member ‘matrix_gen’ in ‘W4’, which is of non-class type ‘int’
+  W4.matrix_gen();
+     ^~~~~~~~~~
+../../../../../source/host.cpp:484:5: error: request for member ‘matrix_gen’ in ‘W5’, which is of non-class type ‘int’
+  W5.matrix_gen();
+     ^~~~~~~~~~
+../../../../../source/host.cpp:485:5: error: request for member ‘matrix_gen’ in ‘W6’, which is of non-class type ‘int’
+  W6.matrix_gen();
+     ^~~~~~~~~~
+../../../../../source/host.cpp:486:5: error: request for member ‘matrix_gen’ in ‘W7’, which is of non-class type ‘int’
+  W7.matrix_gen();
+     ^~~~~~~~~~
+../../../../../source/host.cpp:487:5: error: request for member ‘matrix_gen’ in ‘W8’, which is of non-class type ‘int’
+  W8.matrix_gen();
+     ^~~~~~~~~~
+../../../../../source/host.cpp:488:5: error: request for member ‘matrix_gen’ in ‘W9’, which is of non-class type ‘int’
+  W9.matrix_gen();
+     ^~~~~~~~~~
+../../../../../source/host.cpp:489:6: error: request for member ‘matrix_gen’ in ‘W10’, which is of non-class type ‘int’
+  W10.matrix_gen();
+      ^~~~~~~~~~
+../../../../../source/host.cpp:490:6: error: request for member ‘matrix_gen’ in ‘W11’, which is of non-class type ‘int’
+  W11.matrix_gen();
+      ^~~~~~~~~~
+../../../../../source/host.cpp:491:6: error: request for member ‘matrix_gen’ in ‘W12’, which is of non-class type ‘int’
+  W12.matrix_gen();
+      ^~~~~~~~~~
+../../../../../source/host.cpp:492:6: error: request for member ‘matrix_gen’ in ‘W13’, which is of non-class type ‘int’
+  W13.matrix_gen();
+      ^~~~~~~~~~
+../../../../../source/host.cpp:493:6: error: request for member ‘matrix_gen’ in ‘W14’, which is of non-class type ‘int’
+  W14.matrix_gen();
+      ^~~~~~~~~~
+../../../../../source/host.cpp:494:6: error: request for member ‘matrix_gen’ in ‘W15’, which is of non-class type ‘int’
+  W15.matrix_gen();
+      ^~~~~~~~~~
+../../../../../source/host.cpp:495:6: error: request for member ‘matrix_gen’ in ‘W16’, which is of non-class type ‘int’
+  W16.matrix_gen();
+      ^~~~~~~~~~
+../../../../../source/host.cpp:497:5: error: request for member ‘organize_data’ in ‘W1’, which is of non-class type ‘int’
+  W1.organize_data();
+     ^~~~~~~~~~~~~
+../../../../../source/host.cpp:498:5: error: request for member ‘organize_data’ in ‘W2’, which is of non-class type ‘int’
+  W2.organize_data();
+     ^~~~~~~~~~~~~
+../../../../../source/host.cpp:499:5: error: request for member ‘organize_data’ in ‘W3’, which is of non-class type ‘int’
+  W3.organize_data();
+     ^~~~~~~~~~~~~
+../../../../../source/host.cpp:500:5: error: request for member ‘organize_data’ in ‘W4’, which is of non-class type ‘int’
+  W4.organize_data();
+     ^~~~~~~~~~~~~
+../../../../../source/host.cpp:501:5: error: request for member ‘organize_data’ in ‘W5’, which is of non-class type ‘int’
+  W5.organize_data();
+     ^~~~~~~~~~~~~
+../../../../../source/host.cpp:502:5: error: request for member ‘organize_data’ in ‘W6’, which is of non-class type ‘int’
+  W6.organize_data();
+     ^~~~~~~~~~~~~
+../../../../../source/host.cpp:503:5: error: request for member ‘organize_data’ in ‘W7’, which is of non-class type ‘int’
+  W7.organize_data();
+     ^~~~~~~~~~~~~
+../../../../../source/host.cpp:504:5: error: request for member ‘organize_data’ in ‘W8’, which is of non-class type ‘int’
+  W8.organize_data();
+     ^~~~~~~~~~~~~
+../../../../../source/host.cpp:505:5: error: request for member ‘organize_data’ in ‘W9’, which is of non-class type ‘int’
+  W9.organize_data();
+     ^~~~~~~~~~~~~
+../../../../../source/host.cpp:506:6: error: request for member ‘organize_data’ in ‘W10’, which is of non-class type ‘int’
+  W10.organize_data();
+      ^~~~~~~~~~~~~
+../../../../../source/host.cpp:507:6: error: request for member ‘organize_data’ in ‘W11’, which is of non-class type ‘int’
+  W11.organize_data();
+      ^~~~~~~~~~~~~
+../../../../../source/host.cpp:508:6: error: request for member ‘organize_data’ in ‘W12’, which is of non-class type ‘int’
+  W12.organize_data();
+      ^~~~~~~~~~~~~
+../../../../../source/host.cpp:509:6: error: request for member ‘organize_data’ in ‘W13’, which is of non-class type ‘int’
+  W13.organize_data();
+      ^~~~~~~~~~~~~
+../../../../../source/host.cpp:510:6: error: request for member ‘organize_data’ in ‘W14’, which is of non-class type ‘int’
+  W14.organize_data();
+      ^~~~~~~~~~~~~
+../../../../../source/host.cpp:511:6: error: request for member ‘organize_data’ in ‘W15’, which is of non-class type ‘int’
+  W15.organize_data();
+      ^~~~~~~~~~~~~
+../../../../../source/host.cpp:512:6: error: request for member ‘organize_data’ in ‘W16’, which is of non-class type ‘int’
+  W16.organize_data();
+      ^~~~~~~~~~~~~
+../../../../../source/host.cpp:514:6: error: request for member ‘matrix_padding’ in ‘IFM’, which is of non-class type ‘int’
+  IFM.matrix_padding();
+      ^~~~~~~~~~~~~~
+../../../../../source/host.cpp:515:6: error: request for member ‘organize_data’ in ‘IFM’, which is of non-class type ‘int’
+  IFM.organize_data();
+      ^~~~~~~~~~~~~
+../../../../../source/host.cpp:517:7: error: request for member ‘matrix_padding’ in ‘OFM1’, which is of non-class type ‘int’
+  OFM1.matrix_padding();
+       ^~~~~~~~~~~~~~
+../../../../../source/host.cpp:519:7: error: request for member ‘pooling’ in ‘OFM2’, which is of non-class type ‘int’
+  OFM2.pooling();
+       ^~~~~~~
+../../../../../source/host.cpp:520:7: error: request for member ‘matrix_padding’ in ‘OFM2’, which is of non-class type ‘int’
+  OFM2.matrix_padding();
+       ^~~~~~~~~~~~~~
+../../../../../source/host.cpp:522:7: error: request for member ‘matrix_padding’ in ‘OFM3’, which is of non-class type ‘int’
+  OFM3.matrix_padding();
+       ^~~~~~~~~~~~~~
+../../../../../source/host.cpp:524:7: error: request for member ‘pooling’ in ‘OFM4’, which is of non-class type ‘int’
+  OFM4.pooling();
+       ^~~~~~~
+../../../../../source/host.cpp:525:7: error: request for member ‘matrix_padding’ in ‘OFM4’, which is of non-class type ‘int’
+  OFM4.matrix_padding();
+       ^~~~~~~~~~~~~~
+../../../../../source/host.cpp:527:7: error: request for member ‘matrix_padding’ in ‘OFM5’, which is of non-class type ‘int’
+  OFM5.matrix_padding();
+       ^~~~~~~~~~~~~~
+../../../../../source/host.cpp:529:7: error: request for member ‘matrix_padding’ in ‘OFM6’, which is of non-class type ‘int’
+  OFM6.matrix_padding();
+       ^~~~~~~~~~~~~~
+../../../../../source/host.cpp:531:7: error: request for member ‘pooling’ in ‘OFM7’, which is of non-class type ‘int’
+  OFM7.pooling();
+       ^~~~~~~
+../../../../../source/host.cpp:532:7: error: request for member ‘matrix_padding’ in ‘OFM7’, which is of non-class type ‘int’
+  OFM7.matrix_padding();
+       ^~~~~~~~~~~~~~
+../../../../../source/host.cpp:534:7: error: request for member ‘matrix_padding’ in ‘OFM8’, which is of non-class type ‘int’
+  OFM8.matrix_padding();
+       ^~~~~~~~~~~~~~
+../../../../../source/host.cpp:536:7: error: request for member ‘matrix_padding’ in ‘OFM9’, which is of non-class type ‘int’
+  OFM9.matrix_padding();
+       ^~~~~~~~~~~~~~
+../../../../../source/host.cpp:538:8: error: request for member ‘pooling’ in ‘OFM10’, which is of non-class type ‘int’
+  OFM10.pooling();
+        ^~~~~~~
+../../../../../source/host.cpp:539:8: error: request for member ‘matrix_padding’ in ‘OFM10’, which is of non-class type ‘int’
+  OFM10.matrix_padding();
+        ^~~~~~~~~~~~~~
+../../../../../source/host.cpp:541:8: error: request for member ‘matrix_padding’ in ‘OFM11’, which is of non-class type ‘int’
+  OFM11.matrix_padding();
+        ^~~~~~~~~~~~~~
+../../../../../source/host.cpp:543:8: error: request for member ‘matrix_padding’ in ‘OFM12’, which is of non-class type ‘int’
+  OFM12.matrix_padding();
+        ^~~~~~~~~~~~~~
+../../../../../source/host.cpp:545:8: error: request for member ‘pooling’ in ‘OFM13’, which is of non-class type ‘int’
+  OFM13.pooling();
+        ^~~~~~~
+../../../../../source/host.cpp:551:23: error: ‘WIDTH’ was not declared in this scope
+  int out_size = 1*1*1*WIDTH/8;
+                       ^~~~~
+../../../../../source/host.cpp:552:26: error: could not convert template argument ‘WIDTH’ from ‘<type error>’ to ‘int’
+     vector< ap_uint<WIDTH> > output_vector(out_size);
+                          ^
+../../../../../source/host.cpp:552:28: error: template argument 1 is invalid
+     vector< ap_uint<WIDTH> > output_vector(out_size);
+                            ^
+../../../../../source/host.cpp:552:28: error: template argument 2 is invalid
+../../../../../source/host.cpp:553:26: error: could not convert template argument ‘WIDTH’ from ‘<type error>’ to ‘int’
+     vector< ap_uint<WIDTH> > IFM_(IFM.return_vector());
+                          ^
+../../../../../source/host.cpp:553:28: error: template argument 1 is invalid
+     vector< ap_uint<WIDTH> > IFM_(IFM.return_vector());
+                            ^
+../../../../../source/host.cpp:553:28: error: template argument 2 is invalid
+../../../../../source/host.cpp:553:39: error: request for member ‘return_vector’ in ‘IFM’, which is of non-class type ‘int’
+     vector< ap_uint<WIDTH> > IFM_(IFM.return_vector());
+                                       ^~~~~~~~~~~~~
+../../../../../source/host.cpp:554:23: error: could not convert template argument ‘WIDTH’ from ‘<type error>’ to ‘int’
+  vector< ap_uint<WIDTH> > W1_(W1.return_vector());
+                       ^
+../../../../../source/host.cpp:554:25: error: template argument 1 is invalid
+  vector< ap_uint<WIDTH> > W1_(W1.return_vector());
+                         ^
+../../../../../source/host.cpp:554:25: error: template argument 2 is invalid
+../../../../../source/host.cpp:554:34: error: request for member ‘return_vector’ in ‘W1’, which is of non-class type ‘int’
+  vector< ap_uint<WIDTH> > W1_(W1.return_vector());
+                                  ^~~~~~~~~~~~~
+../../../../../source/host.cpp:555:23: error: could not convert template argument ‘WIDTH’ from ‘<type error>’ to ‘int’
+  vector< ap_uint<WIDTH> > W2_(W2.return_vector());
+                       ^
+../../../../../source/host.cpp:555:25: error: template argument 1 is invalid
+  vector< ap_uint<WIDTH> > W2_(W2.return_vector());
+                         ^
+../../../../../source/host.cpp:555:25: error: template argument 2 is invalid
+../../../../../source/host.cpp:555:34: error: request for member ‘return_vector’ in ‘W2’, which is of non-class type ‘int’
+  vector< ap_uint<WIDTH> > W2_(W2.return_vector());
+                                  ^~~~~~~~~~~~~
+../../../../../source/host.cpp:556:23: error: could not convert template argument ‘WIDTH’ from ‘<type error>’ to ‘int’
+  vector< ap_uint<WIDTH> > W3_(W3.return_vector());
+                       ^
+../../../../../source/host.cpp:556:25: error: template argument 1 is invalid
+  vector< ap_uint<WIDTH> > W3_(W3.return_vector());
+                         ^
+../../../../../source/host.cpp:556:25: error: template argument 2 is invalid
+../../../../../source/host.cpp:556:34: error: request for member ‘return_vector’ in ‘W3’, which is of non-class type ‘int’
+  vector< ap_uint<WIDTH> > W3_(W3.return_vector());
+                                  ^~~~~~~~~~~~~
+../../../../../source/host.cpp:557:23: error: could not convert template argument ‘WIDTH’ from ‘<type error>’ to ‘int’
+  vector< ap_uint<WIDTH> > W4_(W4.return_vector());
+                       ^
+../../../../../source/host.cpp:557:25: error: template argument 1 is invalid
+  vector< ap_uint<WIDTH> > W4_(W4.return_vector());
+                         ^
+../../../../../source/host.cpp:557:25: error: template argument 2 is invalid
+../../../../../source/host.cpp:557:34: error: request for member ‘return_vector’ in ‘W4’, which is of non-class type ‘int’
+  vector< ap_uint<WIDTH> > W4_(W4.return_vector());
+                                  ^~~~~~~~~~~~~
+../../../../../source/host.cpp:558:23: error: could not convert template argument ‘WIDTH’ from ‘<type error>’ to ‘int’
+  vector< ap_uint<WIDTH> > W5_(W5.return_vector());
+                       ^
+../../../../../source/host.cpp:558:25: error: template argument 1 is invalid
+  vector< ap_uint<WIDTH> > W5_(W5.return_vector());
+                         ^
+../../../../../source/host.cpp:558:25: error: template argument 2 is invalid
+../../../../../source/host.cpp:558:34: error: request for member ‘return_vector’ in ‘W5’, which is of non-class type ‘int’
+  vector< ap_uint<WIDTH> > W5_(W5.return_vector());
+                                  ^~~~~~~~~~~~~
+../../../../../source/host.cpp:559:23: error: could not convert template argument ‘WIDTH’ from ‘<type error>’ to ‘int’
+  vector< ap_uint<WIDTH> > W6_(W6.return_vector());
+                       ^
+../../../../../source/host.cpp:559:25: error: template argument 1 is invalid
+  vector< ap_uint<WIDTH> > W6_(W6.return_vector());
+                         ^
+../../../../../source/host.cpp:559:25: error: template argument 2 is invalid
+../../../../../source/host.cpp:559:34: error: request for member ‘return_vector’ in ‘W6’, which is of non-class type ‘int’
+  vector< ap_uint<WIDTH> > W6_(W6.return_vector());
+                                  ^~~~~~~~~~~~~
+../../../../../source/host.cpp:560:23: error: could not convert template argument ‘WIDTH’ from ‘<type error>’ to ‘int’
+  vector< ap_uint<WIDTH> > W7_(W7.return_vector());
+                       ^
+../../../../../source/host.cpp:560:25: error: template argument 1 is invalid
+  vector< ap_uint<WIDTH> > W7_(W7.return_vector());
+                         ^
+../../../../../source/host.cpp:560:25: error: template argument 2 is invalid
+../../../../../source/host.cpp:560:34: error: request for member ‘return_vector’ in ‘W7’, which is of non-class type ‘int’
+  vector< ap_uint<WIDTH> > W7_(W7.return_vector());
+                                  ^~~~~~~~~~~~~
+../../../../../source/host.cpp:561:23: error: could not convert template argument ‘WIDTH’ from ‘<type error>’ to ‘int’
+  vector< ap_uint<WIDTH> > W8_(W8.return_vector());
+                       ^
+../../../../../source/host.cpp:561:25: error: template argument 1 is invalid
+  vector< ap_uint<WIDTH> > W8_(W8.return_vector());
+                         ^
+../../../../../source/host.cpp:561:25: error: template argument 2 is invalid
+../../../../../source/host.cpp:561:34: error: request for member ‘return_vector’ in ‘W8’, which is of non-class type ‘int’
+  vector< ap_uint<WIDTH> > W8_(W8.return_vector());
+                                  ^~~~~~~~~~~~~
+../../../../../source/host.cpp:562:23: error: could not convert template argument ‘WIDTH’ from ‘<type error>’ to ‘int’
+  vector< ap_uint<WIDTH> > W9_(W9.return_vector());
+                       ^
+../../../../../source/host.cpp:562:25: error: template argument 1 is invalid
+  vector< ap_uint<WIDTH> > W9_(W9.return_vector());
+                         ^
+../../../../../source/host.cpp:562:25: error: template argument 2 is invalid
+../../../../../source/host.cpp:562:34: error: request for member ‘return_vector’ in ‘W9’, which is of non-class type ‘int’
+  vector< ap_uint<WIDTH> > W9_(W9.return_vector());
+                                  ^~~~~~~~~~~~~
+../../../../../source/host.cpp:563:23: error: could not convert template argument ‘WIDTH’ from ‘<type error>’ to ‘int’
+  vector< ap_uint<WIDTH> > W10_(W10.return_vector());
+                       ^
+../../../../../source/host.cpp:563:25: error: template argument 1 is invalid
+  vector< ap_uint<WIDTH> > W10_(W10.return_vector());
+                         ^
+../../../../../source/host.cpp:563:25: error: template argument 2 is invalid
+../../../../../source/host.cpp:563:36: error: request for member ‘return_vector’ in ‘W10’, which is of non-class type ‘int’
+  vector< ap_uint<WIDTH> > W10_(W10.return_vector());
+                                    ^~~~~~~~~~~~~
+../../../../../source/host.cpp:564:23: error: could not convert template argument ‘WIDTH’ from ‘<type error>’ to ‘int’
+  vector< ap_uint<WIDTH> > W11_(W11.return_vector());
+                       ^
+../../../../../source/host.cpp:564:25: error: template argument 1 is invalid
+  vector< ap_uint<WIDTH> > W11_(W11.return_vector());
+                         ^
+../../../../../source/host.cpp:564:25: error: template argument 2 is invalid
+../../../../../source/host.cpp:564:36: error: request for member ‘return_vector’ in ‘W11’, which is of non-class type ‘int’
+  vector< ap_uint<WIDTH> > W11_(W11.return_vector());
+                                    ^~~~~~~~~~~~~
+../../../../../source/host.cpp:565:23: error: could not convert template argument ‘WIDTH’ from ‘<type error>’ to ‘int’
+  vector< ap_uint<WIDTH> > W12_(W12.return_vector());
+                       ^
+../../../../../source/host.cpp:565:25: error: template argument 1 is invalid
+  vector< ap_uint<WIDTH> > W12_(W12.return_vector());
+                         ^
+../../../../../source/host.cpp:565:25: error: template argument 2 is invalid
+../../../../../source/host.cpp:565:36: error: request for member ‘return_vector’ in ‘W12’, which is of non-class type ‘int’
+  vector< ap_uint<WIDTH> > W12_(W12.return_vector());
+                                    ^~~~~~~~~~~~~
+../../../../../source/host.cpp:566:23: error: could not convert template argument ‘WIDTH’ from ‘<type error>’ to ‘int’
+  vector< ap_uint<WIDTH> > W13_(W13.return_vector());
+                       ^
+../../../../../source/host.cpp:566:25: error: template argument 1 is invalid
+  vector< ap_uint<WIDTH> > W13_(W13.return_vector());
+                         ^
+../../../../../source/host.cpp:566:25: error: template argument 2 is invalid
+../../../../../source/host.cpp:566:36: error: request for member ‘return_vector’ in ‘W13’, which is of non-class type ‘int’
+  vector< ap_uint<WIDTH> > W13_(W13.return_vector());
+                                    ^~~~~~~~~~~~~
+../../../../../source/host.cpp:567:23: error: could not convert template argument ‘WIDTH’ from ‘<type error>’ to ‘int’
+  vector< ap_uint<WIDTH> > W14_(W14.return_vector());
+                       ^
+../../../../../source/host.cpp:567:25: error: template argument 1 is invalid
+  vector< ap_uint<WIDTH> > W14_(W14.return_vector());
+                         ^
+../../../../../source/host.cpp:567:25: error: template argument 2 is invalid
+../../../../../source/host.cpp:567:36: error: request for member ‘return_vector’ in ‘W14’, which is of non-class type ‘int’
+  vector< ap_uint<WIDTH> > W14_(W14.return_vector());
+                                    ^~~~~~~~~~~~~
+../../../../../source/host.cpp:568:23: error: could not convert template argument ‘WIDTH’ from ‘<type error>’ to ‘int’
+  vector< ap_uint<WIDTH> > W15_(W15.return_vector());
+                       ^
+../../../../../source/host.cpp:568:25: error: template argument 1 is invalid
+  vector< ap_uint<WIDTH> > W15_(W15.return_vector());
+                         ^
+../../../../../source/host.cpp:568:25: error: template argument 2 is invalid
+../../../../../source/host.cpp:568:36: error: request for member ‘return_vector’ in ‘W15’, which is of non-class type ‘int’
+  vector< ap_uint<WIDTH> > W15_(W15.return_vector());
+                                    ^~~~~~~~~~~~~
+../../../../../source/host.cpp:569:23: error: could not convert template argument ‘WIDTH’ from ‘<type error>’ to ‘int’
+  vector< ap_uint<WIDTH> > W16_(W16.return_vector());
+                       ^
+../../../../../source/host.cpp:569:25: error: template argument 1 is invalid
+  vector< ap_uint<WIDTH> > W16_(W16.return_vector());
+                         ^
+../../../../../source/host.cpp:569:25: error: template argument 2 is invalid
+../../../../../source/host.cpp:569:36: error: request for member ‘return_vector’ in ‘W16’, which is of non-class type ‘int’
+  vector< ap_uint<WIDTH> > W16_(W16.return_vector());
+                                    ^~~~~~~~~~~~~
+../../../../../source/host.cpp:571:21: error: request for member ‘return_vector’ in ‘IFM’, which is of non-class type ‘int’
+  int IFM_size = IFM.return_vector().size()*WIDTH/8;
+                     ^~~~~~~~~~~~~
+../../../../../source/host.cpp:572:23: error: request for member ‘size’ in ‘W1_’, which is of non-class type ‘int’
+  int weight1_size=W1_.size()*WIDTH/8;//byte
+                       ^~~~
+../../../../../source/host.cpp:573:23: error: request for member ‘size’ in ‘W2_’, which is of non-class type ‘int’
+  int weight2_size=W2_.size()*WIDTH/8;//byte
+                       ^~~~
+../../../../../source/host.cpp:574:23: error: request for member ‘size’ in ‘W3_’, which is of non-class type ‘int’
+  int weight3_size=W3_.size()*WIDTH/8;//byte
+                       ^~~~
+../../../../../source/host.cpp:575:23: error: request for member ‘size’ in ‘W4_’, which is of non-class type ‘int’
+  int weight4_size=W4_.size()*WIDTH/8;//byte
+                       ^~~~
+../../../../../source/host.cpp:576:23: error: request for member ‘size’ in ‘W5_’, which is of non-class type ‘int’
+  int weight5_size=W5_.size()*WIDTH/8;//byte
+                       ^~~~
+../../../../../source/host.cpp:577:23: error: request for member ‘size’ in ‘W6_’, which is of non-class type ‘int’
+  int weight6_size=W6_.size()*WIDTH/8;//byte
+                       ^~~~
+../../../../../source/host.cpp:578:23: error: request for member ‘size’ in ‘W7_’, which is of non-class type ‘int’
+  int weight7_size=W7_.size()*WIDTH/8;//byte
+                       ^~~~
+../../../../../source/host.cpp:579:23: error: request for member ‘size’ in ‘W8_’, which is of non-class type ‘int’
+  int weight8_size=W8_.size()*WIDTH/8;//byte
+                       ^~~~
+../../../../../source/host.cpp:580:23: error: request for member ‘size’ in ‘W9_’, which is of non-class type ‘int’
+  int weight9_size=W9_.size()*WIDTH/8;//byte
+                       ^~~~
+../../../../../source/host.cpp:581:25: error: request for member ‘size’ in ‘W10_’, which is of non-class type ‘int’
+  int weight10_size=W10_.size()*WIDTH/8;//byte
+                         ^~~~
+../../../../../source/host.cpp:582:25: error: request for member ‘size’ in ‘W11_’, which is of non-class type ‘int’
+  int weight11_size=W11_.size()*WIDTH/8;//byte
+                         ^~~~
+../../../../../source/host.cpp:583:25: error: request for member ‘size’ in ‘W12_’, which is of non-class type ‘int’
+  int weight12_size=W12_.size()*WIDTH/8;//byte
+                         ^~~~
+../../../../../source/host.cpp:584:25: error: request for member ‘size’ in ‘W13_’, which is of non-class type ‘int’
+  int weight13_size=W13_.size()*WIDTH/8;//byte
+                         ^~~~
+../../../../../source/host.cpp:585:25: error: request for member ‘size’ in ‘W14_’, which is of non-class type ‘int’
+  int weight14_size=W14_.size()*WIDTH/8;//byte
+                         ^~~~
+../../../../../source/host.cpp:586:25: error: request for member ‘size’ in ‘W15_’, which is of non-class type ‘int’
+  int weight15_size=W15_.size()*WIDTH/8;//byte
+                         ^~~~
+../../../../../source/host.cpp:587:25: error: request for member ‘size’ in ‘W16_’, which is of non-class type ‘int’
+  int weight16_size=W16_.size()*WIDTH/8;//byte
+                         ^~~~
+../../../../../source/host.cpp:681:20: error: request for member ‘data’ in ‘IFM_’, which is of non-class type ‘int’
+     one_layer(IFM_.data(),
+                    ^~~~
+../../../../../source/host.cpp:682:13: error: request for member ‘data’ in ‘W1_’, which is of non-class type ‘int’
+         W1_.data(),
+             ^~~~
+../../../../../source/host.cpp:683:13: error: request for member ‘data’ in ‘W2_’, which is of non-class type ‘int’
+         W2_.data(),
+             ^~~~
+../../../../../source/host.cpp:684:13: error: request for member ‘data’ in ‘W3_’, which is of non-class type ‘int’
+         W3_.data(),
+             ^~~~
+../../../../../source/host.cpp:685:13: error: request for member ‘data’ in ‘W4_’, which is of non-class type ‘int’
+         W4_.data(),
+             ^~~~
+../../../../../source/host.cpp:686:13: error: request for member ‘data’ in ‘W5_’, which is of non-class type ‘int’
+         W5_.data(),
+             ^~~~
+../../../../../source/host.cpp:687:13: error: request for member ‘data’ in ‘W6_’, which is of non-class type ‘int’
+         W6_.data(),
+             ^~~~
+../../../../../source/host.cpp:688:13: error: request for member ‘data’ in ‘W7_’, which is of non-class type ‘int’
+         W7_.data(),
+             ^~~~
+../../../../../source/host.cpp:689:13: error: request for member ‘data’ in ‘W8_’, which is of non-class type ‘int’
+         W8_.data(),
+             ^~~~
+../../../../../source/host.cpp:690:13: error: request for member ‘data’ in ‘W9_’, which is of non-class type ‘int’
+         W9_.data(),
+             ^~~~
+../../../../../source/host.cpp:691:14: error: request for member ‘data’ in ‘W10_’, which is of non-class type ‘int’
+         W10_.data(),
+              ^~~~
+../../../../../source/host.cpp:692:14: error: request for member ‘data’ in ‘W11_’, which is of non-class type ‘int’
+         W11_.data(),
+              ^~~~
+../../../../../source/host.cpp:693:14: error: request for member ‘data’ in ‘W12_’, which is of non-class type ‘int’
+         W12_.data(),
+              ^~~~
+../../../../../source/host.cpp:694:14: error: request for member ‘data’ in ‘W13_’, which is of non-class type ‘int’
+         W13_.data(),
+              ^~~~
+../../../../../source/host.cpp:695:14: error: request for member ‘data’ in ‘W14_’, which is of non-class type ‘int’
+         W14_.data(),
+              ^~~~
+../../../../../source/host.cpp:696:14: error: request for member ‘data’ in ‘W15_’, which is of non-class type ‘int’
+         W15_.data(),
+              ^~~~
+../../../../../source/host.cpp:697:14: error: request for member ‘data’ in ‘W16_’, which is of non-class type ‘int’
+         W16_.data(),
+              ^~~~
+../../../../../source/host.cpp:698:23: error: request for member ‘data’ in ‘output_vector’, which is of non-class type ‘int’
+         output_vector.data());
+                       ^~~~
+../../../../../source/host.cpp:681:5: error: ‘one_layer’ was not declared in this scope
+     one_layer(IFM_.data(),
+     ^~~~~~~~~
+make: *** [csim.mk:79: obj/host.o] Error 1
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0.6 seconds. CPU system time: 0.09 seconds. Elapsed time: 0.71 seconds; current allocated memory: 0.000 MB.
+INFO: [HLS 200-1510] Running: close_project 
+ERROR: 4
+INFO: [HLS 200-112] Total CPU user time: 1.49 seconds. Total CPU system time: 0.2 seconds. Total elapsed time: 1.61 seconds; peak allocated memory: 290.297 MB.
+INFO: [Common 17-206] Exiting vitis_hls at Tue Sep 24 00:09:55 2024...

@@ -1,0 +1,139 @@
+INFO: [vitis-run 60-1548] Creating build summary session with primary output /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/streaming_vgg16.hlsrun_csim_summary, at Tue Sep 24 00:53:38 2024
+INFO: [vitis-run 82-31] Launching vitis_hls: vitis_hls -nolog -run csim -work_dir /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16 -config /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg -cmdlineconfig /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/config.cmdline
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+  **** SW Build 4023990 on Oct 11 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source /tools/Xilinx/Vitis_HLS/2023.2/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] Running '/tools/Xilinx/Vitis_HLS/2023.2/bin/unwrapped/lnx64.o/vitis_hls'
+INFO: [HLS 200-10] For user 'ryanfeng' on host 'ryanfeng-System-Product-Name' (Linux_x86_64 version 6.8.0-45-generic) on Tue Sep 24 00:53:39 PDT 2024
+INFO: [HLS 200-10] On os Ubuntu 22.04.5 LTS
+INFO: [HLS 200-10] In directory '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16'
+INFO: [HLS 200-1909] Reading HLS ini file /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg
+INFO: [HLS 200-1909] Reading HLS ini file /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/config.cmdline
+INFO: [HLS 200-2005] Using work_dir /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16 
+INFO: [HLS 200-1510] Running: open_project /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16 -diskless 
+INFO: [HLS 200-1510] Running: open_solution hls 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2023.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1510] Running: apply_ini /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg 
+INFO: [HLS 200-1909] Reading HLS ini file /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/activations.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(11)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/activations.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/bnn-library.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(12)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/bnn-library.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/conv.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(13)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/conv.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/convlayer.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(14)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/convlayer.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(15)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/dma.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(16)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/dma.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/fclayer.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(17)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/fclayer.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/interpret.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(18)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/interpret.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mac.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(19)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mac.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/maxpool.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(20)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/maxpool.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mmv.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(21)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mmv.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mvau.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(22)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mvau.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(23)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/slidingwindow.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(24)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/slidingwindow.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/streamtools.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(25)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/streamtools.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/tmrcheck.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(26)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/tmrcheck.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/upsample.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(27)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/upsample.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/utils.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(28)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/utils.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/vvau.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(29)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/vvau.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/weights.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(30)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/weights.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(31)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/host.cpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding test bench file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/host.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=one_layer' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(8)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2023.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xcvu9p-flga2104-2-i' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xcvu9p-flga2104-2-i'
+INFO: [HLS 200-1465] Applying ini 'csim.clean=true' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(7)
+INFO: [HLS 200-1465] Applying ini 'csim.code_analyzer=0' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(10)
+INFO: [HLS 200-1465] Applying ini 'csim.mflags=-D' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(32)
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(5)
+INFO: [HLS 200-1510] Running: apply_ini /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/config.cmdline 
+INFO: [HLS 200-1909] Reading HLS ini file /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/config.cmdline
+INFO: [HLS 200-1510] Running: csim_design 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+make: invalid option -- 'D'
+Usage: make [options] [target] ...
+Options:
+  -b, -m                      Ignored for compatibility.
+  -B, --always-make           Unconditionally make all targets.
+  -C DIRECTORY, --directory=DIRECTORY
+                              Change to DIRECTORY before doing anything.
+  -d                          Print lots of debugging information.
+  --debug[=FLAGS]             Print various types of debugging information.
+  -e, --environment-overrides
+                              Environment variables override makefiles.
+  -E STRING, --eval=STRING    Evaluate STRING as a makefile statement.
+  -f FILE, --file=FILE, --makefile=FILE
+                              Read FILE as a makefile.
+  -h, --help                  Print this message and exit.
+  -i, --ignore-errors         Ignore errors from recipes.
+  -I DIRECTORY, --include-dir=DIRECTORY
+                              Search DIRECTORY for included makefiles.
+  -j [N], --jobs[=N]          Allow N jobs at once; infinite jobs with no arg.
+  -k, --keep-going            Keep going when some targets can't be made.
+  -l [N], --load-average[=N], --max-load[=N]
+                              Don't start multiple jobs unless load is below N.
+  -L, --check-symlink-times   Use the latest mtime between symlinks and target.
+  -n, --just-print, --dry-run, --recon
+                              Don't actually run any recipe; just print them.
+  -o FILE, --old-file=FILE, --assume-old=FILE
+                              Consider FILE to be very old and don't remake it.
+  -O[TYPE], --output-sync[=TYPE]
+                              Synchronize output of parallel jobs by TYPE.
+  -p, --print-data-base       Print make's internal database.
+  -q, --question              Run no recipe; exit status says if up to date.
+  -r, --no-builtin-rules      Disable the built-in implicit rules.
+  -R, --no-builtin-variables  Disable the built-in variable settings.
+  -s, --silent, --quiet       Don't echo recipes.
+  --no-silent                 Echo recipes (disable --silent mode).
+  -S, --no-keep-going, --stop
+                              Turns off -k.
+  -t, --touch                 Touch targets instead of remaking them.
+  --trace                     Print tracing information.
+  -v, --version               Print the version number of make and exit.
+  -w, --print-directory       Print the current directory.
+  --no-print-directory        Turn off -w, even if it was turned on implicitly.
+  -W FILE, --what-if=FILE, --new-file=FILE, --assume-new=FILE
+                              Consider FILE to be infinitely new.
+  --warn-undefined-variables  Warn when an undefined variable is referenced.
+
+This program built for x86_64-pc-linux-gnu
+Report bugs to <bug-make@gnu.org>
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0.05 seconds. CPU system time: 0.04 seconds. Elapsed time: 0.09 seconds; current allocated memory: 0.000 MB.
+INFO: [HLS 200-1510] Running: close_project 
+ERROR: 4
+INFO: [HLS 200-112] Total CPU user time: 0.95 seconds. Total CPU system time: 0.16 seconds. Total elapsed time: 1 seconds; peak allocated memory: 290.418 MB.
+INFO: [Common 17-206] Exiting vitis_hls at Tue Sep 24 00:53:39 2024...

@@ -1,0 +1,140 @@
+---
+MainSourceFile:  /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp
+Diagnostics:     
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '71:32'
+    FilePath:        /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '72:31'
+    FilePath:        /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '73:31'
+    FilePath:        /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '74:31'
+    FilePath:        /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '75:31'
+    FilePath:        /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '76:31'
+    FilePath:        /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '77:31'
+    FilePath:        /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '78:31'
+    FilePath:        /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '79:31'
+    FilePath:        /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '80:31'
+    FilePath:        /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '81:31'
+    FilePath:        /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '82:31'
+    FilePath:        /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '83:31'
+    FilePath:        /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '84:32'
+    FilePath:        /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '85:32'
+    FilePath:        /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '86:32'
+    FilePath:        /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '92:32'
+    FilePath:        /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '94:31'
+    FilePath:        /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '96:31'
+    FilePath:        /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '98:31'
+    FilePath:        /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '100:31'
+    FilePath:        /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '102:31'
+    FilePath:        /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '104:31'
+    FilePath:        /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '106:31'
+    FilePath:        /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '108:31'
+    FilePath:        /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '110:31'
+    FilePath:        /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '112:31'
+    FilePath:        /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '114:31'
+    FilePath:        /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '116:31'
+    FilePath:        /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '118:32'
+    FilePath:        /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '120:32'
+    FilePath:        /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '122:32'
+    FilePath:        /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '328:2'
+    FilePath:        /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '328:13'
+    FilePath:        /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp
+...

@@ -1,0 +1,14 @@
+In file included from /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:9:
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:32:21: warning: unexpected pragma argument '=', expects identifier [-Winvalid-hls-pragmas]
+#pragma HLS PIPELINE=II
+                    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:42:21: warning: unexpected pragma argument '=', expects identifier [-Winvalid-hls-pragmas]
+#pragma HLS PIPELINE=II
+                    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:69:21: warning: unexpected pragma argument '=', expects identifier [-Winvalid-hls-pragmas]
+#pragma HLS PIPELINE=II
+                    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:78:21: warning: unexpected pragma argument '=', expects identifier [-Winvalid-hls-pragmas]
+#pragma HLS PIPELINE=II
+                    ^
+4 warnings generated.

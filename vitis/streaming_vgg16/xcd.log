@@ -1,0 +1,84 @@
+Tue Sep 24 00:01:44 2024: Running xcd server. This server was built by gradle.
+Tue Sep 24 00:01:44 2024: Server was asked to start on port: '53555'
+Tue Sep 24 00:01:44 2024: Server is using token UUID: 'dba15980-7a42-11ef-aee2-634d548e3c57'
+Tue Sep 24 00:01:44 2024: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Tue Sep 24 00:01:44 2024: Attempting to start server on port '53555'
+Tue Sep 24 00:01:44 2024: XCD main fifo: created main fifo '/tmp/xcdmaindba15980-7a42-11ef-aee2-634d548e3c57', fd read = 11
+Tue Sep 24 00:01:44 2024: Running Dispatch Server
+Tue Sep 24 00:01:44 2024: Version 2.2.0
+Tue Sep 24 00:01:45 2024: Dispatch Server: Accepted socket connection from client
+Tue Sep 24 00:01:45 2024: Starting Socket connection
+Tue Sep 24 00:01:45 2024: EXCHANGE_TOKEN received, server token: dba15980-7a42-11ef-aee2-634d548e3c57, passed token: dba15980-7a42-11ef-aee2-634d548e3c57
+Tue Sep 24 00:01:45 2024: SESSION_MGR: creating session with session uuid: 'b84c590a-1e61-4d49-8812-1ea5b6b88cb1' and name 'Code Analyzer'
+Tue Sep 24 00:01:45 2024: KERNEL_SVC: creating session with uuid: 'b84c590a-1e61-4d49-8812-1ea5b6b88cb1' and name 'Code Analyzer'
+Tue Sep 24 00:01:45 2024: GUIDANCE_SMGR: creating guidance session with uuid: 'b84c590a-1e61-4d49-8812-1ea5b6b88cb1' and name 'Code Analyzer'
+Tue Sep 24 00:01:46 2024: SESSION_MGR: closing session for UUID 'b84c590a-1e61-4d49-8812-1ea5b6b88cb1' with name ''
+Tue Sep 24 00:01:46 2024: KERNEL_SVC: closing session for UUID 'b84c590a-1e61-4d49-8812-1ea5b6b88cb1' with name ''
+Tue Sep 24 00:01:46 2024: GUIDANCE_SMGR: closing session for UUID 'b84c590a-1e61-4d49-8812-1ea5b6b88cb1' with name ''
+Tue Sep 24 00:01:46 2024: STOP_SERVER received, server token: dba15980-7a42-11ef-aee2-634d548e3c57, passed token: dba15980-7a42-11ef-aee2-634d548e3c57
+Tue Sep 24 00:01:46 2024: Socket received request to stop server.
+Tue Sep 24 00:01:46 2024: Dispatch Server: do_await_stop
+Tue Sep 24 00:01:46 2024: Dispatch Server: stopping mainFifo_
+Tue Sep 24 00:01:46 2024: XCD main fifo: Stopping
+Tue Sep 24 00:01:46 2024: XCD main fifo: do_read error code: Operation canceled
+Tue Sep 24 00:01:46 2024: XCD main fifo: bytes_transferred: 0
+Tue Sep 24 00:01:46 2024: SERVER: destructor for server bound to port 53555
+Tue Sep 24 00:01:46 2024: XCD main fifo: Good unlink of /tmp/xcdmaindba15980-7a42-11ef-aee2-634d548e3c57
+Tue Sep 24 00:01:46 2024: Server exiting with status 0.
+Tue Sep 24 00:01:46 2024: Closing log file.
+Tue Sep 24 00:02:12 2024: Running xcd server. This server was built by gradle.
+Tue Sep 24 00:02:12 2024: Server was asked to start on port: '58463'
+Tue Sep 24 00:02:12 2024: Server is using token UUID: 'ebd4f76c-7a42-11ef-aee2-634d548e3c57'
+Tue Sep 24 00:02:12 2024: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Tue Sep 24 00:02:12 2024: Attempting to start server on port '58463'
+Tue Sep 24 00:02:12 2024: XCD main fifo: created main fifo '/tmp/xcdmainebd4f76c-7a42-11ef-aee2-634d548e3c57', fd read = 11
+Tue Sep 24 00:02:12 2024: Running Dispatch Server
+Tue Sep 24 00:02:12 2024: Version 2.2.0
+Tue Sep 24 00:02:12 2024: Dispatch Server: Accepted socket connection from client
+Tue Sep 24 00:02:12 2024: Starting Socket connection
+Tue Sep 24 00:02:12 2024: EXCHANGE_TOKEN received, server token: ebd4f76c-7a42-11ef-aee2-634d548e3c57, passed token: ebd4f76c-7a42-11ef-aee2-634d548e3c57
+Tue Sep 24 00:02:12 2024: SESSION_MGR: creating session with session uuid: '8a7e9184-7068-42ca-9099-19f14369d85a' and name 'Code Analyzer'
+Tue Sep 24 00:02:12 2024: KERNEL_SVC: creating session with uuid: '8a7e9184-7068-42ca-9099-19f14369d85a' and name 'Code Analyzer'
+Tue Sep 24 00:02:12 2024: GUIDANCE_SMGR: creating guidance session with uuid: '8a7e9184-7068-42ca-9099-19f14369d85a' and name 'Code Analyzer'
+Tue Sep 24 00:02:13 2024: SESSION_MGR: closing session for UUID '8a7e9184-7068-42ca-9099-19f14369d85a' with name ''
+Tue Sep 24 00:02:13 2024: KERNEL_SVC: closing session for UUID '8a7e9184-7068-42ca-9099-19f14369d85a' with name ''
+Tue Sep 24 00:02:13 2024: GUIDANCE_SMGR: closing session for UUID '8a7e9184-7068-42ca-9099-19f14369d85a' with name ''
+Tue Sep 24 00:02:13 2024: STOP_SERVER received, server token: ebd4f76c-7a42-11ef-aee2-634d548e3c57, passed token: ebd4f76c-7a42-11ef-aee2-634d548e3c57
+Tue Sep 24 00:02:13 2024: Socket received request to stop server.
+Tue Sep 24 00:02:13 2024: Dispatch Server: do_await_stop
+Tue Sep 24 00:02:13 2024: Dispatch Server: stopping mainFifo_
+Tue Sep 24 00:02:13 2024: XCD main fifo: Stopping
+Tue Sep 24 00:02:13 2024: XCD main fifo: do_read error code: Operation canceled
+Tue Sep 24 00:02:13 2024: XCD main fifo: bytes_transferred: 0
+Tue Sep 24 00:02:13 2024: SERVER: destructor for server bound to port 58463
+Tue Sep 24 00:02:13 2024: XCD main fifo: Good unlink of /tmp/xcdmainebd4f76c-7a42-11ef-aee2-634d548e3c57
+Tue Sep 24 00:02:13 2024: Server exiting with status 0.
+Tue Sep 24 00:02:13 2024: Closing log file.
+Tue Sep 24 00:06:24 2024: Running xcd server. This server was built by gradle.
+Tue Sep 24 00:06:24 2024: Server was asked to start on port: '42729'
+Tue Sep 24 00:06:24 2024: Server is using token UUID: '8210f906-7a43-11ef-aee2-634d548e3c57'
+Tue Sep 24 00:06:24 2024: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Tue Sep 24 00:06:24 2024: Attempting to start server on port '42729'
+Tue Sep 24 00:06:24 2024: XCD main fifo: created main fifo '/tmp/xcdmain8210f906-7a43-11ef-aee2-634d548e3c57', fd read = 11
+Tue Sep 24 00:06:24 2024: Running Dispatch Server
+Tue Sep 24 00:06:24 2024: Version 2.2.0
+Tue Sep 24 00:06:24 2024: Dispatch Server: Accepted socket connection from client
+Tue Sep 24 00:06:24 2024: Starting Socket connection
+Tue Sep 24 00:06:24 2024: EXCHANGE_TOKEN received, server token: 8210f906-7a43-11ef-aee2-634d548e3c57, passed token: 8210f906-7a43-11ef-aee2-634d548e3c57
+Tue Sep 24 00:06:24 2024: SESSION_MGR: creating session with session uuid: '50d73607-86c9-4ae8-95f7-972cdc5cdc21' and name 'Code Analyzer'
+Tue Sep 24 00:06:24 2024: KERNEL_SVC: creating session with uuid: '50d73607-86c9-4ae8-95f7-972cdc5cdc21' and name 'Code Analyzer'
+Tue Sep 24 00:06:24 2024: GUIDANCE_SMGR: creating guidance session with uuid: '50d73607-86c9-4ae8-95f7-972cdc5cdc21' and name 'Code Analyzer'
+Tue Sep 24 00:06:25 2024: SESSION_MGR: closing session for UUID '50d73607-86c9-4ae8-95f7-972cdc5cdc21' with name ''
+Tue Sep 24 00:06:25 2024: KERNEL_SVC: closing session for UUID '50d73607-86c9-4ae8-95f7-972cdc5cdc21' with name ''
+Tue Sep 24 00:06:25 2024: GUIDANCE_SMGR: closing session for UUID '50d73607-86c9-4ae8-95f7-972cdc5cdc21' with name ''
+Tue Sep 24 00:06:25 2024: STOP_SERVER received, server token: 8210f906-7a43-11ef-aee2-634d548e3c57, passed token: 8210f906-7a43-11ef-aee2-634d548e3c57
+Tue Sep 24 00:06:25 2024: Socket received request to stop server.
+Tue Sep 24 00:06:25 2024: Dispatch Server: do_await_stop
+Tue Sep 24 00:06:25 2024: Dispatch Server: stopping mainFifo_
+Tue Sep 24 00:06:25 2024: XCD main fifo: Stopping
+Tue Sep 24 00:06:25 2024: XCD main fifo: do_read error code: Operation canceled
+Tue Sep 24 00:06:25 2024: XCD main fifo: bytes_transferred: 0
+Tue Sep 24 00:06:25 2024: SERVER: destructor for server bound to port 42729
+Tue Sep 24 00:06:25 2024: XCD main fifo: Good unlink of /tmp/xcdmain8210f906-7a43-11ef-aee2-634d548e3c57
+Tue Sep 24 00:06:25 2024: Server exiting with status 0.
+Tue Sep 24 00:06:25 2024: Closing log file.

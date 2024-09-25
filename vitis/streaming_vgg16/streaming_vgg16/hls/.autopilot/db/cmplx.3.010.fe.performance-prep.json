@@ -1,0 +1,794 @@
+{
+  "0": {
+    "basicblocks": 1,
+    "calls": "40 64 33 48 17 45 14 46 23 65 28 35 47 34 51 7 8 36 38 37 4 59 25 56 55 20 12 62 32 39 16 15 1 53 63 41 66 18 27 26 52 2 54 3 22 58 30 6 61 31 49 43 60 5 29 19 9 24 57 44 13 10 42 50 11 21",
+    "file": "one_layer.cpp",
+    "fileloc": 12,
+    "instructions": 1086,
+    "name": "one_layer",
+    "stores": {
+      "T": 1
+    },
+    "total_instructions": 50504
+  },
+  "1": {
+    "basicblocks": 26,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 25,
+    "instructions": 63,
+    "name": "read_weight_long<0, 36864, 36864, 2, 2, 8, 4>",
+    "total_instructions": 63
+  },
+  "10": {
+    "basicblocks": 16,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 418,
+    "instructions": 71,
+    "loads": {
+      "L": 1
+    },
+    "name": "Input_Generator_short_2<512, 16, 128, 1, 1, 1, 1, 1, 512, 1, 10354688, 10387456>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 71
+  },
+  "11": {
+    "basicblocks": 16,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 418,
+    "instructions": 71,
+    "loads": {
+      "L": 1
+    },
+    "name": "Input_Generator_short_2<512, 16, 16, 1, 1, 1, 1, 1, 10, 1, 10387456, 10392576>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 71
+  },
+  "12": {
+    "basicblocks": 10,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 834,
+    "instructions": 29,
+    "name": "Padding<8, 8>",
+    "total_instructions": 29
+  },
+  "13": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 60,
+    "instructions": 11,
+    "name": "read_weight_short<128, 0, 32768, 32768, 1, 1, 1>",
+    "total_instructions": 11
+  },
+  "14": {
+    "basicblocks": 26,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 141,
+    "instructions": 143,
+    "loads": {
+      "L": 3
+    },
+    "name": "Input_Generator_long<2, 1, 34, 3, 9, 34, 32, 8, 1, 589824, 1769472>",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 143
+  },
+  "15": {
+    "basicblocks": 10,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 834,
+    "instructions": 29,
+    "name": "Padding<8, 4>",
+    "total_instructions": 29
+  },
+  "16": {
+    "basicblocks": 19,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 867,
+    "instructions": 402,
+    "loads": {
+      "L": 3
+    },
+    "name": "Pooling<8, 8>",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 402
+  },
+  "17": {
+    "basicblocks": 10,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 834,
+    "instructions": 29,
+    "name": "Padding<2, 32>",
+    "total_instructions": 29
+  },
+  "18": {
+    "basicblocks": 40,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 141,
+    "instructions": 353,
+    "loads": {
+      "L": 31
+    },
+    "name": "Input_Generator_long<16, 1, 6, 3, 2, 6, 4, 256, 2, 7077888, 8257536>",
+    "stores": {
+      "L": 16
+    },
+    "total_instructions": 353
+  },
+  "19": {
+    "basicblocks": 18,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 536,
+    "instructions": 1606,
+    "name": "Mac_long<8, 8, 1, 3, 2, 512, 1, 2>",
+    "total_instructions": 1606
+  },
+  "2": {
+    "basicblocks": 40,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 141,
+    "instructions": 353,
+    "loads": {
+      "L": 31
+    },
+    "name": "Input_Generator_long<16, 1, 6, 3, 2, 6, 4, 256, 2, 8257536, 9437184>",
+    "stores": {
+      "L": 16
+    },
+    "total_instructions": 353
+  },
+  "20": {
+    "basicblocks": 21,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 536,
+    "instructions": 4736,
+    "loads": {
+      "L": 1
+    },
+    "name": "Mac_long<8, 8, 3, 3, 8, 86, 1, 1>",
+    "stores": {
+      "L": 6
+    },
+    "total_instructions": 4736
+  },
+  "21": {
+    "basicblocks": 10,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 733,
+    "instructions": 40,
+    "name": "Mac_short_2<16, 16, 1, 1, 1, 1, 10, 1, 512>",
+    "total_instructions": 40
+  },
+  "22": {
+    "basicblocks": 10,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 834,
+    "instructions": 29,
+    "name": "Padding<16, 2>",
+    "total_instructions": 29
+  },
+  "23": {
+    "basicblocks": 19,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 867,
+    "instructions": 402,
+    "loads": {
+      "L": 3
+    },
+    "name": "Pooling<2, 32>",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 402
+  },
+  "24": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 60,
+    "instructions": 11,
+    "name": "read_weight_short<128, 0, 32768, 32768, 1, 1, 1>",
+    "total_instructions": 11
+  },
+  "25": {
+    "basicblocks": 10,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 834,
+    "instructions": 29,
+    "name": "Padding<8, 8>",
+    "total_instructions": 29
+  },
+  "26": {
+    "basicblocks": 10,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 834,
+    "instructions": 29,
+    "name": "Padding<16, 4>",
+    "total_instructions": 29
+  },
+  "27": {
+    "basicblocks": 19,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 536,
+    "instructions": 6279,
+    "loads": {
+      "L": 1
+    },
+    "name": "Mac_long<16, 16, 2, 3, 4, 256, 2, 1>",
+    "stores": {
+      "L": 4
+    },
+    "total_instructions": 6279
+  },
+  "28": {
+    "basicblocks": 33,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 25,
+    "instructions": 94,
+    "name": "read_weight_long<0, 2250, 2304, 5, 3, 2, 16>",
+    "total_instructions": 94
+  },
+  "29": {
+    "basicblocks": 42,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 141,
+    "instructions": 326,
+    "loads": {
+      "L": 30
+    },
+    "name": "Input_Generator_long<8, 2, 3, 3, 1, 4, 2, 512, 1, 10027008, 10321920>",
+    "stores": {
+      "L": 16
+    },
+    "total_instructions": 326
+  },
+  "3": {
+    "basicblocks": 19,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 867,
+    "instructions": 402,
+    "loads": {
+      "L": 3
+    },
+    "name": "Pooling<16, 4>",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 402
+  },
+  "30": {
+    "basicblocks": 42,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 141,
+    "instructions": 326,
+    "loads": {
+      "L": 30
+    },
+    "name": "Input_Generator_long<8, 2, 4, 3, 1, 4, 2, 512, 1, 9437184, 9732096>",
+    "stores": {
+      "L": 16
+    },
+    "total_instructions": 326
+  },
+  "31": {
+    "basicblocks": 16,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 25,
+    "instructions": 38,
+    "name": "read_weight_long<0, 73728, 73728, 1, 1, 8, 2>",
+    "total_instructions": 38
+  },
+  "32": {
+    "basicblocks": 32,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 141,
+    "instructions": 225,
+    "loads": {
+      "L": 15
+    },
+    "name": "Input_Generator_long<8, 1, 10, 3, 3, 10, 8, 86, 1, 5308416, 6488064>",
+    "stores": {
+      "L": 8
+    },
+    "total_instructions": 225
+  },
+  "33": {
+    "basicblocks": 21,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 284,
+    "instructions": 123,
+    "loads": {
+      "L": 1
+    },
+    "name": "Input_Generator_short_1<48, 1, 48, 34, 3, 13, 34, 32, 5, 12, 0, 589824>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 123
+  },
+  "34": {
+    "basicblocks": 10,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 834,
+    "instructions": 29,
+    "name": "Padding<4, 16>",
+    "total_instructions": 29
+  },
+  "35": {
+    "basicblocks": 26,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 141,
+    "instructions": 139,
+    "loads": {
+      "L": 3
+    },
+    "name": "Input_Generator_long<2, 1, 18, 3, 5, 18, 16, 26, 3, 1769472, 2359296>",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 139
+  },
+  "36": {
+    "basicblocks": 19,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 867,
+    "instructions": 402,
+    "loads": {
+      "L": 3
+    },
+    "name": "Pooling<4, 16>",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 402
+  },
+  "37": {
+    "basicblocks": 31,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 25,
+    "instructions": 85,
+    "name": "read_weight_long<0, 9180, 9216, 3, 1, 4, 8>",
+    "total_instructions": 85
+  },
+  "38": {
+    "basicblocks": 10,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 834,
+    "instructions": 29,
+    "name": "Padding<4, 8>",
+    "total_instructions": 29
+  },
+  "39": {
+    "basicblocks": 21,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 536,
+    "instructions": 4736,
+    "loads": {
+      "L": 1
+    },
+    "name": "Mac_long<8, 8, 3, 3, 8, 86, 1, 1>",
+    "stores": {
+      "L": 6
+    },
+    "total_instructions": 4736
+  },
+  "4": {
+    "basicblocks": 28,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 141,
+    "instructions": 161,
+    "loads": {
+      "L": 7
+    },
+    "name": "Input_Generator_long<4, 1, 10, 3, 3, 10, 8, 86, 1, 3538944, 4128768>",
+    "stores": {
+      "L": 4
+    },
+    "total_instructions": 161
+  },
+  "40": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 110,
+    "instructions": 11,
+    "name": "read_in_short<48, 3, 34, 3>",
+    "total_instructions": 11
+  },
+  "41": {
+    "basicblocks": 10,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 834,
+    "instructions": 29,
+    "name": "Padding<16, 4>",
+    "total_instructions": 29
+  },
+  "42": {
+    "basicblocks": 10,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 733,
+    "instructions": 82,
+    "name": "Mac_short_2<128, 128, 8, 1, 1, 1, 512, 1, 64>",
+    "total_instructions": 82
+  },
+  "43": {
+    "basicblocks": 18,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 536,
+    "instructions": 1606,
+    "name": "Mac_long<8, 8, 1, 3, 2, 512, 1, 2>",
+    "total_instructions": 1606
+  },
+  "44": {
+    "basicblocks": 10,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 733,
+    "instructions": 82,
+    "name": "Mac_short_2<128, 128, 8, 1, 1, 1, 512, 1, 64>",
+    "total_instructions": 82
+  },
+  "45": {
+    "basicblocks": 35,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 25,
+    "instructions": 94,
+    "name": "read_weight_long<0, 1134, 1152, 9, 1, 2, 32>",
+    "total_instructions": 94
+  },
+  "46": {
+    "basicblocks": 21,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 536,
+    "instructions": 3608,
+    "loads": {
+      "L": 1
+    },
+    "name": "Mac_long<2, 2, 9, 3, 32, 8, 1, 1>",
+    "stores": {
+      "L": 18
+    },
+    "total_instructions": 3608
+  },
+  "47": {
+    "basicblocks": 21,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 536,
+    "instructions": 2030,
+    "loads": {
+      "L": 1
+    },
+    "name": "Mac_long<2, 2, 5, 3, 16, 26, 3, 1>",
+    "stores": {
+      "L": 10
+    },
+    "total_instructions": 2030
+  },
+  "48": {
+    "basicblocks": 21,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 637,
+    "instructions": 395,
+    "loads": {
+      "L": 1
+    },
+    "name": "Mac_short_1<48, 48, 3, 13, 3, 32, 5, 12, 1>",
+    "stores": {
+      "L": 26
+    },
+    "total_instructions": 395
+  },
+  "49": {
+    "basicblocks": 42,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 141,
+    "instructions": 326,
+    "loads": {
+      "L": 30
+    },
+    "name": "Input_Generator_long<8, 2, 4, 3, 1, 4, 2, 512, 1, 9732096, 10027008>",
+    "stores": {
+      "L": 16
+    },
+    "total_instructions": 326
+  },
+  "5": {
+    "basicblocks": 16,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 25,
+    "instructions": 38,
+    "name": "read_weight_long<0, 73728, 73728, 1, 1, 8, 2>",
+    "total_instructions": 38
+  },
+  "50": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 60,
+    "instructions": 11,
+    "name": "read_weight_short<16, 0, 5120, 5120, 1, 1, 1>",
+    "total_instructions": 11
+  },
+  "51": {
+    "basicblocks": 49,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 25,
+    "instructions": 126,
+    "name": "read_weight_long<0, 4500, 4608, 5, 3, 4, 16>",
+    "total_instructions": 126
+  },
+  "52": {
+    "basicblocks": 42,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 25,
+    "instructions": 95,
+    "name": "read_weight_long<0, 73728, 73728, 2, 2, 16, 4>",
+    "total_instructions": 95
+  },
+  "53": {
+    "basicblocks": 32,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 141,
+    "instructions": 225,
+    "loads": {
+      "L": 15
+    },
+    "name": "Input_Generator_long<8, 1, 6, 3, 2, 6, 4, 256, 2, 6488064, 7077888>",
+    "stores": {
+      "L": 8
+    },
+    "total_instructions": 225
+  },
+  "54": {
+    "basicblocks": 19,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 536,
+    "instructions": 6279,
+    "loads": {
+      "L": 1
+    },
+    "name": "Mac_long<16, 16, 2, 3, 4, 256, 2, 1>",
+    "stores": {
+      "L": 4
+    },
+    "total_instructions": 6279
+  },
+  "55": {
+    "basicblocks": 32,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 141,
+    "instructions": 225,
+    "loads": {
+      "L": 15
+    },
+    "name": "Input_Generator_long<8, 1, 10, 3, 3, 10, 8, 86, 1, 4128768, 5308416>",
+    "stores": {
+      "L": 8
+    },
+    "total_instructions": 225
+  },
+  "56": {
+    "basicblocks": 47,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 25,
+    "instructions": 117,
+    "name": "read_weight_long<0, 18360, 18432, 3, 1, 8, 8>",
+    "total_instructions": 117
+  },
+  "57": {
+    "basicblocks": 16,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 418,
+    "instructions": 71,
+    "loads": {
+      "L": 1
+    },
+    "name": "Input_Generator_short_2<512, 16, 128, 1, 1, 1, 1, 1, 512, 1, 10321920, 10354688>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 71
+  },
+  "58": {
+    "basicblocks": 16,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 25,
+    "instructions": 38,
+    "name": "read_weight_long<0, 73728, 73728, 1, 1, 8, 2>",
+    "total_instructions": 38
+  },
+  "59": {
+    "basicblocks": 21,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 536,
+    "instructions": 2408,
+    "loads": {
+      "L": 1
+    },
+    "name": "Mac_long<4, 4, 3, 3, 8, 86, 1, 1>",
+    "stores": {
+      "L": 6
+    },
+    "total_instructions": 2408
+  },
+  "6": {
+    "basicblocks": 18,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 536,
+    "instructions": 1606,
+    "name": "Mac_long<8, 8, 1, 3, 2, 512, 1, 2>",
+    "total_instructions": 1606
+  },
+  "60": {
+    "basicblocks": 10,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 834,
+    "instructions": 29,
+    "name": "Padding<16, 2>",
+    "total_instructions": 29
+  },
+  "61": {
+    "basicblocks": 10,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 834,
+    "instructions": 29,
+    "name": "Padding<16, 2>",
+    "total_instructions": 29
+  },
+  "62": {
+    "basicblocks": 47,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 25,
+    "instructions": 117,
+    "name": "read_weight_long<0, 18360, 18432, 3, 1, 8, 8>",
+    "total_instructions": 117
+  },
+  "63": {
+    "basicblocks": 19,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 536,
+    "instructions": 3175,
+    "loads": {
+      "L": 1
+    },
+    "name": "Mac_long<8, 8, 2, 3, 4, 256, 2, 1>",
+    "stores": {
+      "L": 4
+    },
+    "total_instructions": 3175
+  },
+  "64": {
+    "basicblocks": 38,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 60,
+    "instructions": 96,
+    "name": "read_weight_short<48, 0, 468, 576, 13, 12, 32>",
+    "total_instructions": 96
+  },
+  "65": {
+    "basicblocks": 10,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 834,
+    "instructions": 29,
+    "name": "Padding<2, 16>",
+    "total_instructions": 29
+  },
+  "66": {
+    "basicblocks": 42,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 25,
+    "instructions": 95,
+    "name": "read_weight_long<0, 73728, 73728, 2, 2, 16, 4>",
+    "total_instructions": 95
+  },
+  "7": {
+    "basicblocks": 28,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 141,
+    "instructions": 177,
+    "loads": {
+      "L": 7
+    },
+    "name": "Input_Generator_long<4, 1, 18, 3, 5, 18, 16, 26, 3, 2359296, 3538944>",
+    "stores": {
+      "L": 4
+    },
+    "total_instructions": 177
+  },
+  "8": {
+    "basicblocks": 21,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 536,
+    "instructions": 3970,
+    "loads": {
+      "L": 1
+    },
+    "name": "Mac_long<4, 4, 5, 3, 16, 26, 3, 1>",
+    "stores": {
+      "L": 10
+    },
+    "total_instructions": 3970
+  },
+  "9": {
+    "basicblocks": 11,
+    "calls": "",
+    "file": "one_layer.hpp",
+    "fileloc": 867,
+    "instructions": 369,
+    "loads": {
+      "L": 3
+    },
+    "name": "Pooling<16, 2>",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 369
+  }
+}

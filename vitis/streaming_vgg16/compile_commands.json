@@ -1,0 +1,296 @@
+[
+  {
+    "directory": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16",
+    "arguments": [
+      "/tools/Xilinx/Vitis_HLS/2023.2/tps/lnx64/gcc-8.3.0/bin/g++",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/etc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/ap_sysc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/auto_cc/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/systemc/include",
+      "--compile",
+      "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/slidingwindow.h"
+    ],
+    "file": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/slidingwindow.h"
+  },
+  {
+    "directory": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16",
+    "arguments": [
+      "/tools/Xilinx/Vitis_HLS/2023.2/tps/lnx64/gcc-8.3.0/bin/g++",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/etc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/ap_sysc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/auto_cc/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/systemc/include",
+      "--compile",
+      "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mvau.hpp"
+    ],
+    "file": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mvau.hpp"
+  },
+  {
+    "directory": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16",
+    "arguments": [
+      "/tools/Xilinx/Vitis_HLS/2023.2/tps/lnx64/gcc-8.3.0/bin/g++",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/etc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/ap_sysc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/auto_cc/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/systemc/include",
+      "--compile",
+      "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp"
+    ],
+    "file": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp"
+  },
+  {
+    "directory": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16",
+    "arguments": [
+      "/tools/Xilinx/Vitis_HLS/2023.2/tps/lnx64/gcc-8.3.0/bin/g++",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/etc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/ap_sysc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/auto_cc/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/systemc/include",
+      "--compile",
+      "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/activations.hpp"
+    ],
+    "file": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/activations.hpp"
+  },
+  {
+    "directory": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16",
+    "arguments": [
+      "/tools/Xilinx/Vitis_HLS/2023.2/tps/lnx64/gcc-8.3.0/bin/g++",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/etc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/ap_sysc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/auto_cc/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/systemc/include",
+      "--compile",
+      "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/fclayer.h"
+    ],
+    "file": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/fclayer.h"
+  },
+  {
+    "directory": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16",
+    "arguments": [
+      "/tools/Xilinx/Vitis_HLS/2023.2/tps/lnx64/gcc-8.3.0/bin/g++",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/etc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/ap_sysc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/auto_cc/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/systemc/include",
+      "--compile",
+      "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mac.hpp"
+    ],
+    "file": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mac.hpp"
+  },
+  {
+    "directory": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16",
+    "arguments": [
+      "/tools/Xilinx/Vitis_HLS/2023.2/tps/lnx64/gcc-8.3.0/bin/g++",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/etc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/ap_sysc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/auto_cc/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/systemc/include",
+      "--compile",
+      "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/conv.hpp"
+    ],
+    "file": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/conv.hpp"
+  },
+  {
+    "directory": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16",
+    "arguments": [
+      "/tools/Xilinx/Vitis_HLS/2023.2/tps/lnx64/gcc-8.3.0/bin/g++",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/etc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/ap_sysc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/auto_cc/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/systemc/include",
+      "--compile",
+      "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp"
+    ],
+    "file": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp"
+  },
+  {
+    "directory": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16",
+    "arguments": [
+      "/tools/Xilinx/Vitis_HLS/2023.2/tps/lnx64/gcc-8.3.0/bin/g++",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/etc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/ap_sysc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/auto_cc/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/systemc/include",
+      "--compile",
+      "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/weights.hpp"
+    ],
+    "file": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/weights.hpp"
+  },
+  {
+    "directory": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16",
+    "arguments": [
+      "/tools/Xilinx/Vitis_HLS/2023.2/tps/lnx64/gcc-8.3.0/bin/g++",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/etc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/ap_sysc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/auto_cc/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/systemc/include",
+      "--compile",
+      "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/dma.h"
+    ],
+    "file": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/dma.h"
+  },
+  {
+    "directory": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16",
+    "arguments": [
+      "/tools/Xilinx/Vitis_HLS/2023.2/tps/lnx64/gcc-8.3.0/bin/g++",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/etc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/ap_sysc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/auto_cc/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/systemc/include",
+      "--compile",
+      "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/bnn-library.h"
+    ],
+    "file": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/bnn-library.h"
+  },
+  {
+    "directory": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16",
+    "arguments": [
+      "/tools/Xilinx/Vitis_HLS/2023.2/tps/lnx64/gcc-8.3.0/bin/g++",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/etc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/ap_sysc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/auto_cc/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/systemc/include",
+      "--compile",
+      "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/tmrcheck.hpp"
+    ],
+    "file": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/tmrcheck.hpp"
+  },
+  {
+    "directory": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16",
+    "arguments": [
+      "/tools/Xilinx/Vitis_HLS/2023.2/tps/lnx64/gcc-8.3.0/bin/g++",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/etc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/ap_sysc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/auto_cc/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/systemc/include",
+      "--compile",
+      "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/utils.hpp"
+    ],
+    "file": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/utils.hpp"
+  },
+  {
+    "directory": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16",
+    "arguments": [
+      "/tools/Xilinx/Vitis_HLS/2023.2/tps/lnx64/gcc-8.3.0/bin/g++",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/etc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/ap_sysc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/auto_cc/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/systemc/include",
+      "--compile",
+      "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/vvau.hpp"
+    ],
+    "file": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/vvau.hpp"
+  },
+  {
+    "directory": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16",
+    "arguments": [
+      "/tools/Xilinx/Vitis_HLS/2023.2/tps/lnx64/gcc-8.3.0/bin/g++",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/etc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/ap_sysc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/auto_cc/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/systemc/include",
+      "--compile",
+      "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/maxpool.h"
+    ],
+    "file": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/maxpool.h"
+  },
+  {
+    "directory": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16",
+    "arguments": [
+      "/tools/Xilinx/Vitis_HLS/2023.2/tps/lnx64/gcc-8.3.0/bin/g++",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/etc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/ap_sysc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/auto_cc/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/systemc/include",
+      "--compile",
+      "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/interpret.hpp"
+    ],
+    "file": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/interpret.hpp"
+  },
+  {
+    "directory": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16",
+    "arguments": [
+      "/tools/Xilinx/Vitis_HLS/2023.2/tps/lnx64/gcc-8.3.0/bin/g++",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/etc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/ap_sysc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/auto_cc/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/systemc/include",
+      "--compile",
+      "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/streamtools.h"
+    ],
+    "file": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/streamtools.h"
+  },
+  {
+    "directory": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16",
+    "arguments": [
+      "/tools/Xilinx/Vitis_HLS/2023.2/tps/lnx64/gcc-8.3.0/bin/g++",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/etc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/ap_sysc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/auto_cc/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/systemc/include",
+      "--compile",
+      "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/upsample.hpp"
+    ],
+    "file": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/upsample.hpp"
+  },
+  {
+    "directory": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16",
+    "arguments": [
+      "/tools/Xilinx/Vitis_HLS/2023.2/tps/lnx64/gcc-8.3.0/bin/g++",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/etc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/ap_sysc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/auto_cc/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/systemc/include",
+      "--compile",
+      "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/convlayer.h"
+    ],
+    "file": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/convlayer.h"
+  },
+  {
+    "directory": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16",
+    "arguments": [
+      "/tools/Xilinx/Vitis_HLS/2023.2/tps/lnx64/gcc-8.3.0/bin/g++",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/etc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/ap_sysc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/auto_cc/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/systemc/include",
+      "--compile",
+      "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mmv.hpp"
+    ],
+    "file": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mmv.hpp"
+  },
+  {
+    "directory": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16",
+    "arguments": [
+      "/tools/Xilinx/Vitis_HLS/2023.2/tps/lnx64/gcc-8.3.0/bin/g++",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/etc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/include/ap_sysc",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/auto_cc/include",
+      "-isystem/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/systemc/include",
+      "--compile",
+      "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h"
+    ],
+    "file": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h"
+  }
+]

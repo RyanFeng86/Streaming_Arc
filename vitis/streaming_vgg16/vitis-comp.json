@@ -1,0 +1,12 @@
+{
+  "name": "streaming_vgg16",
+  "type": "HLS",
+  "configuration": {
+    "componentType": "HLS",
+    "configFiles": [
+      "hls_config.cfg"
+    ],
+    "work_dir": "streaming_vgg16"
+  },
+  "previousBuildStatusMap": {}
+}

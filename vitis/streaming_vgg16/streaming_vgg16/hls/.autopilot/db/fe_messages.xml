@@ -1,0 +1,544 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5566" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:32:21" msg_body="unexpected pragma argument '=', expects identifier">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5566" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:42:21" msg_body="unexpected pragma argument '=', expects identifier">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5566" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:69:21" msg_body="unexpected pragma argument '=', expects identifier">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5566" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:78:21" msg_body="unexpected pragma argument '=', expects identifier">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-111" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:71:32" msg_body="Static scalars and arrays declared inside a dataflow region will be treated like local variables"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-111" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:72:31" msg_body="Static scalars and arrays declared inside a dataflow region will be treated like local variables"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-111" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:73:31" msg_body="Static scalars and arrays declared inside a dataflow region will be treated like local variables"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-111" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:74:31" msg_body="Static scalars and arrays declared inside a dataflow region will be treated like local variables"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-111" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:75:31" msg_body="Static scalars and arrays declared inside a dataflow region will be treated like local variables"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-111" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:76:31" msg_body="Static scalars and arrays declared inside a dataflow region will be treated like local variables"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-111" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:77:31" msg_body="Static scalars and arrays declared inside a dataflow region will be treated like local variables"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-111" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:78:31" msg_body="Static scalars and arrays declared inside a dataflow region will be treated like local variables"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-111" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:79:31" msg_body="Static scalars and arrays declared inside a dataflow region will be treated like local variables"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-111" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:80:31" msg_body="Static scalars and arrays declared inside a dataflow region will be treated like local variables"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-111" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:81:31" msg_body="Static scalars and arrays declared inside a dataflow region will be treated like local variables"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-111" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:82:31" msg_body="Static scalars and arrays declared inside a dataflow region will be treated like local variables"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-111" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:83:31" msg_body="Static scalars and arrays declared inside a dataflow region will be treated like local variables"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-111" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:84:32" msg_body="Static scalars and arrays declared inside a dataflow region will be treated like local variables"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-111" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:85:32" msg_body="Static scalars and arrays declared inside a dataflow region will be treated like local variables"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-111" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:86:32" msg_body="Static scalars and arrays declared inside a dataflow region will be treated like local variables"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-111" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:92:32" msg_body="Static scalars and arrays declared inside a dataflow region will be treated like local variables"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-111" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:94:31" msg_body="Static scalars and arrays declared inside a dataflow region will be treated like local variables"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-111" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:96:31" msg_body="Static scalars and arrays declared inside a dataflow region will be treated like local variables"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-111" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:98:31" msg_body="Static scalars and arrays declared inside a dataflow region will be treated like local variables"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-111" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:100:31" msg_body="Static scalars and arrays declared inside a dataflow region will be treated like local variables"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-111" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:102:31" msg_body="Static scalars and arrays declared inside a dataflow region will be treated like local variables"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-111" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:104:31" msg_body="Static scalars and arrays declared inside a dataflow region will be treated like local variables"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-111" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:106:31" msg_body="Static scalars and arrays declared inside a dataflow region will be treated like local variables"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-111" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:108:31" msg_body="Static scalars and arrays declared inside a dataflow region will be treated like local variables"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-111" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:110:31" msg_body="Static scalars and arrays declared inside a dataflow region will be treated like local variables"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-111" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:112:31" msg_body="Static scalars and arrays declared inside a dataflow region will be treated like local variables"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-111" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:114:31" msg_body="Static scalars and arrays declared inside a dataflow region will be treated like local variables"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-111" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:116:31" msg_body="Static scalars and arrays declared inside a dataflow region will be treated like local variables"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-111" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:118:32" msg_body="Static scalars and arrays declared inside a dataflow region will be treated like local variables"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-111" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:120:32" msg_body="Static scalars and arrays declared inside a dataflow region will be treated like local variables"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-111" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:122:32" msg_body="Static scalars and arrays declared inside a dataflow region will be treated like local variables"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-113" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:328:2" msg_body="Either use an argument of the function or declare the variable inside the dataflow loop body"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-113" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:328:13" msg_body="Either use an argument of the function or declare the variable inside the dataflow loop body"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:32:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read_weight_long" ARG_PragmaIsValid="0" ARG_PragmaOptions="=" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:42:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read_weight_long" ARG_PragmaIsValid="0" ARG_PragmaOptions="=" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:69:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read_weight_short" ARG_PragmaIsValid="0" ARG_PragmaOptions="=" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:78:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read_weight_short" ARG_PragmaIsValid="0" ARG_PragmaOptions="=" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:144:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Input_Generator_long" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=arr complete dim=2" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:146:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Input_Generator_long" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=arr type=RAM_1P impl=uram" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:204:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Input_Generator_long" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:208:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Input_Generator_long" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:218:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Input_Generator_long" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:222:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Input_Generator_long" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:253:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Input_Generator_long" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:289:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Input_Generator_short_1" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=arr type=RAM_1P impl=uram" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:344:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Input_Generator_short_1" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:355:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Input_Generator_short_1" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:384:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Input_Generator_short_1" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:423:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Input_Generator_short_2" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=arr type=RAM_1P impl=uram" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:481:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Input_Generator_short_2" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:509:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Input_Generator_short_2" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:540:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mac_long" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=in complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:542:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mac_long" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=wt complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:544:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mac_long" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=tmp_ complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:547:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mac_long" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=tmp_i complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:549:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mac_long" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=tmp_w complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:559:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mac_long" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:569:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mac_long" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:572:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mac_long" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:577:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mac_long" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:582:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mac_long" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:598:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mac_long" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:640:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mac_short_1" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=in complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:642:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mac_short_1" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=wt complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:644:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mac_short_1" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=tmp_ complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:647:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mac_short_1" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=tmp_i complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:649:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mac_short_1" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=tmp_w complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:663:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mac_short_1" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:671:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mac_short_1" ARG_PragmaIsValid="1" ARG_PragmaOptions="off" ARG_PragmaType="loop_flatten" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:674:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mac_short_1" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:677:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mac_short_1" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:686:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mac_short_1" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:700:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mac_short_1" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:736:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mac_short_2" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=in complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:738:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mac_short_2" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=wt complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:740:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mac_short_2" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=tmp_ complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:743:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mac_short_2" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=tmp_i complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:745:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mac_short_2" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=tmp_w complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:759:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mac_short_2" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:763:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mac_short_2" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:766:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mac_short_2" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:769:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mac_short_2" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:772:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mac_short_2" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:781:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mac_short_2" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:795:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mac_short_2" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:843:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Padding" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:885:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Pooling" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:897:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Pooling" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:921:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Pooling" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp:938:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Pooling" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="directive:1:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=one_layer" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:30:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port= buffer_IFM offset=slave bundle=gmem0 max_read_burst_length=64 max_write_burst_length=64" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:31:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port= buffer_weight1 offset=slave bundle=gmem1 max_read_burst_length=64 max_write_burst_length=64" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:32:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port= buffer_weight2 offset=slave bundle=gmem2 max_read_burst_length=64 max_write_burst_length=64" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:33:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port= buffer_weight3 offset=slave bundle=gmem3 max_read_burst_length=64 max_write_burst_length=64" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:34:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port= buffer_weight4 offset=slave bundle=gmem4 max_read_burst_length=64 max_write_burst_length=64" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:35:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port= buffer_weight5 offset=slave bundle=gmem5 max_read_burst_length=64 max_write_burst_length=64" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:36:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port= buffer_weight6 offset=slave bundle=gmem6 max_read_burst_length=64 max_write_burst_length=64" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:37:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port= buffer_weight7 offset=slave bundle=gmem7 max_read_burst_length=64 max_write_burst_length=64" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:38:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port= buffer_weight8 offset=slave bundle=gmem8 max_read_burst_length=64 max_write_burst_length=64" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:39:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port= buffer_weight9 offset=slave bundle=gmem9 max_read_burst_length=64 max_write_burst_length=64" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:40:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port= buffer_weight10 offset=slave bundle=gmem10 max_read_burst_length=64 max_write_burst_length=64" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:41:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port= buffer_weight11 offset=slave bundle=gmem11 max_read_burst_length=64 max_write_burst_length=64" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:42:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port= buffer_weight12 offset=slave bundle=gmem12 max_read_burst_length=64 max_write_burst_length=64" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:43:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port= buffer_weight13 offset=slave bundle=gmem13 max_read_burst_length=64 max_write_burst_length=64" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:44:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port= buffer_weight14 offset=slave bundle=gmem14 max_read_burst_length=64 max_write_burst_length=64" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:45:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port= buffer_weight15 offset=slave bundle=gmem15 max_read_burst_length=64 max_write_burst_length=64" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:46:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port= buffer_weight16 offset=slave bundle=gmem16 max_read_burst_length=64 max_write_burst_length=64" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:47:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=buffer_out offset=slave bundle=gmem17 max_read_burst_length=64 max_write_burst_length=64" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:48:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=buffer_IFM bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:49:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=buffer_weight1 bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:50:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=buffer_weight2 bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:51:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=buffer_weight3 bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:52:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=buffer_weight4 bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:53:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=buffer_weight5 bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:54:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=buffer_weight6 bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:55:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=buffer_weight7 bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:56:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=buffer_weight8 bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:57:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=buffer_weight9 bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:58:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=buffer_weight10 bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:59:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=buffer_weight11 bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:60:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=buffer_weight12 bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:61:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=buffer_weight13 bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:62:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=buffer_weight14 bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:63:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=buffer_weight15 bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:64:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=buffer_weight16 bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:65:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=buffer_out bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:66:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=return bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:156:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = w1 depth = 234" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:157:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = IFM1 depth = 1156" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:158:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = IFM1_through_G depth = 26" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:159:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = Mul_result_1 depth = 8" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:161:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = w2 depth = 324" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:162:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = IFM2 depth = 2312" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:163:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = IFM2_through_G depth = 36" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:164:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = Mul_result_2 depth = 128" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:165:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = Mul_pooling_2 depth = 64" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:167:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = w3 depth = 180" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:168:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = IFM3 depth = 648" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:169:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = IFM3_through_G depth = 20" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:170:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = Mul_result_3 depth = 16" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:172:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = w4 depth = 360" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:173:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = IFM4 depth = 1296" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:174:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = IFM4_through_G depth = 40" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:175:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = Mul_result_4 depth = 128" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:176:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = Mul_pooling_4 depth = 64" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:178:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = w5 depth = 216" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:179:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = IFM5 depth = 400" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:180:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = IFM5_through_G depth = 24" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:181:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = Mul_result_5 depth = 32" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:183:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = w6 depth = 432" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:184:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = IFM6 depth = 800" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:185:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = IFM6_through_G depth = 48" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:186:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = Mul_result_6 depth = 32" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:188:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = w7 depth = 432" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:189:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = IFM7 depth = 800" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:190:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = IFM7_through_G depth = 48" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:191:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = Mul_result_7 depth = 128" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:192:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = Mul_pooling_7 depth = 64" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:194:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = w8 depth = 288" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:195:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = IFM8 depth = 288" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:196:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = IFM8_through_G depth = 32" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:197:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = Mul_result_8 depth = 64" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:199:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = w9 depth = 576" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:200:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = IFM9 depth = 576" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:201:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = IFM9_through_G depth = 64" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:202:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = Mul_result_9 depth = 64" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:204:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = w10 depth = 576" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:205:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = IFM10 depth = 576" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:206:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = IFM10_through_G depth = 64" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:207:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = Mul_result_10 depth = 128" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:208:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = Mul_pooling_10 depth = 32" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:210:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = w11 depth = 288" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:211:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = IFM11 depth = 256" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:212:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = IFM11_through_G depth = 32" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:213:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = Mul_result_11 depth = 64" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:215:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = w12 depth = 288" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:216:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = IFM12 depth = 256" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:217:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = IFM12_through_G depth = 32" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:218:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = Mul_result_12 depth = 64" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:220:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = w13 depth = 288" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:221:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = IFM13 depth = 192" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:222:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = IFM13_through_G depth = 32" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:223:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = Mul_result_13 depth = 64" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:224:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = Mul_pooling_13 depth = 192" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:226:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = w14 depth = 128" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:227:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = IFM14 depth = 64" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:228:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = IFM14_through_G depth = 128" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:229:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = Mul_result_14 depth = 16" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:231:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = w15 depth = 128" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:232:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = IFM15 depth = 64" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:233:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = IFM15_through_G depth = 128" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:234:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = Mul_result_15 depth = 16" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:236:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = w16 depth = 1024" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:237:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = IFM16 depth = 512" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:238:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = IFM16_through_G depth = 1024" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:239:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = Mul_result_16 depth = 1" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:242:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="one_layer" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

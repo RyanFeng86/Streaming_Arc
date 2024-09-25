@@ -1,0 +1,788 @@
+INFO: [vitis-run 60-1548] Creating build summary session with primary output /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/streaming_vgg16.hlsrun_csim_summary, at Tue Sep 24 00:01:42 2024
+INFO: [vitis-run 82-31] Launching vitis_hls: vitis_hls -nolog -run csim -work_dir /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16 -config /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg -cmdlineconfig /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/config.cmdline
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+  **** SW Build 4023990 on Oct 11 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source /tools/Xilinx/Vitis_HLS/2023.2/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] Running '/tools/Xilinx/Vitis_HLS/2023.2/bin/unwrapped/lnx64.o/vitis_hls'
+INFO: [HLS 200-10] For user 'ryanfeng' on host 'ryanfeng-System-Product-Name' (Linux_x86_64 version 6.8.0-45-generic) on Tue Sep 24 00:01:42 PDT 2024
+INFO: [HLS 200-10] On os Ubuntu 22.04.5 LTS
+INFO: [HLS 200-10] In directory '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16'
+INFO: [HLS 200-1909] Reading HLS ini file /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg
+INFO: [HLS 200-1909] Reading HLS ini file /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/config.cmdline
+INFO: [HLS 200-2005] Using work_dir /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16 
+INFO: [HLS 200-1510] Running: open_project /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16 -diskless 
+INFO: [HLS 200-1510] Running: open_solution hls 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2023.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1510] Running: apply_ini /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg 
+INFO: [HLS 200-1909] Reading HLS ini file /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/activations.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(10)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/activations.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/bnn-library.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(11)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/bnn-library.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/conv.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(12)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/conv.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/convlayer.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(13)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/convlayer.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(14)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/dma.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(15)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/dma.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/fclayer.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(16)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/fclayer.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/interpret.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(17)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/interpret.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mac.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(18)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mac.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/maxpool.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(19)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/maxpool.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mmv.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(20)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mmv.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mvau.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(21)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mvau.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(22)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/slidingwindow.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(23)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/slidingwindow.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/streamtools.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(24)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/streamtools.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/tmrcheck.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(25)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/tmrcheck.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/upsample.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(26)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/upsample.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/utils.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(27)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/utils.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/vvau.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(28)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/vvau.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/weights.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(29)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/weights.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/host.cpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(30)
+INFO: [HLS 200-10] Adding test bench file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/host.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.cflags=-std=c++0x' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(7)
+INFO: [HLS 200-1465] Applying ini 'syn.top=one_layer' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(9)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2023.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xcvu9p-flga2104-2-i' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xcvu9p-flga2104-2-i'
+INFO: [HLS 200-1465] Applying ini 'csim.clean=true' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(8)
+INFO: [HLS 200-1465] Applying ini 'csim.code_analyzer=1' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(31)
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(5)
+INFO: [HLS 200-1510] Running: apply_ini /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/config.cmdline 
+INFO: [HLS 200-1909] Reading HLS ini file /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/config.cmdline
+INFO: [HLS 200-1510] Running: csim_design 
+INFO: [HLS 211-200] Executing Code Analyzer instead of classic HLS C simulation
+INFO: [HLS 211-200] Cleaning
+INFO: [HLS 211-200] Compiling source code /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp as hardware code with instrumentation
+INFO: [HLS 211-200] Compiling source code /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/host.cpp as test bench code with instrumentation
+INFO: [HLS 211-200] Compiling source code /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp as test bench code with instrumentation
+In file included from /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:10:
+In file included from /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/bnn-library.h:61:
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/slidingwindow.h:75:1: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS RESOURCE variable=inputBuf core=RAM_2P
+^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/slidingwindow.h:97:1: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS RESOURCE variable=inputBuf core=RAM_S2P_BRAM
+^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/slidingwindow.h:119:1: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS RESOURCE variable=inputBuf core=RAM_S2P_URAM
+^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/slidingwindow.h:141:1: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS RESOURCE variable=inputBuf core=RAM_S2P_LUTRAM
+^
+In file included from /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:10:
+In file included from /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/bnn-library.h:62:
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/maxpool.h:392:1: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS RESOURCE variable=accumulators core=RAM_2P_LUTRAM
+^
+In file included from /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:10:
+In file included from /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/bnn-library.h:63:
+In file included from /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/fclayer.h:55:
+In file included from /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mvau.hpp:56:
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mac.hpp:116:1: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS RESOURCE variable=res core=Mul_LUT
+^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mac.hpp:142:1: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS RESOURCE variable=res core=DSP48
+^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:33:26: warning: unexpected pragma argument '=', expects identifier [-Winvalid-hls-pragmas]
+                                        #pragma HLS PIPELINE=II
+                                                            ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:43:26: warning: unexpected pragma argument '=', expects identifier [-Winvalid-hls-pragmas]
+                                        #pragma HLS PIPELINE=II
+                                                            ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:70:25: warning: unexpected pragma argument '=', expects identifier [-Winvalid-hls-pragmas]
+                                #pragma HLS PIPELINE=II
+                                                    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:79:25: warning: unexpected pragma argument '=', expects identifier [-Winvalid-hls-pragmas]
+                                #pragma HLS PIPELINE=II
+                                                    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1095:44: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = w1  depth = w1_stream_depth
+                                                  ^~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1095:44: note: read of non-const variable 'w1_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:339:5: note: declared here
+int w1_stream_depth=234;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1096:46: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = IFM1  depth = ifm_1_stream_depth
+                                                    ^~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1096:46: note: read of non-const variable 'ifm_1_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:357:5: note: declared here
+int ifm_1_stream_depth=1156;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1097:56: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = IFM1_through_G  depth = ifm_1_gen_stream_depth
+                                                              ^~~~~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1097:56: note: read of non-const variable 'ifm_1_gen_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:375:5: note: declared here
+int ifm_1_gen_stream_depth=26;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1098:53: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = Mul_result_1 depth = mul_1_result_stream_depth
+                                                           ^~~~~~~~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1098:53: note: read of non-const variable 'mul_1_result_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:393:5: note: declared here
+int mul_1_result_stream_depth=8;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1100:44: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = w2  depth = w2_stream_depth
+                                                  ^~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1100:44: note: read of non-const variable 'w2_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:340:5: note: declared here
+int w2_stream_depth=324;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1101:46: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = IFM2  depth = ifm_2_stream_depth
+                                                    ^~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1101:46: note: read of non-const variable 'ifm_2_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:358:5: note: declared here
+int ifm_2_stream_depth=2312;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1102:56: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = IFM2_through_G  depth = ifm_2_gen_stream_depth
+                                                              ^~~~~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1102:56: note: read of non-const variable 'ifm_2_gen_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:376:5: note: declared here
+int ifm_2_gen_stream_depth=36;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1103:53: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = Mul_result_2 depth = mul_2_result_stream_depth
+                                                           ^~~~~~~~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1103:53: note: read of non-const variable 'mul_2_result_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:394:5: note: declared here
+int mul_2_result_stream_depth=128;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1104:54: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = Mul_pooling_2 depth = pooling_2_result_stream_depth
+                                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1104:54: note: read of non-const variable 'pooling_2_result_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:412:5: note: declared here
+int pooling_2_result_stream_depth=64;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1106:44: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = w3  depth = w3_stream_depth
+                                                  ^~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1106:44: note: read of non-const variable 'w3_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:341:5: note: declared here
+int w3_stream_depth=180;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1107:46: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = IFM3  depth = ifm_3_stream_depth
+                                                    ^~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1107:46: note: read of non-const variable 'ifm_3_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:359:5: note: declared here
+int ifm_3_stream_depth=648;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1108:56: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = IFM3_through_G  depth = ifm_3_gen_stream_depth
+                                                              ^~~~~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1108:56: note: read of non-const variable 'ifm_3_gen_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:377:5: note: declared here
+int ifm_3_gen_stream_depth=20;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1109:53: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = Mul_result_3 depth = mul_3_result_stream_depth
+                                                           ^~~~~~~~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1109:53: note: read of non-const variable 'mul_3_result_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:395:5: note: declared here
+int mul_3_result_stream_depth=16;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1111:44: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = w4  depth = w4_stream_depth
+                                                  ^~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1111:44: note: read of non-const variable 'w4_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:342:5: note: declared here
+int w4_stream_depth=360;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1112:46: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = IFM4  depth = ifm_4_stream_depth
+                                                    ^~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1112:46: note: read of non-const variable 'ifm_4_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:360:5: note: declared here
+int ifm_4_stream_depth=1296;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1113:56: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = IFM4_through_G  depth = ifm_4_gen_stream_depth
+                                                              ^~~~~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1113:56: note: read of non-const variable 'ifm_4_gen_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:378:5: note: declared here
+int ifm_4_gen_stream_depth=40;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1114:53: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = Mul_result_4 depth = mul_4_result_stream_depth
+                                                           ^~~~~~~~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1114:53: note: read of non-const variable 'mul_4_result_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:396:5: note: declared here
+int mul_4_result_stream_depth=128;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1115:54: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = Mul_pooling_4 depth = pooling_4_result_stream_depth
+                                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1115:54: note: read of non-const variable 'pooling_4_result_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:414:5: note: declared here
+int pooling_4_result_stream_depth=64;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1117:44: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = w5  depth = w5_stream_depth
+                                                  ^~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1117:44: note: read of non-const variable 'w5_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:343:5: note: declared here
+int w5_stream_depth=216;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1118:46: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = IFM5  depth = ifm_5_stream_depth
+                                                    ^~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1118:46: note: read of non-const variable 'ifm_5_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:361:5: note: declared here
+int ifm_5_stream_depth=400;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1119:56: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = IFM5_through_G  depth = ifm_5_gen_stream_depth
+                                                              ^~~~~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1119:56: note: read of non-const variable 'ifm_5_gen_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:379:5: note: declared here
+int ifm_5_gen_stream_depth=24;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1120:53: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = Mul_result_5 depth = mul_5_result_stream_depth
+                                                           ^~~~~~~~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1120:53: note: read of non-const variable 'mul_5_result_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:397:5: note: declared here
+int mul_5_result_stream_depth=32;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1122:44: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = w6  depth = w6_stream_depth
+                                                  ^~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1122:44: note: read of non-const variable 'w6_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:344:5: note: declared here
+int w6_stream_depth=432;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1123:46: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = IFM6  depth = ifm_6_stream_depth
+                                                    ^~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1123:46: note: read of non-const variable 'ifm_6_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:362:5: note: declared here
+int ifm_6_stream_depth=800;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1124:56: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = IFM6_through_G  depth = ifm_6_gen_stream_depth
+                                                              ^~~~~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1124:56: note: read of non-const variable 'ifm_6_gen_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:380:5: note: declared here
+int ifm_6_gen_stream_depth=48;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1125:53: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = Mul_result_6 depth = mul_6_result_stream_depth
+                                                           ^~~~~~~~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1125:53: note: read of non-const variable 'mul_6_result_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:398:5: note: declared here
+int mul_6_result_stream_depth=32;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1127:44: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = w7  depth = w7_stream_depth
+                                                  ^~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1127:44: note: read of non-const variable 'w7_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:345:5: note: declared here
+int w7_stream_depth=432;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1128:46: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = IFM7  depth = ifm_7_stream_depth
+                                                    ^~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1128:46: note: read of non-const variable 'ifm_7_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:363:5: note: declared here
+int ifm_7_stream_depth=800;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1129:56: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = IFM7_through_G  depth = ifm_7_gen_stream_depth
+                                                              ^~~~~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1129:56: note: read of non-const variable 'ifm_7_gen_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:381:5: note: declared here
+int ifm_7_gen_stream_depth=48;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1130:53: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = Mul_result_7 depth = mul_7_result_stream_depth
+                                                           ^~~~~~~~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1130:53: note: read of non-const variable 'mul_7_result_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:399:5: note: declared here
+int mul_7_result_stream_depth=128;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1131:54: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = Mul_pooling_7 depth = pooling_7_result_stream_depth
+                                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1131:54: note: read of non-const variable 'pooling_7_result_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:417:5: note: declared here
+int pooling_7_result_stream_depth=64;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1133:44: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = w8  depth = w8_stream_depth
+                                                  ^~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1133:44: note: read of non-const variable 'w8_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:346:5: note: declared here
+int w8_stream_depth=288;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1134:46: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = IFM8  depth = ifm_8_stream_depth
+                                                    ^~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1134:46: note: read of non-const variable 'ifm_8_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:364:5: note: declared here
+int ifm_8_stream_depth=288;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1135:56: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = IFM8_through_G  depth = ifm_8_gen_stream_depth
+                                                              ^~~~~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1135:56: note: read of non-const variable 'ifm_8_gen_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:382:5: note: declared here
+int ifm_8_gen_stream_depth=32;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1136:53: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = Mul_result_8 depth = mul_8_result_stream_depth
+                                                           ^~~~~~~~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1136:53: note: read of non-const variable 'mul_8_result_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:400:5: note: declared here
+int mul_8_result_stream_depth=64;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1138:44: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = w9  depth = w9_stream_depth
+                                                  ^~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1138:44: note: read of non-const variable 'w9_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:347:5: note: declared here
+int w9_stream_depth=576;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1139:46: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = IFM9  depth = ifm_9_stream_depth
+                                                    ^~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1139:46: note: read of non-const variable 'ifm_9_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:365:5: note: declared here
+int ifm_9_stream_depth=576;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1140:56: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = IFM9_through_G  depth = ifm_9_gen_stream_depth
+                                                              ^~~~~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1140:56: note: read of non-const variable 'ifm_9_gen_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:383:5: note: declared here
+int ifm_9_gen_stream_depth=64;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1141:53: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = Mul_result_9 depth = mul_9_result_stream_depth
+                                                           ^~~~~~~~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1141:53: note: read of non-const variable 'mul_9_result_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:401:5: note: declared here
+int mul_9_result_stream_depth=64;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1143:45: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = w10  depth = w10_stream_depth
+                                                   ^~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1143:45: note: read of non-const variable 'w10_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:348:5: note: declared here
+int w10_stream_depth=576;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1144:47: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = IFM10  depth = ifm_10_stream_depth
+                                                     ^~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1144:47: note: read of non-const variable 'ifm_10_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:366:5: note: declared here
+int ifm_10_stream_depth=576;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1145:57: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = IFM10_through_G  depth = ifm_10_gen_stream_depth
+                                                               ^~~~~~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1145:57: note: read of non-const variable 'ifm_10_gen_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:384:5: note: declared here
+int ifm_10_gen_stream_depth=64;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1146:54: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = Mul_result_10 depth = mul_10_result_stream_depth
+                                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1146:54: note: read of non-const variable 'mul_10_result_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:402:5: note: declared here
+int mul_10_result_stream_depth=128;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1147:55: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = Mul_pooling_10 depth = pooling_10_result_stream_depth
+                                                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1147:55: note: read of non-const variable 'pooling_10_result_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:420:5: note: declared here
+int pooling_10_result_stream_depth=32;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1149:45: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = w11  depth = w11_stream_depth
+                                                   ^~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1149:45: note: read of non-const variable 'w11_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:349:5: note: declared here
+int w11_stream_depth=288;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1150:47: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = IFM11  depth = ifm_11_stream_depth
+                                                     ^~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1150:47: note: read of non-const variable 'ifm_11_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:367:5: note: declared here
+int ifm_11_stream_depth=256;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1151:57: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = IFM11_through_G  depth = ifm_11_gen_stream_depth
+                                                               ^~~~~~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1151:57: note: read of non-const variable 'ifm_11_gen_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:385:5: note: declared here
+int ifm_11_gen_stream_depth=32;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1152:54: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = Mul_result_11 depth = mul_11_result_stream_depth
+                                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1152:54: note: read of non-const variable 'mul_11_result_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:403:5: note: declared here
+int mul_11_result_stream_depth=64;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1154:45: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = w12  depth = w12_stream_depth
+                                                   ^~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1154:45: note: read of non-const variable 'w12_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:350:5: note: declared here
+int w12_stream_depth=288;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1155:47: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = IFM12  depth = ifm_12_stream_depth
+                                                     ^~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1155:47: note: read of non-const variable 'ifm_12_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:368:5: note: declared here
+int ifm_12_stream_depth=256;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1156:57: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = IFM12_through_G  depth = ifm_12_gen_stream_depth
+                                                               ^~~~~~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1156:57: note: read of non-const variable 'ifm_12_gen_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:386:5: note: declared here
+int ifm_12_gen_stream_depth=32;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1157:54: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = Mul_result_12 depth = mul_12_result_stream_depth
+                                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1157:54: note: read of non-const variable 'mul_12_result_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:404:5: note: declared here
+int mul_12_result_stream_depth=64;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1159:45: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = w13  depth = w13_stream_depth
+                                                   ^~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1159:45: note: read of non-const variable 'w13_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:351:5: note: declared here
+int w13_stream_depth=288;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1160:47: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = IFM13  depth = ifm_13_stream_depth
+                                                     ^~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1160:47: note: read of non-const variable 'ifm_13_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:369:5: note: declared here
+int ifm_13_stream_depth=192;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1161:57: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = IFM13_through_G  depth = ifm_13_gen_stream_depth
+                                                               ^~~~~~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1161:57: note: read of non-const variable 'ifm_13_gen_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:387:5: note: declared here
+int ifm_13_gen_stream_depth=32;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1162:54: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = Mul_result_13 depth = mul_13_result_stream_depth
+                                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1162:54: note: read of non-const variable 'mul_13_result_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:405:5: note: declared here
+int mul_13_result_stream_depth=64;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1163:55: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = Mul_pooling_13 depth = pooling_13_result_stream_depth
+                                                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1163:55: note: read of non-const variable 'pooling_13_result_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:423:5: note: declared here
+int pooling_13_result_stream_depth=192;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1165:45: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = w14  depth = w14_stream_depth
+                                                   ^~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1165:45: note: read of non-const variable 'w14_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:352:5: note: declared here
+int w14_stream_depth=128;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1166:47: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = IFM14  depth = ifm_14_stream_depth
+                                                     ^~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1166:47: note: read of non-const variable 'ifm_14_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:370:5: note: declared here
+int ifm_14_stream_depth=64;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1167:57: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = IFM14_through_G  depth = ifm_14_gen_stream_depth
+                                                               ^~~~~~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1167:57: note: read of non-const variable 'ifm_14_gen_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:388:5: note: declared here
+int ifm_14_gen_stream_depth=128;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1168:54: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = Mul_result_14 depth = mul_14_result_stream_depth
+                                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1168:54: note: read of non-const variable 'mul_14_result_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:406:5: note: declared here
+int mul_14_result_stream_depth=16;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1170:45: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = w15  depth = w15_stream_depth
+                                                   ^~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1170:45: note: read of non-const variable 'w15_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:353:5: note: declared here
+int w15_stream_depth=128;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1171:47: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = IFM15  depth = ifm_15_stream_depth
+                                                     ^~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1171:47: note: read of non-const variable 'ifm_15_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:371:5: note: declared here
+int ifm_15_stream_depth=64;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1172:57: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = IFM15_through_G  depth = ifm_15_gen_stream_depth
+                                                               ^~~~~~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1172:57: note: read of non-const variable 'ifm_15_gen_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:389:5: note: declared here
+int ifm_15_gen_stream_depth=128;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1173:54: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = Mul_result_15 depth = mul_15_result_stream_depth
+                                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1173:54: note: read of non-const variable 'mul_15_result_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:407:5: note: declared here
+int mul_15_result_stream_depth=16;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1175:45: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = w16  depth = w16_stream_depth
+                                                   ^~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1175:45: note: read of non-const variable 'w16_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:354:5: note: declared here
+int w16_stream_depth=1024;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1176:47: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = IFM16  depth = ifm_16_stream_depth
+                                                     ^~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1176:47: note: read of non-const variable 'ifm_16_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:372:5: note: declared here
+int ifm_16_stream_depth=512;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1177:57: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = IFM16_through_G  depth = ifm_16_gen_stream_depth
+                                                               ^~~~~~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1177:57: note: read of non-const variable 'ifm_16_gen_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:390:5: note: declared here
+int ifm_16_gen_stream_depth=1024;
+    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1178:54: warning: expression is not an integral constant expression [-Wignored-hls-pragmas]
+        #pragma HLS STREAM variable = Mul_result_16 depth = mul_16_result_stream_depth
+                                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:1178:54: note: read of non-const variable 'mul_16_result_stream_depth' is not allowed in a constant expression
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h:408:5: note: declared here
+int mul_16_result_stream_depth=1;
+    ^
+In file included from /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/host.cpp:29:
+In file included from /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:10:
+In file included from /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/bnn-library.h:61:
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/slidingwindow.h:75:1: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS RESOURCE variable=inputBuf core=RAM_2P
+^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/slidingwindow.h:97:1: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS RESOURCE variable=inputBuf core=RAM_S2P_BRAM
+^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/slidingwindow.h:119:1: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS RESOURCE variable=inputBuf core=RAM_S2P_URAM
+^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/slidingwindow.h:141:1: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS RESOURCE variable=inputBuf core=RAM_S2P_LUTRAM
+^
+In file included from /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:10:
+In file included from /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/bnn-library.h:61:
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/slidingwindow.h:75:1: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS RESOURCE variable=inputBuf core=RAM_2P
+^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/slidingwindow.h:97:1: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS RESOURCE variable=inputBuf core=RAM_S2P_BRAM
+^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/slidingwindow.h:119:1: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS RESOURCE variable=inputBuf core=RAM_S2P_URAM
+^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/slidingwindow.h:141:1: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS RESOURCE variable=inputBuf core=RAM_S2P_LUTRAM
+^
+In file included from /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/host.cpp:29:
+In file included from /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:10:
+In file included from /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/bnn-library.h:62:
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/maxpool.h:392:1: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS RESOURCE variable=accumulators core=RAM_2P_LUTRAM
+^
+In file included from /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/host.cpp:29:
+In file included from /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:10:
+In file included from /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/bnn-library.h:63:
+In file included from /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/fclayer.h:55:
+In file included from /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mvau.hpp:56:
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mac.hpp:116:1: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS RESOURCE variable=res core=Mul_LUT
+^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mac.hpp:142:1: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS RESOURCE variable=res core=DSP48
+^
+In file included from /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:10:
+In file included from /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/bnn-library.h:62:
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/maxpool.h:392:1: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS RESOURCE variable=accumulators core=RAM_2P_LUTRAM
+^
+In file included from /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:10:
+In file included from /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/bnn-library.h:63:
+In file included from /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/fclayer.h:55:
+In file included from /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mvau.hpp:56:
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mac.hpp:116:1: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS RESOURCE variable=res core=Mul_LUT
+^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mac.hpp:142:1: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS RESOURCE variable=res core=DSP48
+^
+In file included from /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/host.cpp:29:
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:33:26: warning: unexpected pragma argument '=', expects identifier [-Winvalid-hls-pragmas]
+                                        #pragma HLS PIPELINE=II
+                                                            ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:43:26: warning: unexpected pragma argument '=', expects identifier [-Winvalid-hls-pragmas]
+                                        #pragma HLS PIPELINE=II
+                                                            ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:70:25: warning: unexpected pragma argument '=', expects identifier [-Winvalid-hls-pragmas]
+                                #pragma HLS PIPELINE=II
+                                                    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:79:25: warning: unexpected pragma argument '=', expects identifier [-Winvalid-hls-pragmas]
+                                #pragma HLS PIPELINE=II
+                                                    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:33:26: warning: unexpected pragma argument '=', expects identifier [-Winvalid-hls-pragmas]
+                                        #pragma HLS PIPELINE=II
+                                                            ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:43:26: warning: unexpected pragma argument '=', expects identifier [-Winvalid-hls-pragmas]
+                                        #pragma HLS PIPELINE=II
+                                                            ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:70:25: warning: unexpected pragma argument '=', expects identifier [-Winvalid-hls-pragmas]
+                                #pragma HLS PIPELINE=II
+                                                    ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp:79:25: warning: unexpected pragma argument '=', expects identifier [-Winvalid-hls-pragmas]
+                                #pragma HLS PIPELINE=II
+                                                    ^
+80 warnings generated.
+11 warnings generated.
+11 warnings generated.
+INFO: [HLS 211-200] Linking hardware code
+INFO: [HLS 211-200] Transforming hardware bitcode
+INFO: [HLS 211-200] Linking executable
+ld.lld: error: duplicate symbol: w1_stream_depth
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/host.cpp.0.o
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/one_layer.cpp.0.o
+
+ld.lld: error: duplicate symbol: w2_stream_depth
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/host.cpp.0.o
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/one_layer.cpp.0.o
+
+ld.lld: error: duplicate symbol: w3_stream_depth
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/host.cpp.0.o
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/one_layer.cpp.0.o
+
+ld.lld: error: duplicate symbol: w4_stream_depth
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/host.cpp.0.o
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/one_layer.cpp.0.o
+
+ld.lld: error: duplicate symbol: w5_stream_depth
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/host.cpp.0.o
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/one_layer.cpp.0.o
+
+ld.lld: error: duplicate symbol: w6_stream_depth
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/host.cpp.0.o
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/one_layer.cpp.0.o
+
+ld.lld: error: duplicate symbol: w7_stream_depth
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/host.cpp.0.o
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/one_layer.cpp.0.o
+
+ld.lld: error: duplicate symbol: w8_stream_depth
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/host.cpp.0.o
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/one_layer.cpp.0.o
+
+ld.lld: error: duplicate symbol: w9_stream_depth
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/host.cpp.0.o
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/one_layer.cpp.0.o
+
+ld.lld: error: duplicate symbol: w10_stream_depth
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/host.cpp.0.o
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/one_layer.cpp.0.o
+
+ld.lld: error: duplicate symbol: w11_stream_depth
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/host.cpp.0.o
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/one_layer.cpp.0.o
+
+ld.lld: error: duplicate symbol: w12_stream_depth
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/host.cpp.0.o
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/one_layer.cpp.0.o
+
+ld.lld: error: duplicate symbol: w13_stream_depth
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/host.cpp.0.o
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/one_layer.cpp.0.o
+
+ld.lld: error: duplicate symbol: w14_stream_depth
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/host.cpp.0.o
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/one_layer.cpp.0.o
+
+ld.lld: error: duplicate symbol: w15_stream_depth
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/host.cpp.0.o
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/one_layer.cpp.0.o
+
+ld.lld: error: duplicate symbol: w16_stream_depth
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/host.cpp.0.o
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/one_layer.cpp.0.o
+
+ld.lld: error: duplicate symbol: ifm_1_stream_depth
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/host.cpp.0.o
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/one_layer.cpp.0.o
+
+ld.lld: error: duplicate symbol: ifm_2_stream_depth
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/host.cpp.0.o
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/one_layer.cpp.0.o
+
+ld.lld: error: duplicate symbol: ifm_3_stream_depth
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/host.cpp.0.o
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/one_layer.cpp.0.o
+
+ld.lld: error: duplicate symbol: ifm_4_stream_depth
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/host.cpp.0.o
+>>> defined in /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/one_layer.cpp.0.o
+
+ld.lld: error: too many errors emitted, stopping now (use -error-limit=0 to see all errors)
+clang-13: error: linker command failed with exit code 1 (use -v to see invocation)
+ERROR: [HLS 211-200] Code Analyzer execution failed. Consider running the classic C simulation instead by disabling the hls.csim.code_analyzer option in the config file.
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 3.75 seconds. CPU system time: 0.34 seconds. Elapsed time: 2.87 seconds; current allocated memory: 0.000 MB.
+INFO: [HLS 200-1510] Running: close_project 
+ERROR: Problem running csim: child process exited abnormally
+INFO: [HLS 200-112] Total CPU user time: 4.65 seconds. Total CPU system time: 0.45 seconds. Total elapsed time: 3.78 seconds; peak allocated memory: 290.281 MB.
+INFO: [Common 17-206] Exiting vitis_hls at Tue Sep 24 00:01:46 2024...

@@ -1,0 +1,84 @@
+{
+    "rules": {
+        "['/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/one_layer.cpp.0.bc', '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/one_layer.cpp.0.bc.d']": {
+            "command": [
+                "/tools/Xilinx/Vitis_HLS/2023.2/vcxx/libexec/clang",
+                "-c",
+                "-emit-llvm",
+                "-MD",
+                "-MF",
+                "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/one_layer.cpp.0.bc.d",
+                "-fhls",
+                "-vitis-hls=/tools/Xilinx/Vitis_HLS/2023.2",
+                "-fhlstoplevel=one_layer",
+                "-fslxtrace",
+                "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp",
+                "-o",
+                "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/one_layer.cpp.0.bc"
+            ],
+            "exectime": 0.6260113716125488,
+            "cwd": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16"
+        },
+        "['/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/one_layer.cpp.0.o', '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/one_layer.cpp.0.o.d']": {
+            "command": [
+                "/tools/Xilinx/Vitis_HLS/2023.2/vcxx/libexec/clang",
+                "-c",
+                "-MD",
+                "-MF",
+                "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/one_layer.cpp.0.o.d",
+                "-fhls-tb",
+                "-vitis-hls=/tools/Xilinx/Vitis_HLS/2023.2",
+                "-fhlstoplevel=one_layer",
+                "-fslxskipfunctionbody",
+                "-fslxtrace",
+                "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp",
+                "-o",
+                "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/one_layer.cpp.0.o"
+            ],
+            "exectime": 0.7405626773834229,
+            "cwd": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16"
+        },
+        "['/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/host.cpp.0.o', '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/host.cpp.0.o.d']": {
+            "command": [
+                "/tools/Xilinx/Vitis_HLS/2023.2/vcxx/libexec/clang",
+                "-c",
+                "-std=c++0x",
+                "-MD",
+                "-MF",
+                "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/host.cpp.0.o.d",
+                "-fhls-tb",
+                "-vitis-hls=/tools/Xilinx/Vitis_HLS/2023.2",
+                "-fhlstoplevel=one_layer",
+                "-fslxskipfunctionbody",
+                "-fslxtrace",
+                "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/host.cpp",
+                "-o",
+                "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/host.cpp.0.o"
+            ],
+            "exectime": 0.8249030113220215,
+            "cwd": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16"
+        },
+        "['/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/syn_srcs.bc']": {
+            "command": [
+                "/tools/Xilinx/Vitis_HLS/2023.2/vcxx/libexec/llvm-link",
+                "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/one_layer.cpp.0.bc",
+                "-o",
+                "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/syn_srcs.bc"
+            ],
+            "exectime": 0.06976509094238281,
+            "cwd": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16"
+        },
+        "['/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/syn_srcs.opt.bc']": {
+            "command": [
+                "/tools/Xilinx/Vitis_HLS/2023.2/vcxx/libexec/opt",
+                "-check-single-toplevel",
+                "-make-non-toplevel-internal",
+                "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/syn_srcs.bc",
+                "-o",
+                "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/vitis_c++/.internal/build/syn_srcs.opt.bc"
+            ],
+            "exectime": 0.07961630821228027,
+            "cwd": "/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16"
+        }
+    }
+}

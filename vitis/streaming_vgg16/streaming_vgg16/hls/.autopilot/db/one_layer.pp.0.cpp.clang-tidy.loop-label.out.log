@@ -1,0 +1,204 @@
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:1461:7: warning: Added loop label VITIS_LOOP_1207_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1207_1: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:1461:7: note: FIX-IT applied suggested code changes
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:2435:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:2435:5: note: FIX-IT applied suggested code changes
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:2449:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:2449:5: note: FIX-IT applied suggested code changes
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:2463:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:2463:5: note: FIX-IT applied suggested code changes
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:4092:7: warning: Added loop label VITIS_LOOP_1247_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1247_1: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:4092:7: note: FIX-IT applied suggested code changes
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34052:2: warning: Added loop label VITIS_LOOP_28_1:   [xilinx-label-all-loops]
+ for(int i=0;i<ofm*ofm;i++){
+ ^~~
+ VITIS_LOOP_28_1: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34052:2: note: FIX-IT applied suggested code changes
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34053:3: warning: Added loop label VITIS_LOOP_29_2:   [xilinx-label-all-loops]
+  for(int j=start_point; j<end_point1;j=j+pe*simd_r){
+  ^~~
+  VITIS_LOOP_29_2: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34053:3: note: FIX-IT applied suggested code changes
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34054:4: warning: Added loop label VITIS_LOOP_30_3:   [xilinx-label-all-loops]
+   for(int k=0;k<pe;k++){
+   ^~~
+   VITIS_LOOP_30_3: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34054:4: note: FIX-IT applied suggested code changes
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34055:5: warning: Added loop label VITIS_LOOP_31_4:   [xilinx-label-all-loops]
+    for(int l=0;l<simd_r;l++){
+    ^~~
+    VITIS_LOOP_31_4: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34055:5: note: FIX-IT applied suggested code changes
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34063:3: warning: Added loop label VITIS_LOOP_39_5:   [xilinx-label-all-loops]
+  for(int j=end_point1;j<end_point2;j=j+left_pe*simd_r){
+  ^~~
+  VITIS_LOOP_39_5: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34063:3: note: FIX-IT applied suggested code changes
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34064:4: warning: Added loop label VITIS_LOOP_40_6:   [xilinx-label-all-loops]
+   for(int k=0;k<left_pe;k++){
+   ^~~
+   VITIS_LOOP_40_6: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34064:4: note: FIX-IT applied suggested code changes
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34065:5: warning: Added loop label VITIS_LOOP_41_7:   [xilinx-label-all-loops]
+    for(int l=0;l<simd_r;l++){
+    ^~~
+    VITIS_LOOP_41_7: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34065:5: note: FIX-IT applied suggested code changes
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34105:2: warning: Added loop label VITIS_LOOP_95_1:   [xilinx-label-all-loops]
+ for(int i=0;i<(((IFMDim)*(IFMDim)*(IFMCha))/simd);i++){
+ ^~~
+ VITIS_LOOP_95_1: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34105:2: note: FIX-IT applied suggested code changes
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34114:2: warning: Added loop label VITIS_LOOP_112_1:   [xilinx-label-all-loops]
+ for(int i=0;i<(((IFMDim)*(IFMDim)*(IFMCha))/simd);i++){
+ ^~~
+ VITIS_LOOP_112_1: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34114:2: note: FIX-IT applied suggested code changes
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34122:2: warning: Added loop label VITIS_LOOP_120_1:   [xilinx-label-all-loops]
+ for(int i=0;i<2048;i++){
+ ^~~
+ VITIS_LOOP_120_1: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34122:2: note: FIX-IT applied suggested code changes
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34134:44: error: Invalid Directive: for current device, RAM_1P + uram is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS bind_storage variable=arr type=RAM_1P impl=uram
+                                           ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34178:7: warning: Added loop label VITIS_LOOP_190_1:   [xilinx-label-all-loops]
+      for(int m=0;m<KerDim;m++){
+      ^~~
+      VITIS_LOOP_190_1: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34178:7: note: FIX-IT applied suggested code changes
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34262:44: error: Invalid Directive: for current device, RAM_1P + uram is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS bind_storage variable=arr type=RAM_1P impl=uram
+                                           ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34312:8: warning: Added loop label VITIS_LOOP_339_1:   [xilinx-label-all-loops]
+       for (int g = 0; g < IN_row; g++) {
+       ^~~
+       VITIS_LOOP_339_1: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34312:8: note: FIX-IT applied suggested code changes
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34318:2: warning: Added loop label VITIS_LOOP_345_2:   [xilinx-label-all-loops]
+ for (int a = 0; a < IN_T / T; a++) {
+ ^~~
+ VITIS_LOOP_345_2: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34318:2: note: FIX-IT applied suggested code changes
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34329:2: warning: Added loop label VITIS_LOOP_356_3:   [xilinx-label-all-loops]
+ for (int a = 0; a < IN_T / T; a++) {
+ ^~~
+ VITIS_LOOP_356_3: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34329:2: note: FIX-IT applied suggested code changes
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34356:6: warning: Added loop label VITIS_LOOP_383_4:   [xilinx-label-all-loops]
+     for (int j = 0; j < IN_row; j++) {
+     ^~~
+     VITIS_LOOP_383_4: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34356:6: note: FIX-IT applied suggested code changes
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34380:44: error: Invalid Directive: for current device, RAM_1P + uram is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS bind_storage variable=arr type=RAM_1P impl=uram
+                                           ^
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34430:7: warning: Added loop label VITIS_LOOP_473_1:   [xilinx-label-all-loops]
+      for(int n=0;n<KerDim;n++){
+      ^~~
+      VITIS_LOOP_473_1: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34430:7: note: FIX-IT applied suggested code changes
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34433:8: warning: Added loop label VITIS_LOOP_476_2:   [xilinx-label-all-loops]
+       for (int g = 0; g < IN_row; g++) {
+       ^~~
+       VITIS_LOOP_476_2: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34433:8: note: FIX-IT applied suggested code changes
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34437:9: warning: Added loop label VITIS_LOOP_480_3:   [xilinx-label-all-loops]
+        for (int a = 0; a < IN_T / T; a++) {
+        ^~~
+        VITIS_LOOP_480_3: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34437:9: note: FIX-IT applied suggested code changes
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34465:5: warning: Added loop label VITIS_LOOP_508_4:   [xilinx-label-all-loops]
+    for (int j = 0; j < IN_row; j++) {
+    ^~~
+    VITIS_LOOP_508_4: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34465:5: note: FIX-IT applied suggested code changes
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34495:2: warning: Added loop label VITIS_LOOP_551_1:   [xilinx-label-all-loops]
+ for(int i=0;i<OFMDim;i++){
+ ^~~
+ VITIS_LOOP_551_1: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34495:2: note: FIX-IT applied suggested code changes
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34502:6: warning: Added loop label VITIS_LOOP_558_2:   [xilinx-label-all-loops]
+     for(int f=0;f<pe;f++){
+     ^~~
+     VITIS_LOOP_558_2: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34502:6: note: FIX-IT applied suggested code changes
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34581:2: warning: Added loop label VITIS_LOOP_652_1:   [xilinx-label-all-loops]
+ for(int i=0;i<OFMDim;i++){
+ ^~~
+ VITIS_LOOP_652_1: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34581:2: note: FIX-IT applied suggested code changes
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34583:3: warning: Added loop label VITIS_LOOP_654_2:   [xilinx-label-all-loops]
+  for(int j=0;j<OFMDim;j++){
+  ^~~
+  VITIS_LOOP_654_2: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34583:3: note: FIX-IT applied suggested code changes
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34587:4: warning: Added loop label VITIS_LOOP_658_3:   [xilinx-label-all-loops]
+   for(int p=0;p<pe_loop_times;p++){
+   ^~~
+   VITIS_LOOP_658_3: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34587:4: note: FIX-IT applied suggested code changes
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34591:5: warning: Added loop label VITIS_LOOP_662_4:   [xilinx-label-all-loops]
+    for(int t=0;t<pe;t++){
+    ^~~
+    VITIS_LOOP_662_4: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34591:5: note: FIX-IT applied suggested code changes
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34595:5: warning: Added loop label VITIS_LOOP_666_5:   [xilinx-label-all-loops]
+    for(int s=0;s<simd_loop_times;s++){
+    ^~~
+    VITIS_LOOP_666_5: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34595:5: note: FIX-IT applied suggested code changes
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34628:5: warning: Added loop label VITIS_LOOP_699_6:   [xilinx-label-all-loops]
+    for(int r=0;r<pe;r++){
+    ^~~
+    VITIS_LOOP_699_6: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34628:5: note: FIX-IT applied suggested code changes
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34677:2: warning: Added loop label VITIS_LOOP_748_1:   [xilinx-label-all-loops]
+ for(int i=0;i<OFMDim;i++){
+ ^~~
+ VITIS_LOOP_748_1: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34677:2: note: FIX-IT applied suggested code changes
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34679:3: warning: Added loop label VITIS_LOOP_750_2:   [xilinx-label-all-loops]
+  for(int j=0;j<OFMDim;j++){
+  ^~~
+  VITIS_LOOP_750_2: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34679:3: note: FIX-IT applied suggested code changes
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34683:4: warning: Added loop label VITIS_LOOP_754_3:   [xilinx-label-all-loops]
+   for(int p=0;p<pe_loop_times;p++){
+   ^~~
+   VITIS_LOOP_754_3: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34683:4: note: FIX-IT applied suggested code changes
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34687:5: warning: Added loop label VITIS_LOOP_758_4:   [xilinx-label-all-loops]
+    for(int t=0;t<pe;t++){
+    ^~~
+    VITIS_LOOP_758_4: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34687:5: note: FIX-IT applied suggested code changes
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34691:5: warning: Added loop label VITIS_LOOP_762_5:   [xilinx-label-all-loops]
+    for(int s=0;s<simd_loop_times;s++){
+    ^~~
+    VITIS_LOOP_762_5: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34691:5: note: FIX-IT applied suggested code changes
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34723:5: warning: Added loop label VITIS_LOOP_794_6:   [xilinx-label-all-loops]
+    for(int r=0;r<pe;r++){
+    ^~~
+    VITIS_LOOP_794_6: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34723:5: note: FIX-IT applied suggested code changes
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34825:5: warning: Added loop label VITIS_LOOP_896_1:   [xilinx-label-all-loops]
+    for(ap_uint<16> q=0;q<32;q++){
+    ^~~
+    VITIS_LOOP_896_1: 
+/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp:34825:5: note: FIX-IT applied suggested code changes

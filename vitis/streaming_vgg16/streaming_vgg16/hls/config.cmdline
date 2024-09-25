@@ -1,0 +1,3 @@
+relativeroot=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16
+original_argv=--mode hls --csim --config /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls-debug.cfg --config /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg --work_dir streaming_vgg16 
+

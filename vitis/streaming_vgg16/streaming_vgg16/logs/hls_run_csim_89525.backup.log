@@ -1,0 +1,825 @@
+INFO: [vitis-run 60-1548] Creating build summary session with primary output /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/streaming_vgg16.hlsrun_csim_summary, at Tue Sep 24 00:18:04 2024
+INFO: [vitis-run 82-31] Launching vitis_hls: vitis_hls -nolog -run csim -work_dir /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16 -config /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg -cmdlineconfig /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/config.cmdline
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+  **** SW Build 4023990 on Oct 11 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source /tools/Xilinx/Vitis_HLS/2023.2/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] Running '/tools/Xilinx/Vitis_HLS/2023.2/bin/unwrapped/lnx64.o/vitis_hls'
+INFO: [HLS 200-10] For user 'ryanfeng' on host 'ryanfeng-System-Product-Name' (Linux_x86_64 version 6.8.0-45-generic) on Tue Sep 24 00:18:05 PDT 2024
+INFO: [HLS 200-10] On os Ubuntu 22.04.5 LTS
+INFO: [HLS 200-10] In directory '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16'
+INFO: [HLS 200-1909] Reading HLS ini file /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg
+INFO: [HLS 200-1909] Reading HLS ini file /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/config.cmdline
+INFO: [HLS 200-2005] Using work_dir /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16 
+INFO: [HLS 200-1510] Running: open_project /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16 -diskless 
+INFO: [HLS 200-1510] Running: open_solution hls 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2023.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1510] Running: apply_ini /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg 
+INFO: [HLS 200-1909] Reading HLS ini file /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/activations.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(11)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/activations.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/bnn-library.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(12)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/bnn-library.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/conv.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(13)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/conv.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/convlayer.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(14)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/convlayer.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(15)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/define_.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/dma.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(16)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/dma.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/fclayer.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(17)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/fclayer.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/interpret.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(18)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/interpret.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mac.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(19)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mac.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/maxpool.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(20)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/maxpool.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mmv.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(21)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mmv.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mvau.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(22)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/mvau.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(23)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/slidingwindow.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(24)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/slidingwindow.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/streamtools.h' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(25)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/streamtools.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/tmrcheck.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(26)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/tmrcheck.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/upsample.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(27)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/upsample.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/utils.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(28)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/utils.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/vvau.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(29)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/vvau.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/weights.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(30)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/weights.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(31)
+INFO: [HLS 200-10] Adding design file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/host.cpp' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding test bench file '/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/host.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=one_layer' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(8)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2023.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xcvu9p-flga2104-2-i' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xcvu9p-flga2104-2-i'
+INFO: [HLS 200-1465] Applying ini 'csim.clean=true' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(7)
+INFO: [HLS 200-1465] Applying ini 'csim.code_analyzer=0' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(10)
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' at /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/hls_config.cfg(5)
+INFO: [HLS 200-1510] Running: apply_ini /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/config.cmdline 
+INFO: [HLS 200-1909] Reading HLS ini file /media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/config.cmdline
+INFO: [HLS 200-1510] Running: csim_design 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+   Compiling ../../../../../source/host.cpp in debug mode
+   Compiling ../../../../../source/one_layer.cpp in debug mode
+In file included from /usr/include/CL/cl.h:20,
+                 from ../../../../../source/host.cpp:20:
+/usr/include/CL/cl_version.h:22:104: note: #pragma message: cl_version.h: CL_TARGET_OPENCL_VERSION is not defined. Defaulting to 300 (OpenCL 3.0)
+ #pragma message("cl_version.h: CL_TARGET_OPENCL_VERSION is not defined. Defaulting to 300 (OpenCL 3.0)")
+                                                                                                        ^
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:339:5: error: redefinition of ‘int w1_stream_depth’
+ int w1_stream_depth=234;
+     ^~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:339:5: note: ‘int w1_stream_depth’ previously defined here
+ int w1_stream_depth=234;
+     ^~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:340:5: error: redefinition of ‘int w2_stream_depth’
+ int w2_stream_depth=324;
+     ^~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:340:5: note: ‘int w2_stream_depth’ previously defined here
+ int w2_stream_depth=324;
+     ^~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:341:5: error: redefinition of ‘int w3_stream_depth’
+ int w3_stream_depth=180;
+     ^~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:341:5: note: ‘int w3_stream_depth’ previously defined here
+ int w3_stream_depth=180;
+     ^~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:342:5: error: redefinition of ‘int w4_stream_depth’
+ int w4_stream_depth=360;
+     ^~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:342:5: note: ‘int w4_stream_depth’ previously defined here
+ int w4_stream_depth=360;
+     ^~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:343:5: error: redefinition of ‘int w5_stream_depth’
+ int w5_stream_depth=216;
+     ^~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:343:5: note: ‘int w5_stream_depth’ previously defined here
+ int w5_stream_depth=216;
+     ^~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:344:5: error: redefinition of ‘int w6_stream_depth’
+ int w6_stream_depth=432;
+     ^~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:344:5: note: ‘int w6_stream_depth’ previously defined here
+ int w6_stream_depth=432;
+     ^~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:345:5: error: redefinition of ‘int w7_stream_depth’
+ int w7_stream_depth=432;
+     ^~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:345:5: note: ‘int w7_stream_depth’ previously defined here
+ int w7_stream_depth=432;
+     ^~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:346:5: error: redefinition of ‘int w8_stream_depth’
+ int w8_stream_depth=288;
+     ^~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:346:5: note: ‘int w8_stream_depth’ previously defined here
+ int w8_stream_depth=288;
+     ^~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:347:5: error: redefinition of ‘int w9_stream_depth’
+ int w9_stream_depth=576;
+     ^~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:347:5: note: ‘int w9_stream_depth’ previously defined here
+ int w9_stream_depth=576;
+     ^~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:348:5: error: redefinition of ‘int w10_stream_depth’
+ int w10_stream_depth=576;
+     ^~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:348:5: note: ‘int w10_stream_depth’ previously defined here
+ int w10_stream_depth=576;
+     ^~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:349:5: error: redefinition of ‘int w11_stream_depth’
+ int w11_stream_depth=288;
+     ^~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:349:5: note: ‘int w11_stream_depth’ previously defined here
+ int w11_stream_depth=288;
+     ^~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:350:5: error: redefinition of ‘int w12_stream_depth’
+ int w12_stream_depth=288;
+     ^~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:350:5: note: ‘int w12_stream_depth’ previously defined here
+ int w12_stream_depth=288;
+     ^~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:351:5: error: redefinition of ‘int w13_stream_depth’
+ int w13_stream_depth=288;
+     ^~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:351:5: note: ‘int w13_stream_depth’ previously defined here
+ int w13_stream_depth=288;
+     ^~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:352:5: error: redefinition of ‘int w14_stream_depth’
+ int w14_stream_depth=128;
+     ^~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:352:5: note: ‘int w14_stream_depth’ previously defined here
+ int w14_stream_depth=128;
+     ^~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:353:5: error: redefinition of ‘int w15_stream_depth’
+ int w15_stream_depth=128;
+     ^~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:353:5: note: ‘int w15_stream_depth’ previously defined here
+ int w15_stream_depth=128;
+     ^~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:354:5: error: redefinition of ‘int w16_stream_depth’
+ int w16_stream_depth=1024;
+     ^~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:354:5: note: ‘int w16_stream_depth’ previously defined here
+ int w16_stream_depth=1024;
+     ^~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:357:5: error: redefinition of ‘int ifm_1_stream_depth’
+ int ifm_1_stream_depth=1156;
+     ^~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:357:5: note: ‘int ifm_1_stream_depth’ previously defined here
+ int ifm_1_stream_depth=1156;
+     ^~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:358:5: error: redefinition of ‘int ifm_2_stream_depth’
+ int ifm_2_stream_depth=2312;
+     ^~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:358:5: note: ‘int ifm_2_stream_depth’ previously defined here
+ int ifm_2_stream_depth=2312;
+     ^~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:359:5: error: redefinition of ‘int ifm_3_stream_depth’
+ int ifm_3_stream_depth=648;
+     ^~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:359:5: note: ‘int ifm_3_stream_depth’ previously defined here
+ int ifm_3_stream_depth=648;
+     ^~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:360:5: error: redefinition of ‘int ifm_4_stream_depth’
+ int ifm_4_stream_depth=1296;
+     ^~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:360:5: note: ‘int ifm_4_stream_depth’ previously defined here
+ int ifm_4_stream_depth=1296;
+     ^~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:361:5: error: redefinition of ‘int ifm_5_stream_depth’
+ int ifm_5_stream_depth=400;
+     ^~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:361:5: note: ‘int ifm_5_stream_depth’ previously defined here
+ int ifm_5_stream_depth=400;
+     ^~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:362:5: error: redefinition of ‘int ifm_6_stream_depth’
+ int ifm_6_stream_depth=800;
+     ^~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:362:5: note: ‘int ifm_6_stream_depth’ previously defined here
+ int ifm_6_stream_depth=800;
+     ^~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:363:5: error: redefinition of ‘int ifm_7_stream_depth’
+ int ifm_7_stream_depth=800;
+     ^~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:363:5: note: ‘int ifm_7_stream_depth’ previously defined here
+ int ifm_7_stream_depth=800;
+     ^~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:364:5: error: redefinition of ‘int ifm_8_stream_depth’
+ int ifm_8_stream_depth=288;
+     ^~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:364:5: note: ‘int ifm_8_stream_depth’ previously defined here
+ int ifm_8_stream_depth=288;
+     ^~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:365:5: error: redefinition of ‘int ifm_9_stream_depth’
+ int ifm_9_stream_depth=576;
+     ^~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:365:5: note: ‘int ifm_9_stream_depth’ previously defined here
+ int ifm_9_stream_depth=576;
+     ^~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:366:5: error: redefinition of ‘int ifm_10_stream_depth’
+ int ifm_10_stream_depth=576;
+     ^~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:366:5: note: ‘int ifm_10_stream_depth’ previously defined here
+ int ifm_10_stream_depth=576;
+     ^~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:367:5: error: redefinition of ‘int ifm_11_stream_depth’
+ int ifm_11_stream_depth=256;
+     ^~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:367:5: note: ‘int ifm_11_stream_depth’ previously defined here
+ int ifm_11_stream_depth=256;
+     ^~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:368:5: error: redefinition of ‘int ifm_12_stream_depth’
+ int ifm_12_stream_depth=256;
+     ^~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:368:5: note: ‘int ifm_12_stream_depth’ previously defined here
+ int ifm_12_stream_depth=256;
+     ^~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:369:5: error: redefinition of ‘int ifm_13_stream_depth’
+ int ifm_13_stream_depth=192;
+     ^~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:369:5: note: ‘int ifm_13_stream_depth’ previously defined here
+ int ifm_13_stream_depth=192;
+     ^~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:370:5: error: redefinition of ‘int ifm_14_stream_depth’
+ int ifm_14_stream_depth=64;
+     ^~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:370:5: note: ‘int ifm_14_stream_depth’ previously defined here
+ int ifm_14_stream_depth=64;
+     ^~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:371:5: error: redefinition of ‘int ifm_15_stream_depth’
+ int ifm_15_stream_depth=64;
+     ^~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:371:5: note: ‘int ifm_15_stream_depth’ previously defined here
+ int ifm_15_stream_depth=64;
+     ^~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:372:5: error: redefinition of ‘int ifm_16_stream_depth’
+ int ifm_16_stream_depth=512;
+     ^~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:372:5: note: ‘int ifm_16_stream_depth’ previously defined here
+ int ifm_16_stream_depth=512;
+     ^~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:375:5: error: redefinition of ‘int ifm_1_gen_stream_depth’
+ int ifm_1_gen_stream_depth=26;
+     ^~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:375:5: note: ‘int ifm_1_gen_stream_depth’ previously defined here
+ int ifm_1_gen_stream_depth=26;
+     ^~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:376:5: error: redefinition of ‘int ifm_2_gen_stream_depth’
+ int ifm_2_gen_stream_depth=36;
+     ^~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:376:5: note: ‘int ifm_2_gen_stream_depth’ previously defined here
+ int ifm_2_gen_stream_depth=36;
+     ^~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:377:5: error: redefinition of ‘int ifm_3_gen_stream_depth’
+ int ifm_3_gen_stream_depth=20;
+     ^~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:377:5: note: ‘int ifm_3_gen_stream_depth’ previously defined here
+ int ifm_3_gen_stream_depth=20;
+     ^~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:378:5: error: redefinition of ‘int ifm_4_gen_stream_depth’
+ int ifm_4_gen_stream_depth=40;
+     ^~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:378:5: note: ‘int ifm_4_gen_stream_depth’ previously defined here
+ int ifm_4_gen_stream_depth=40;
+     ^~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:379:5: error: redefinition of ‘int ifm_5_gen_stream_depth’
+ int ifm_5_gen_stream_depth=24;
+     ^~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:379:5: note: ‘int ifm_5_gen_stream_depth’ previously defined here
+ int ifm_5_gen_stream_depth=24;
+     ^~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:380:5: error: redefinition of ‘int ifm_6_gen_stream_depth’
+ int ifm_6_gen_stream_depth=48;
+     ^~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:380:5: note: ‘int ifm_6_gen_stream_depth’ previously defined here
+ int ifm_6_gen_stream_depth=48;
+     ^~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:381:5: error: redefinition of ‘int ifm_7_gen_stream_depth’
+ int ifm_7_gen_stream_depth=48;
+     ^~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:381:5: note: ‘int ifm_7_gen_stream_depth’ previously defined here
+ int ifm_7_gen_stream_depth=48;
+     ^~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:382:5: error: redefinition of ‘int ifm_8_gen_stream_depth’
+ int ifm_8_gen_stream_depth=32;
+     ^~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:382:5: note: ‘int ifm_8_gen_stream_depth’ previously defined here
+ int ifm_8_gen_stream_depth=32;
+     ^~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:383:5: error: redefinition of ‘int ifm_9_gen_stream_depth’
+ int ifm_9_gen_stream_depth=64;
+     ^~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:383:5: note: ‘int ifm_9_gen_stream_depth’ previously defined here
+ int ifm_9_gen_stream_depth=64;
+     ^~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:384:5: error: redefinition of ‘int ifm_10_gen_stream_depth’
+ int ifm_10_gen_stream_depth=64;
+     ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:384:5: note: ‘int ifm_10_gen_stream_depth’ previously defined here
+ int ifm_10_gen_stream_depth=64;
+     ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:385:5: error: redefinition of ‘int ifm_11_gen_stream_depth’
+ int ifm_11_gen_stream_depth=32;
+     ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:385:5: note: ‘int ifm_11_gen_stream_depth’ previously defined here
+ int ifm_11_gen_stream_depth=32;
+     ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:386:5: error: redefinition of ‘int ifm_12_gen_stream_depth’
+ int ifm_12_gen_stream_depth=32;
+     ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:386:5: note: ‘int ifm_12_gen_stream_depth’ previously defined here
+ int ifm_12_gen_stream_depth=32;
+     ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:387:5: error: redefinition of ‘int ifm_13_gen_stream_depth’
+ int ifm_13_gen_stream_depth=32;
+     ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:387:5: note: ‘int ifm_13_gen_stream_depth’ previously defined here
+ int ifm_13_gen_stream_depth=32;
+     ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:388:5: error: redefinition of ‘int ifm_14_gen_stream_depth’
+ int ifm_14_gen_stream_depth=128;
+     ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:388:5: note: ‘int ifm_14_gen_stream_depth’ previously defined here
+ int ifm_14_gen_stream_depth=128;
+     ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:389:5: error: redefinition of ‘int ifm_15_gen_stream_depth’
+ int ifm_15_gen_stream_depth=128;
+     ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:389:5: note: ‘int ifm_15_gen_stream_depth’ previously defined here
+ int ifm_15_gen_stream_depth=128;
+     ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:390:5: error: redefinition of ‘int ifm_16_gen_stream_depth’
+ int ifm_16_gen_stream_depth=1024;
+     ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:390:5: note: ‘int ifm_16_gen_stream_depth’ previously defined here
+ int ifm_16_gen_stream_depth=1024;
+     ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:393:5: error: redefinition of ‘int mul_1_result_stream_depth’
+ int mul_1_result_stream_depth=8;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:393:5: note: ‘int mul_1_result_stream_depth’ previously defined here
+ int mul_1_result_stream_depth=8;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:394:5: error: redefinition of ‘int mul_2_result_stream_depth’
+ int mul_2_result_stream_depth=128;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:394:5: note: ‘int mul_2_result_stream_depth’ previously defined here
+ int mul_2_result_stream_depth=128;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:395:5: error: redefinition of ‘int mul_3_result_stream_depth’
+ int mul_3_result_stream_depth=16;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:395:5: note: ‘int mul_3_result_stream_depth’ previously defined here
+ int mul_3_result_stream_depth=16;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:396:5: error: redefinition of ‘int mul_4_result_stream_depth’
+ int mul_4_result_stream_depth=128;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:396:5: note: ‘int mul_4_result_stream_depth’ previously defined here
+ int mul_4_result_stream_depth=128;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:397:5: error: redefinition of ‘int mul_5_result_stream_depth’
+ int mul_5_result_stream_depth=32;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:397:5: note: ‘int mul_5_result_stream_depth’ previously defined here
+ int mul_5_result_stream_depth=32;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:398:5: error: redefinition of ‘int mul_6_result_stream_depth’
+ int mul_6_result_stream_depth=32;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:398:5: note: ‘int mul_6_result_stream_depth’ previously defined here
+ int mul_6_result_stream_depth=32;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:399:5: error: redefinition of ‘int mul_7_result_stream_depth’
+ int mul_7_result_stream_depth=128;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:399:5: note: ‘int mul_7_result_stream_depth’ previously defined here
+ int mul_7_result_stream_depth=128;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:400:5: error: redefinition of ‘int mul_8_result_stream_depth’
+ int mul_8_result_stream_depth=64;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:400:5: note: ‘int mul_8_result_stream_depth’ previously defined here
+ int mul_8_result_stream_depth=64;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:401:5: error: redefinition of ‘int mul_9_result_stream_depth’
+ int mul_9_result_stream_depth=64;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:401:5: note: ‘int mul_9_result_stream_depth’ previously defined here
+ int mul_9_result_stream_depth=64;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:402:5: error: redefinition of ‘int mul_10_result_stream_depth’
+ int mul_10_result_stream_depth=128;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:402:5: note: ‘int mul_10_result_stream_depth’ previously defined here
+ int mul_10_result_stream_depth=128;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:403:5: error: redefinition of ‘int mul_11_result_stream_depth’
+ int mul_11_result_stream_depth=64;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:403:5: note: ‘int mul_11_result_stream_depth’ previously defined here
+ int mul_11_result_stream_depth=64;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:404:5: error: redefinition of ‘int mul_12_result_stream_depth’
+ int mul_12_result_stream_depth=64;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:404:5: note: ‘int mul_12_result_stream_depth’ previously defined here
+ int mul_12_result_stream_depth=64;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:405:5: error: redefinition of ‘int mul_13_result_stream_depth’
+ int mul_13_result_stream_depth=64;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:405:5: note: ‘int mul_13_result_stream_depth’ previously defined here
+ int mul_13_result_stream_depth=64;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:406:5: error: redefinition of ‘int mul_14_result_stream_depth’
+ int mul_14_result_stream_depth=16;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:406:5: note: ‘int mul_14_result_stream_depth’ previously defined here
+ int mul_14_result_stream_depth=16;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:407:5: error: redefinition of ‘int mul_15_result_stream_depth’
+ int mul_15_result_stream_depth=16;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:407:5: note: ‘int mul_15_result_stream_depth’ previously defined here
+ int mul_15_result_stream_depth=16;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:408:5: error: redefinition of ‘int mul_16_result_stream_depth’
+ int mul_16_result_stream_depth=1;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:408:5: note: ‘int mul_16_result_stream_depth’ previously defined here
+ int mul_16_result_stream_depth=1;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:411:5: error: redefinition of ‘int pooling_1_result_stream_depth’
+ int pooling_1_result_stream_depth=0;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:411:5: note: ‘int pooling_1_result_stream_depth’ previously defined here
+ int pooling_1_result_stream_depth=0;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:412:5: error: redefinition of ‘int pooling_2_result_stream_depth’
+ int pooling_2_result_stream_depth=64;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:412:5: note: ‘int pooling_2_result_stream_depth’ previously defined here
+ int pooling_2_result_stream_depth=64;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:413:5: error: redefinition of ‘int pooling_3_result_stream_depth’
+ int pooling_3_result_stream_depth=0;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:413:5: note: ‘int pooling_3_result_stream_depth’ previously defined here
+ int pooling_3_result_stream_depth=0;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:414:5: error: redefinition of ‘int pooling_4_result_stream_depth’
+ int pooling_4_result_stream_depth=64;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:414:5: note: ‘int pooling_4_result_stream_depth’ previously defined here
+ int pooling_4_result_stream_depth=64;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:415:5: error: redefinition of ‘int pooling_5_result_stream_depth’
+ int pooling_5_result_stream_depth=0;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:415:5: note: ‘int pooling_5_result_stream_depth’ previously defined here
+ int pooling_5_result_stream_depth=0;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:416:5: error: redefinition of ‘int pooling_6_result_stream_depth’
+ int pooling_6_result_stream_depth=0;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:416:5: note: ‘int pooling_6_result_stream_depth’ previously defined here
+ int pooling_6_result_stream_depth=0;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:417:5: error: redefinition of ‘int pooling_7_result_stream_depth’
+ int pooling_7_result_stream_depth=64;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:417:5: note: ‘int pooling_7_result_stream_depth’ previously defined here
+ int pooling_7_result_stream_depth=64;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:418:5: error: redefinition of ‘int pooling_8_result_stream_depth’
+ int pooling_8_result_stream_depth=0;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:418:5: note: ‘int pooling_8_result_stream_depth’ previously defined here
+ int pooling_8_result_stream_depth=0;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:419:5: error: redefinition of ‘int pooling_9_result_stream_depth’
+ int pooling_9_result_stream_depth=0;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:419:5: note: ‘int pooling_9_result_stream_depth’ previously defined here
+ int pooling_9_result_stream_depth=0;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:420:5: error: redefinition of ‘int pooling_10_result_stream_depth’
+ int pooling_10_result_stream_depth=32;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:420:5: note: ‘int pooling_10_result_stream_depth’ previously defined here
+ int pooling_10_result_stream_depth=32;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:421:5: error: redefinition of ‘int pooling_11_result_stream_depth’
+ int pooling_11_result_stream_depth=0;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:421:5: note: ‘int pooling_11_result_stream_depth’ previously defined here
+ int pooling_11_result_stream_depth=0;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:422:5: error: redefinition of ‘int pooling_12_result_stream_depth’
+ int pooling_12_result_stream_depth=0;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:422:5: note: ‘int pooling_12_result_stream_depth’ previously defined here
+ int pooling_12_result_stream_depth=0;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:423:5: error: redefinition of ‘int pooling_13_result_stream_depth’
+ int pooling_13_result_stream_depth=192;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:423:5: note: ‘int pooling_13_result_stream_depth’ previously defined here
+ int pooling_13_result_stream_depth=192;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:424:5: error: redefinition of ‘int pooling_14_result_stream_depth’
+ int pooling_14_result_stream_depth=0;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:424:5: note: ‘int pooling_14_result_stream_depth’ previously defined here
+ int pooling_14_result_stream_depth=0;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:425:5: error: redefinition of ‘int pooling_15_result_stream_depth’
+ int pooling_15_result_stream_depth=0;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:425:5: note: ‘int pooling_15_result_stream_depth’ previously defined here
+ int pooling_15_result_stream_depth=0;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:10:
+../../../../../source/define_.h:426:5: error: redefinition of ‘int pooling_16_result_stream_depth’
+ int pooling_16_result_stream_depth=0;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/one_layer.hpp:13,
+                 from ../../../../../source/one_layer.cpp:9:
+../../../../../source/define_.h:426:5: note: ‘int pooling_16_result_stream_depth’ previously defined here
+ int pooling_16_result_stream_depth=0;
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../../source/one_layer.cpp:14:6: error: redefinition of ‘void one_layer(ap_uint<512>*, ap_uint<512>*, ap_uint<512>*, ap_uint<512>*, ap_uint<512>*, ap_uint<512>*, ap_uint<512>*, ap_uint<512>*, ap_uint<512>*, ap_uint<512>*, ap_uint<512>*, ap_uint<512>*, ap_uint<512>*, ap_uint<512>*, ap_uint<512>*, ap_uint<512>*, ap_uint<512>*, ap_uint<512>*)’
+ void one_layer(ap_uint<512> *buffer_IFM,
+      ^~~~~~~~~
+In file included from ../../../../../source/one_layer.cpp:9:
+../../../../../source/one_layer.hpp:948:6: note: ‘void one_layer(ap_uint<512>*, ap_uint<512>*, ap_uint<512>*, ap_uint<512>*, ap_uint<512>*, ap_uint<512>*, ap_uint<512>*, ap_uint<512>*, ap_uint<512>*, ap_uint<512>*, ap_uint<512>*, ap_uint<512>*, ap_uint<512>*, ap_uint<512>*, ap_uint<512>*, ap_uint<512>*, ap_uint<512>*, ap_uint<512>*)’ previously defined here
+ void one_layer(ap_uint<512> *buffer_IFM,
+      ^~~~~~~~~
+make: *** [csim.mk:85: obj/one_layer.o] Error 1
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 2.16 seconds. CPU system time: 0.22 seconds. Elapsed time: 2.4 seconds; current allocated memory: 0.000 MB.
+INFO: [HLS 200-1510] Running: close_project 
+ERROR: 4
+INFO: [HLS 200-112] Total CPU user time: 3.08 seconds. Total CPU system time: 0.32 seconds. Total elapsed time: 3.31 seconds; peak allocated memory: 290.316 MB.
+INFO: [Common 17-206] Exiting vitis_hls at Tue Sep 24 00:18:08 2024...

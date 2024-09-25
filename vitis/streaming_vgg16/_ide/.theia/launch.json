@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "streaming_vgg16",
+      "type": "gdb",
+      "request": "launch",
+      "target": "${workspaceFolder}/streaming_vgg16/streaming_vgg16/hls/csim/build/csim.exe",
+      "cwd": "${workspaceFolder}/streaming_vgg16/streaming_vgg16/hls/csim/build",
+      "gdbpath": "${env:XILINX_HLS}/tps/lnx64/gdb-9.2/bin/gdb",
+      "valuesFormatting": "prettyPrinters"
+    }
+  ]
+}

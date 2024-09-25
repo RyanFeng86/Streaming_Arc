@@ -1,0 +1,71 @@
+<dict>
+  <key>main-file</key>
+  <string>/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/streaming_vgg16/streaming_vgg16/hls/.autopilot/db/one_layer.pp.0.cpp</string>
+  <key>diagnostics</key>
+  <array>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp</string>
+      <key>line</key>
+      <integer>32</integer>
+      <key>column</key>
+      <integer>21</integer>
+      <key>message</key>
+      <string>unexpected pragma argument &apos;=&apos;, expects identifier</string>
+      <key>ID</key>
+      <integer>5566</integer>
+      <key>WarningOption</key>
+      <string>invalid-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp</string>
+      <key>line</key>
+      <integer>42</integer>
+      <key>column</key>
+      <integer>21</integer>
+      <key>message</key>
+      <string>unexpected pragma argument &apos;=&apos;, expects identifier</string>
+      <key>ID</key>
+      <integer>5566</integer>
+      <key>WarningOption</key>
+      <string>invalid-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp</string>
+      <key>line</key>
+      <integer>69</integer>
+      <key>column</key>
+      <integer>21</integer>
+      <key>message</key>
+      <string>unexpected pragma argument &apos;=&apos;, expects identifier</string>
+      <key>ID</key>
+      <integer>5566</integer>
+      <key>WarningOption</key>
+      <string>invalid-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>/media/ryanfeng/HardDisk/Study/Git_Repos/streaming_arc/vitis/source/one_layer.hpp</string>
+      <key>line</key>
+      <integer>78</integer>
+      <key>column</key>
+      <integer>21</integer>
+      <key>message</key>
+      <string>unexpected pragma argument &apos;=&apos;, expects identifier</string>
+      <key>ID</key>
+      <integer>5566</integer>
+      <key>WarningOption</key>
+      <string>invalid-hls-pragmas</string>
+    </dict>
+  </array>
+</dict>
